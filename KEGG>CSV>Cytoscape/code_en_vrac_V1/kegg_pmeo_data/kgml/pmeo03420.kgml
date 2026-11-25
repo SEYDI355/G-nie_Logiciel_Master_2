@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Apr 6, 2023 16:50:38 +0900 (GMT+9) -->
+<pathway name="path:pmeo03420" org="pmeo" number="03420"
+         title="Nucleotide excision repair"
+         image="https://www.kegg.jp/kegg/pathway/pmeo/pmeo03420.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?pmeo03420">
+    <entry id="120" name="pmeo:129597629" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129597629">
+        <graphics name="129597629" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="888" width="46" height="17"/>
+    </entry>
+    <entry id="121" name="pmeo:129588223 pmeo:129600937" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129588223+pmeo:129600937">
+        <graphics name="129588223..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="122" name="pmeo:129599919" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129599919">
+        <graphics name="129599919" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="123" name="pmeo:129587711" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129587711">
+        <graphics name="129587711" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="124" name="pmeo:129588021" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129588021">
+        <graphics name="129588021" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="622" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="125" name="pmeo:129585692" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129585692">
+        <graphics name="129585692" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="622" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="126" name="pmeo:129580591" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129580591">
+        <graphics name="129580591" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="622" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="127" name="pmeo:129597098" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129597098">
+        <graphics name="129597098" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="128" name="pmeo:129583590" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583590">
+        <graphics name="129583590" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="129" name="pmeo:129593432 pmeo:129596041" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129593432+pmeo:129596041">
+        <graphics name="129593432..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="130" name="pmeo:129589739 pmeo:129593614" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129589739+pmeo:129593614">
+        <graphics name="129589739..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="131" name="pmeo:129594146" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129594146">
+        <graphics name="129594146" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="132" name="pmeo:129583735" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583735">
+        <graphics name="129583735" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="133" name="path:pmeo03020" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo03020">
+        <graphics name="RNA polymerase" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1125" y="238" width="102" height="25"/>
+    </entry>
+    <entry id="135" name="ko:K03702" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03702">
+        <graphics name="K03702" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="140" y="256" width="46" height="17"/>
+    </entry>
+    <entry id="136" name="ko:K03701" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03701">
+        <graphics name="K03701" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="140" y="239" width="46" height="17"/>
+    </entry>
+    <entry id="137" name="ko:K01972" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K01972">
+        <graphics name="K01972" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="899" width="46" height="17"/>
+    </entry>
+    <entry id="138" name="ko:K02335" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K02335">
+        <graphics name="K02335" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="139" name="pmeo:129583590" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583590">
+        <graphics name="129583590" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="140" name="ko:K03701" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03701">
+        <graphics name="K03701" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="338" width="46" height="17"/>
+    </entry>
+    <entry id="141" name="pmeo:129585685" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129585685">
+        <graphics name="129585685" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="885" y="899" width="46" height="17"/>
+    </entry>
+    <entry id="142" name="pmeo:129585985 pmeo:129588043 pmeo:129591365 pmeo:129593257 pmeo:129602668" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129585985+pmeo:129588043+pmeo:129591365+pmeo:129593257+pmeo:129602668">
+        <graphics name="129585985..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="853" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="143" name="pmeo:129597057 pmeo:129601316 pmeo:129601325" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129597057+pmeo:129601316+pmeo:129601325">
+        <graphics name="129597057..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="853" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="144" name="ko:K03657" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03657">
+        <graphics name="K03657" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="145" name="pmeo:129583192 pmeo:129588553 pmeo:129588564" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583192+pmeo:129588553+pmeo:129588564">
+        <graphics name="129583192..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="798" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="146" name="pmeo:129581654" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129581654">
+        <graphics name="129581654" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="852" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="147" name="ko:K10846" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10846">
+        <graphics name="K10846" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="983" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="148" name="pmeo:129583896 pmeo:129591301 pmeo:129601985 pmeo:129602368" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583896+pmeo:129591301+pmeo:129601985+pmeo:129602368">
+        <graphics name="129583896..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="798" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="149" name="pmeo:129580811 pmeo:129581209 pmeo:129595918 pmeo:129599456" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129580811+pmeo:129581209+pmeo:129595918+pmeo:129599456">
+        <graphics name="129580811..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="150" name="pmeo:129597629" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129597629">
+        <graphics name="129597629" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="514" width="46" height="17"/>
+    </entry>
+    <entry id="151" name="pmeo:129602645" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129602645">
+        <graphics name="129602645" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="852" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="152" name="pmeo:129582751" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129582751">
+        <graphics name="129582751" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="153" name="pmeo:129588223 pmeo:129600937" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129588223+pmeo:129600937">
+        <graphics name="129588223..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="154" name="pmeo:129599919" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129599919">
+        <graphics name="129599919" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="155" name="pmeo:129585692" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129585692">
+        <graphics name="129585692" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="812" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="156" name="ko:K03702" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03702">
+        <graphics name="K03702" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="355" width="46" height="17"/>
+    </entry>
+    <entry id="157" name="ko:K10140" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10140">
+        <graphics name="K10140" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="744" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="158" name="pmeo:129589739 pmeo:129593614" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129589739+pmeo:129593614">
+        <graphics name="129589739..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="159" name="pmeo:129594146" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129594146">
+        <graphics name="129594146" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="160" name="pmeo:129583735" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583735">
+        <graphics name="129583735" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="161" name="ko:K03723" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03723">
+        <graphics name="K03723" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="239" width="46" height="17"/>
+    </entry>
+    <entry id="162" name="path:pmeo04120" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo04120">
+        <graphics name="Ubiquitin mediated proteolysis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="895" y="352" width="130" height="34"/>
+    </entry>
+    <entry id="163" name="pmeo:129580591" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129580591">
+        <graphics name="129580591" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="812" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="164" name="ko:K10840" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10840">
+        <graphics name="K10840" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="836" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="165" name="pmeo:129587711" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129587711">
+        <graphics name="129587711" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="166" name="pmeo:129583799 pmeo:129593559" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129583799+pmeo:129593559">
+        <graphics name="129583799..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="167" name="pmeo:129593121" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129593121">
+        <graphics name="129593121" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="168" name="pmeo:129588021" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129588021">
+        <graphics name="129588021" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="812" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="169" name="pmeo:129590896" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129590896">
+        <graphics name="129590896" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="170" name="pmeo:129588051" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129588051">
+        <graphics name="129588051" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="171" name="pmeo:129597098" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129597098">
+        <graphics name="129597098" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="172" name="ko:K03703" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03703">
+        <graphics name="K03703" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="173" name="pmeo:129593432 pmeo:129596041" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129593432+pmeo:129596041">
+        <graphics name="129593432..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="174" name="path:pmeo03420" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo03420">
+        <graphics name="TITLE:Nucleotide excision repair" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="161" y="58" width="242" height="25"/>
+    </entry>
+    <entry id="683" name="pmeo:129581520 pmeo:129583338 pmeo:129583862 pmeo:129586172 pmeo:129586423 pmeo:129588036 pmeo:129591541 pmeo:129591572 pmeo:129591611 pmeo:129591651 pmeo:129597627 pmeo:129597759 pmeo:129602794 pmeo:129602866" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129581520+pmeo:129583338+pmeo:129583862+pmeo:129586172+pmeo:129586423+pmeo:129588036+pmeo:129591541+pmeo:129591572+pmeo:129591611+pmeo:129591651+pmeo:129597627+pmeo:129597759+pmeo:129602794+pmeo:129602866">
+        <graphics name="129581520..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1093" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="684" name="pmeo:129587530" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?pmeo:129587530">
+        <graphics name="129587530" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="322" width="46" height="17"/>
+    </entry>
+</pathway>

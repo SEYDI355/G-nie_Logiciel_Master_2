@@ -1,0 +1,13 @@
+pmeo	Paramacrobiotus metropolitanus
+T09028	20465 proteins, 6309 proteins with KOs
+	4189 RNAs, 140 RNAs with KOs
+	Kanehisa Laboratories
+
+linked db	pathway
+	brite
+	module
+	ko
+	genome
+	enzyme
+	ncbi-geneid
+	ncbi-proteinid

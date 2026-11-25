@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Explorateur Métabolique Interactif — pmeo (NetworkX → Cytoscape.js)</title>
+  <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 14px;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 13px;
+    }
+
+    header select,
+    header input[type="text"],
+    header button {
+      padding: 5px 9px;
+      border-radius: 6px;
+      border: 1px solid #334155;
+      background: #1e293b;
+      color: #f8fafc;
+      font-size: 12px;
+    }
+
+    header button {
+      cursor: pointer;
+      background: #2563eb;
+      border-color: #2563eb;
+      font-weight: 500;
+    }
+
+    header button:hover {
+      background: #1d4ed8;
+    }
+
+    header button.secondary {
+      background: #475569;
+      border-color: #475569;
+    }
+
+    header label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .subbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      padding: 8px 14px;
+      background: #e2e8f0;
+      border-bottom: 1px solid #cbd5e1;
+      font-size: 12px;
+    }
+
+    .subbar select,
+    .subbar button {
+      padding: 4px 8px;
+      border-radius: 5px;
+      border: 1px solid #94a3b8;
+      font-size: 12px;
+    }
+
+    .subbar button {
+      cursor: pointer;
+      background: #0f766e;
+      color: #fff;
+      border-color: #0f766e;
+    }
+
+    .subbar button:hover {
+      background: #115e59;
+    }
+
+    .subbar button.demo {
+      background: #7c3aed;
+      border-color: #7c3aed;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+      position: relative;
+    }
+
+    #cy {
+      flex: 1;
+      background: #ffffff;
+    }
+
+    #legendBar {
+      position: absolute;
+      bottom: 14px;
+      left: 14px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 11px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      pointer-events: none;
+      max-width: 280px;
+    }
+
+    .grad-bar {
+      height: 10px;
+      border-radius: 4px;
+      margin: 5px 0 3px;
+      width: 100%;
+    }
+
+    .grad-labels {
+      display: flex;
+      justify-content: space-between;
+      color: #475569;
+      font-weight: 600;
+    }
+
+    aside {
+      width: 340px;
+      padding: 14px;
+      background: #f1f5f9;
+      border-left: 1px solid #cbd5e1;
+      overflow-y: auto;
+      font-size: 12.5px;
+    }
+
+    aside h3 {
+      margin: 12px 0 6px;
+      font-size: 14px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 4px;
+    }
+
+    aside h3:first-child {
+      margin-top: 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .kv {
+      margin: 6px 0;
+      word-break: break-word;
+    }
+
+    .kv strong {
+      display: block;
+      color: #475569;
+      font-size: 10.5px;
+      text-transform: uppercase;
+    }
+
+    .quant-form {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 8px;
+    }
+
+    .quant-form input {
+      width: 100%;
+      padding: 5px 7px;
+      margin: 3px 0 7px;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+
+    .quant-form button {
+      width: 100%;
+      padding: 6px;
+      border: none;
+      border-radius: 5px;
+      background: #2563eb;
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .quant-form button:hover {
+      background: #1d4ed8;
+    }
+
+    .row2 {
+      display: flex;
+      gap: 6px;
+    }
+
+    .row2>div {
+      flex: 1;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barre 1 : Navigation & Topologie -->
+  <header>
+    <label>Mode :
+      <select id="graphMode">
+        <option value="bipartite">Biparti (Métabolites + Réactions)</option>
+        <option value="monopartite">Monoparti (Métabolites seuls — NetworkX)</option>
+      </select>
+    </label>
+    <label>Voie :
+      <select id="pathwaySelect"></select>
+    </label>
+    <label>Layout :
+      <select id="layoutSelect">
+        <option value="preset">Coordonnées KEGG (par voie)</option>
+        <option value="cose">Force (CoSE)</option>
+        <option value="concentric">Concentrique (Centralité NX)</option>
+        <option value="breadthfirst">Hiérarchique</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="hideCurrency" checked /> Masquer cofacteurs</label>
+    <label><input type="checkbox" id="onlyPmeo" /> pmeo uniquement</label>
+    <input type="text" id="searchInput" placeholder="Rechercher (C01083, Trehalose, R00...)" style="width:210px;" />
+    <button id="fitBtn">Recentrer</button>
+    <button id="exportPngBtn" class="secondary">Export PNG</button>
+  </header>
+
+  <!-- Barre 2 : Quantification visuelle des métabolites -->
+  <div class="subbar">
+    <label><strong>Couleur métabolites :</strong>
+      <select id="colorMode">
+        <option value="default">Standard (Mesuré vs Inféré)</option>
+        <option value="value">Abondance / Concentration (Séquentiel)</option>
+        <option value="log2fc">Log2 Fold Change (Bleu ↔ Rouge)</option>
+        <option value="betweenness">Centralité NetworkX (Hubs)</option>
+      </select>
+    </label>
+    <label><strong>Taille métabolites :</strong>
+      <select id="sizeMode">
+        <option value="fixed">Fixe</option>
+        <option value="value">Proportionnelle à l'Abondance</option>
+        <option value="log2fc">Proportionnelle à |Log2FC|</option>
+        <option value="degree">Proportionnelle au Degré (NX)</option>
+      </select>
+    </label>
+    <label style="cursor:pointer; background:#0f766e; color:#fff; padding:4px 9px; border-radius:5px;">
+      Importer CSV métabolites
+      <input type="file" id="csvFileInput" accept=".csv,.tsv,.txt" style="display:none;" />
+    </label>
+    <button id="demoQuantBtn" class="demo">Charger jeu d'essai (Déshydratation)</button>
+    <button id="exportQuantBtn" style="background:#475569; border-color:#475569;">Exporter mes mesures</button>
+    <span id="stats" style="margin-left:auto; font-weight:600; color:#334155;"></span>
+  </div>
+
+  <main>
+    <div id="cy"></div>
+    <div id="legendBar"></div>
+
+    <aside>
+      <h3>Ajouter / Quantifier un métabolite</h3>
+      <div class="quant-form">
+        <label>ID Métabolite KEGG (ex: C01083)</label>
+        <input type="text" id="qId" placeholder="Cliquez un métabolite ou tapez Cxxxxx" />
+        <div class="row2">
+          <div>
+            <label>Abondance / Conc.</label>
+            <input type="number" step="any" id="qVal" placeholder="ex: 450" />
+          </div>
+          <div>
+            <label>Log2 Fold Change</label>
+            <input type="number" step="any" id="qFc" placeholder="ex: +2.8" />
+          </div>
+        </div>
+        <button id="applyQuantBtn">Appliquer & Mettre à jour le graphe</button>
+      </div>
+
+      <h3>Inspecteur d'élément</h3>
+      <div id="details">Cliquez sur un métabolite, une réaction ou une arête pour consulter toutes ses données KEGG et
+        NetworkX.</div>
+    </aside>
+  </main>
+
+  <script>
+    let rawData = null;
+    // Dictionnaire vivant des mesures métabolites : { "C01083": { value, log2fc, pvalue, unit } }
+    const userQuant = {};
+
+    const cy = cytoscape({
+      container: document.getElementById("cy"),
+      style: [
+        {
+          selector: 'node[node_type = "metabolite"]',
+          style: {
+            "background-color": "data(viz_color)",
+            "width": "data(viz_size)",
+            "height": "data(viz_size)",
+            "border-width": "data(viz_border_w)",
+            "border-color": "data(viz_border_c)",
+            "label": "data(label)",
+            "font-size": "10px",
+            "color": "#0f172a",
+            "text-valign": "bottom",
+            "text-margin-y": 4,
+            "text-background-color": "#ffffff",
+            "text-background-opacity": 0.75,
+            "text-background-padding": "2px"
+          }
+        },
+        {
+          selector: 'node[node_type = "reaction"]',
+          style: {
+            "shape": "round-rectangle",
+            "background-color": "#94a3b8",
+            "label": "data(label)",
+            "font-size": "9px",
+            "color": "#ffffff",
+            "text-valign": "center",
+            "text-halign": "center",
+            "width": 48,
+            "height": 20
+          }
+        },
+        {
+          selector: 'node[evidence_source = "KEGG_pmeo"]',
+          style: { "background-color": "#16a34a" }
+        },
+        {
+          selector: "edge",
+          style: {
+            "width": 1.6,
+            "line-color": "#94a3b8",
+            "target-arrow-color": "#94a3b8",
+            "target-arrow-shape": "triangle",
+            "curve-style": "bezier",
+            "arrow-scale": 0.85
+          }
+        },
+        {
+          selector: 'edge[evidence_source = "KEGG_pmeo"]',
+          style: { "line-color": "#16a34a", "target-arrow-color": "#16a34a", "source-arrow-color": "#16a34a" }
+        },
+        {
+          selector: "edge[?reversible]",
+          style: { "source-arrow-shape": "triangle", "source-arrow-color": "#94a3b8" }
+        },
+        {
+          selector: ".highlighted",
+          style: {
+            "border-width": 3.5, "border-color": "#2563eb",
+            "line-color": "#2563eb", "target-arrow-color": "#2563eb", "source-arrow-color": "#2563eb",
+            "z-index": 999
+          }
+        },
+        { selector: ".dimmed", style: { "opacity": 0.16 } }
+      ]
+    });
+
+    // --- Utilitaires d'interpolation de couleurs ---
+    function lerpColor(hexA, hexB, t) {
+      t = Math.max(0, Math.min(1, t));
+      const a = parseInt(hexA.slice(1), 16), b = parseInt(hexB.slice(1), 16);
+      const r = Math.round(((a >> 16) & 255) + (((b >> 16) & 255) - ((a >> 16) & 255)) * t);
+      const g = Math.round(((a >> 8) & 255) + (((b >> 8) & 255) - ((a >> 8) & 255)) * t);
+      const bl = Math.round((a & 255) + ((b & 255) - (a & 255)) * t);
+      return `rgb(${r},${g},${bl})`;
+    }
+
+    // Palette séquentielle (Jaune pâle -> Orange -> Rouge profond)
+    function seqColor(val, minV, maxV) {
+      const t = (maxV === minV) ? 0.65 : (val - minV) / (maxV - minV);
+      return t < 0.5 ? lerpColor("#fef08a", "#f97316", t * 2) : lerpColor("#f97316", "#991b1b", (t - 0.5) * 2);
+    }
+
+    // Palette divergente Log2FC (Bleu = baisse -> Blanc = 0 -> Rouge = hausse)
+    function divColor(val, maxAbs) {
+      const lim = maxAbs > 0 ? maxAbs : 1;
+      const clamped = Math.max(-lim, Math.min(lim, val));
+      if (clamped >= 0) return lerpColor("#f8fafc", "#dc2626", clamped / lim);
+      return lerpColor("#f8fafc", "#2563eb", Math.abs(clamped) / lim);
+    }
+
+    // --- Application du mapping visuel (Couleur & Taille) sur les métabolites ---
+    function applyVisualMapping() {
+      const colorMode = document.getElementById("colorMode").value;
+      const sizeMode = document.getElementById("sizeMode").value;
+      const metNodes = cy.nodes('[node_type = "metabolite"]');
+
+      // Collecter les bornes min/max du sous-graphe affiché
+      const vals = [], fcs = [], degs = [], betws = [];
+      metNodes.forEach(n => {
+        const q = userQuant[n.id()] || {};
+        const v = q.value ?? n.data("quant_value");
+        const fc = q.log2fc ?? n.data("log2fc");
+        if (v !== null && v !== undefined && !isNaN(v)) vals.push(Number(v));
+        if (fc !== null && fc !== undefined && !isNaN(fc)) fcs.push(Number(fc));
+        degs.push(Number(n.data("degree") || 1));
+        betws.push(Number(n.data("betweenness") || 0));
+      });
+
+      const minVal = vals.length ? Math.min(...vals) : 0;
+      const maxVal = vals.length ? Math.max(...vals) : 1;
+      const maxAbsFc = fcs.length ? Math.max(...fcs.map(Math.abs)) : 2;
+      const maxDeg = degs.length ? Math.max(...degs) : 1;
+      const maxBetw = betws.length ? Math.max(...betws) : 0.01;
+
+      cy.batch(() => {
+        metNodes.forEach(n => {
+          const q = userQuant[n.id()];
+          const v = q?.value !== undefined ? q.value : n.data("quant_value");
+          const fc = q?.log2fc !== undefined ? q.log2fc : n.data("log2fc");
+          const isMeasured = (v !== null && v !== undefined) || (fc !== null && fc !== undefined);
+
+          n.data("quant_value", v ?? null);
+          n.data("log2fc", fc ?? null);
+          n.data("evidence_status", isMeasured ? "measured" : "inferred_kegg");
+
+          // 1. Couleur
+          let color = isMeasured ? "#f97316" : "#cbd5e1";
+          if (colorMode === "value") {
+            color = (v !== null && v !== undefined) ? seqColor(Number(v), minVal, maxVal) : "#e2e8f0";
+          } else if (colorMode === "log2fc") {
+            color = (fc !== null && fc !== undefined) ? divColor(Number(fc), maxAbsFc) : "#e2e8f0";
+          } else if (colorMode === "betweenness") {
+            color = seqColor(Number(n.data("betweenness") || 0), 0, maxBetw || 1);
+          }
+
+          // 2. Taille (entre 18px et 52px)
+          let size = 24;
+          if (sizeMode === "value" && v !== null && v !== undefined) {
+            const t = maxVal === minVal ? 0.6 : (Number(v) - minVal) / (maxVal - minVal);
+            size = 18 + t * 34;
+          } else if (sizeMode === "log2fc" && fc !== null && fc !== undefined) {
+            const t = maxAbsFc > 0 ? Math.abs(Number(fc)) / maxAbsFc : 0.5;
+            size = 18 + t * 34;
+          } else if (sizeMode === "degree") {
+            const t = Number(n.data("degree") || 1) / (maxDeg || 1);
+            size = 18 + t * 30;
+          } else if (sizeMode !== "fixed") {
+            size = 16; // Non mesuré reste petit
+          }
+
+          n.data("viz_color", color);
+          n.data("viz_size", Math.round(size));
+          n.data("viz_border_w", isMeasured ? 2.5 : 1);
+          n.data("viz_border_c", isMeasured ? "#0f172a" : "#64748b");
+        });
+      });
+
+      updateLegend(colorMode, minVal, maxVal, maxAbsFc, maxBetw, vals.length, fcs.length);
+    }
+
+    function updateLegend(colorMode, minVal, maxVal, maxAbsFc, maxBetw, nVal, nFc) {
+      const box = document.getElementById("legendBar");
+      let html = `<strong>Légende active</strong>`;
+      if (colorMode === "value") {
+        html += `<div style="margin-top:4px;">Abondance métabolites (${nVal} mesurés)</div>
+          <div class="grad-bar" style="background:linear-gradient(to right,#fef08a,#f97316,#991b1b);"></div>
+          <div class="grad-labels"><span>${minVal.toFixed(1)}</span><span>${maxVal.toFixed(1)}</span></div>
+          <div style="color:#64748b;margin-top:3px;">Gris clair : non mesuré (inféré KEGG)</div>`;
+      } else if (colorMode === "log2fc") {
+        html += `<div style="margin-top:4px;">Log2 Fold Change (${nFc} mesurés)</div>
+          <div class="grad-bar" style="background:linear-gradient(to right,#2563eb,#f8fafc,#dc2626);"></div>
+          <div class="grad-labels"><span>-${maxAbsFc.toFixed(1)}</span><span>0</span><span>+${maxAbsFc.toFixed(1)}</span></div>
+          <div style="color:#64748b;margin-top:3px;">Gris clair : non mesuré</div>`;
+      } else if (colorMode === "betweenness") {
+        html += `<div style="margin-top:4px;">Centralité NetworkX (Hubs)</div>
+          <div class="grad-bar" style="background:linear-gradient(to right,#fef08a,#f97316,#991b1b);"></div>
+          <div class="grad-labels"><span>0</span><span>${maxBetw.toFixed(4)}</span></div>`;
+      } else {
+        html += `<div style="margin-top:4px;">🟠 Métabolite mesuré (bordure noire)</div>
+          <div>⚪ Métabolite inféré (KEGG)</div>
+          <div>🟩 Réaction attestée (KEGG pmeo)</div>
+          <div>⬜ Réaction de référence (trou potentiel)</div>`;
+      }
+      box.innerHTML = html;
+    }
+
+    // --- Rendu principal du graphe filtré ---
+    function renderGraph() {
+      if (!rawData) return;
+      const mode = document.getElementById("graphMode").value;
+      const selectedPw = document.getElementById("pathwaySelect").value;
+      const hideCurrency = document.getElementById("hideCurrency").checked;
+      const onlyPmeo = document.getElementById("onlyPmeo").checked;
+      let layoutName = document.getElementById("layoutSelect").value;
+
+      const sourceSet = rawData[mode];
+      const currencyIds = new Set(
+        sourceSet.nodes.filter(n => n.data.is_currency).map(n => n.data.id)
+      );
+
+      // Filtrer les arêtes
+      let edges = sourceSet.edges.filter(e => {
+        const inPw = (selectedPw === "ALL") || (e.data.pathways || []).includes(selectedPw);
+        if (!inPw) return false;
+        if (hideCurrency && (currencyIds.has(e.data.source) || currencyIds.has(e.data.target))) return false;
+        if (onlyPmeo && mode === "monopartite" && e.data.evidence_source !== "KEGG_pmeo") return false;
+        return true;
+      });
+
+      // Si mode biparti + filtre pmeo uniquement, retirer les réactions non-pmeo
+      const pmeoRxnIds = new Set(
+        sourceSet.nodes
+          .filter(n => n.data.node_type === "reaction" && n.data.evidence_source === "KEGG_pmeo")
+          .map(n => n.data.id)
+      );
+      if (onlyPmeo && mode === "bipartite") {
+        edges = edges.filter(e => pmeoRxnIds.has(e.data.source) || pmeoRxnIds.has(e.data.target));
+      }
+
+      const activeIds = new Set();
+      edges.forEach(e => { activeIds.add(e.data.source); activeIds.add(e.data.target); });
+
+      // Cloner les nœuds actifs et injecter les coordonnées exactes KGML de la voie choisie
+      let hasPresetCoords = false;
+      const nodes = sourceSet.nodes
+        .filter(n => activeIds.has(n.data.id))
+        .map(n => {
+          const clone = JSON.parse(JSON.stringify(n));
+          const posMap = clone.data.pos_by_pathway || {};
+          if (selectedPw !== "ALL" && posMap[selectedPw]) {
+            clone.position = { x: posMap[selectedPw].x, y: posMap[selectedPw].y };
+            hasPresetCoords = true;
+          }
+          // Valeurs initiales pour éviter les warnings de style
+          clone.data.viz_color = "#cbd5e1";
+          clone.data.viz_size = 24;
+          clone.data.viz_border_w = 1;
+          clone.data.viz_border_c = "#64748b";
+          return clone;
+        });
+
+      const clonedEdges = edges.map(e => JSON.parse(JSON.stringify(e)));
+
+      cy.elements().remove();
+      cy.add(nodes);
+      cy.add(clonedEdges);
+
+      applyVisualMapping();
+
+      // Repli sur CoSE si 'preset' est choisi sur ALL (pas de repère commun)
+      if (layoutName === "preset" && !hasPresetCoords) layoutName = "cose";
+
+      let layoutOpts = { name: layoutName, animate: false, padding: 30 };
+      if (layoutName === "cose") {
+        layoutOpts = { name: "cose", animate: false, nodeRepulsion: 9000, idealEdgeLength: 75 };
+      } else if (layoutName === "concentric") {
+        layoutOpts = {
+          name: "concentric", animate: false,
+          concentric: n => (n.data("betweenness") || 0) * 1000 + (n.data("degree") || 0),
+          levelWidth: () => 2
+        };
+      }
+
+      cy.layout(layoutOpts).run();
+      cy.fit(undefined, 35);
+
+      const nMet = cy.nodes('[node_type = "metabolite"]').length;
+      const nRxn = cy.nodes('[node_type = "reaction"]').length;
+      document.getElementById("stats").textContent =
+        `${nMet} métabolites · ${nRxn} réactions · ${clonedEdges.length} arêtes`;
+    }
+
+    // --- Inspection au clic (nœuds et arêtes) ---
+    cy.on("tap", "node", evt => {
+      const node = evt.target;
+      const d = node.data();
+
+      cy.elements().removeClass("highlighted dimmed");
+      const hood = node.closedNeighborhood();
+      cy.elements().difference(hood).addClass("dimmed");
+      hood.addClass("highlighted");
+
+      if (d.node_type === "metabolite") {
+        // Pré-remplir le formulaire de quantification rapide
+        document.getElementById("qId").value = d.id;
+        document.getElementById("qVal").value = d.quant_value ?? "";
+        document.getElementById("qFc").value = d.log2fc ?? "";
+
+        const statusColor = d.evidence_status === "measured" ? "#f97316" : "#64748b";
+        document.getElementById("details").innerHTML = `
+          <span class="badge" style="background:${statusColor};">Métabolite (${d.evidence_status})</span>
+          <div class="kv"><strong>ID KEGG</strong><a href="https://www.kegg.jp/entry/${d.id}" target="_blank">${d.id} ↗</a></div>
+          <div class="kv"><strong>Nom chimique</strong>${d.full_name}</div>
+          <div class="kv"><strong>Quantification</strong>Abondance : <b>${d.quant_value ?? "—"}</b> | Log2FC : <b>${d.log2fc ?? "—"}</b></div>
+          <div class="kv"><strong>Topologie NetworkX</strong>Degré : ${d.degree} (in: ${d.in_degree}, out: ${d.out_degree}) · Betweenness : ${d.betweenness}</div>
+          <div class="kv"><strong>Cofacteur</strong>${d.is_currency ? "Oui" : "Non"}</div>
+          <div class="kv"><strong>Voies (${(d.pathways || []).length})</strong>${(d.pathways || []).join(", ")}</div>
+        `;
+      } else {
+        const badgeColor = d.evidence_source === "KEGG_pmeo" ? "#16a34a" : "#64748b";
+        document.getElementById("details").innerHTML = `
+          <span class="badge" style="background:${badgeColor};">Réaction (${d.evidence_source})</span>
+          <div class="kv"><strong>ID KEGG</strong><a href="https://www.kegg.jp/entry/${d.id}" target="_blank">${d.id} ↗</a></div>
+          <div class="kv"><strong>Gènes pmeo (${d.gene_count || 0})</strong>${(d.genes_pmeo || []).join(", ") || "Aucun détecté"}</div>
+          <div class="kv"><strong>Enzymes KO / EC</strong>KO : ${(d.ko_ids || []).join(", ") || "—"}<br>EC : ${(d.ec_ids || []).join(", ") || "—"}</div>
+          <div class="kv"><strong>Réversible</strong>${d.reversible ? "Oui" : "Non"}</div>
+          <div class="kv"><strong>Topologie NetworkX</strong>Degré : ${d.degree} · Betweenness : ${d.betweenness}</div>
+          <div class="kv"><strong>Voies</strong>${(d.pathways || []).join(", ")}</div>
+        `;
+      }
+    });
+
+    cy.on("tap", "edge", evt => {
+      const d = evt.target.data();
+      document.getElementById("details").innerHTML = `
+        <span class="badge" style="background:#334155;">Arête (${d.role || "projection monopartite"})</span>
+        <div class="kv"><strong>Transition</strong>${d.source} → ${d.target}</div>
+        <div class="kv"><strong>Réactions associées</strong>${(d.reactions || []).join(", ") || "Lien direct biparti"}</div>
+        <div class="kv"><strong>Gènes pmeo</strong>${(d.genes_pmeo || []).join(", ") || "—"}</div>
+        <div class="kv"><strong>Réversible</strong>${d.reversible ? "Oui" : "Non"}</div>
+      `;
+    });
+
+    cy.on("tap", evt => {
+      if (evt.target === cy) cy.elements().removeClass("highlighted dimmed");
+    });
+
+    // --- Ajout manuel de quantification ---
+    document.getElementById("applyQuantBtn").addEventListener("click", () => {
+      const cid = document.getElementById("qId").value.trim().replace("cpd:", "");
+      if (!cid) return;
+      const valRaw = document.getElementById("qVal").value;
+      const fcRaw = document.getElementById("qFc").value;
+      userQuant[cid] = {
+        value: valRaw === "" ? null : parseFloat(valRaw),
+        log2fc: fcRaw === "" ? null : parseFloat(fcRaw),
+      };
+      // Basculer automatiquement sur un mode visuel quantitatif si on est encore en 'default'
+      if (document.getElementById("colorMode").value === "default") {
+        document.getElementById("colorMode").value = fcRaw !== "" ? "log2fc" : "value";
+      }
+      if (document.getElementById("sizeMode").value === "fixed") {
+        document.getElementById("sizeMode").value = valRaw !== "" ? "value" : "log2fc";
+      }
+      applyVisualMapping();
+    });
+
+    // --- Import CSV en direct dans le navigateur (supporte ',' et ';') ---
+    document.getElementById("csvFileInput").addEventListener("change", evt => {
+      const file = evt.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = e => {
+        const lines = e.target.result.trim().split(/\r?\n/);
+        if (lines.length < 2) return;
+        const sep = lines[0].includes(";") ? ";" : (lines[0].includes("\t") ? "\t" : ",");
+        const headers = lines[0].split(sep).map(h => h.trim().toLowerCase());
+        const iId = headers.findIndex(h => ["compound_id", "id", "kegg", "metabolite_id"].includes(h));
+        const iVal = headers.findIndex(h => ["value", "abundance", "concentration", "valeur"].includes(h));
+        const iFc = headers.findIndex(h => ["log2fc", "fc", "log2_fc"].includes(h));
+
+        if (iId === -1) {
+          alert("Colonne 'compound_id' introuvable dans le CSV.");
+          return;
+        }
+        let count = 0;
+        for (let i = 1; i < lines.length; i++) {
+          const cols = lines[i].split(sep).map(c => c.trim());
+          const cid = (cols[iId] || "").replace("cpd:", "");
+          if (!cid) continue;
+          const v = (iVal !== -1 && cols[iVal] !== "") ? parseFloat(cols[iVal].replace(",", ".")) : null;
+          const fc = (iFc !== -1 && cols[iFc] !== "") ? parseFloat(cols[iFc].replace(",", ".")) : null;
+          userQuant[cid] = {
+            value: isNaN(v) ? null : v,
+            log2fc: isNaN(fc) ? null : fc,
+          };
+          count++;
+        }
+        if (document.getElementById("colorMode").value === "default") {
+          document.getElementById("colorMode").value = iFc !== -1 ? "log2fc" : "value";
+        }
+        if (document.getElementById("sizeMode").value === "fixed") {
+          document.getElementById("sizeMode").value = iVal !== -1 ? "value" : "log2fc";
+        }
+        applyVisualMapping();
+        alert(`${count} mesures de métabolites importées et appliquées !`);
+      };
+      reader.readAsText(file);
+    });
+
+    // --- Jeu d'essai : biomarqueurs typiques de déshydratation chez le tardigrade ---
+    document.getElementById("demoQuantBtn").addEventListener("click", () => {
+      const demo = {
+        "C01083": { value: 920, log2fc: 3.8 },   // α,α-Tréhalose
+        "C00689": { value: 540, log2fc: 2.6 },   // Tréhalose-6P
+        "C00029": { value: 380, log2fc: 1.4 },   // UDP-glucose
+        "C00031": { value: 110, log2fc: -2.1 },  // D-Glucose
+        "C00103": { value: 190, log2fc: -0.9 },  // D-Glucose-1P
+        "C00092": { value: 210, log2fc: -0.7 },  // D-Glucose-6P
+        "C00051": { value: 780, log2fc: 2.9 },   // Glutathion réduit (GSH)
+        "C00127": { value: 150, log2fc: -1.3 },  // Glutathion oxydé (GSSG)
+        "C00116": { value: 640, log2fc: 2.4 },   // Glycérol
+        "C00078": { value: 160, log2fc: -1.5 },  // L-Tryptophane
+        "C00328": { value: 590, log2fc: 3.1 },   // L-Kynurénine
+        "C00022": { value: 95, log2fc: -2.4 }   // Pyruvate
+      };
+      Object.assign(userQuant, demo);
+      document.getElementById("colorMode").value = "log2fc";
+      document.getElementById("sizeMode").value = "value";
+      applyVisualMapping();
+    });
+
+    // --- Export des mesures saisies en CSV & Export PNG ---
+    document.getElementById("exportQuantBtn").addEventListener("click", () => {
+      const rows = ["compound_id,value,log2fc"];
+      Object.entries(userQuant).forEach(([cid, q]) => {
+        rows.push(`${cid},${q.value ?? ""},${q.log2fc ?? ""}`);
+      });
+      const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8;" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "pmeo_metabolites_quant.csv";
+      a.click();
+    });
+
+    document.getElementById("exportPngBtn").addEventListener("click", () => {
+      const a = document.createElement("a");
+      a.href = cy.png({ full: true, scale: 2, bg: "#ffffff" });
+      a.download = `pmeo_${document.getElementById("pathwaySelect").value}.png`;
+      a.click();
+    });
+
+    // --- Recherche instantanée ---
+    document.getElementById("searchInput").addEventListener("input", e => {
+      const q = e.target.value.trim().toLowerCase();
+      cy.elements().removeClass("highlighted dimmed");
+      if (!q) return;
+      const matches = cy.nodes().filter(n => {
+        const blob = `${n.id()} ${n.data("full_name") || ""} ${(n.data("genes_pmeo") || []).join(" ")} ${(n.data("ko_ids") || []).join(" ")}`.toLowerCase();
+        return blob.includes(q);
+      });
+      if (matches.length) {
+        cy.elements().difference(matches.closedNeighborhood()).addClass("dimmed");
+        matches.addClass("highlighted");
+        cy.animate({ fit: { eles: matches, padding: 80 } }, { duration: 250 });
+      }
+    });
+
+    ["graphMode", "pathwaySelect", "layoutSelect", "hideCurrency", "onlyPmeo"].forEach(id =>
+      document.getElementById(id).addEventListener("change", renderGraph)
+    );
+    ["colorMode", "sizeMode"].forEach(id =>
+      document.getElementById(id).addEventListener("change", applyVisualMapping)
+    );
+    document.getElementById("fitBtn").addEventListener("click", () => cy.fit(undefined, 35));
+
+    // --- Chargement initial du JSON généré par NetworkX ---
+    fetch("pmeo_cytoscape.json")
+      .then(r => r.json())
+      .then(data => {
+        rawData = data;
+        // Charger les quantifications déjà injectées par Python
+        data.bipartite.nodes.forEach(n => {
+          if (n.data.node_type === "metabolite" && (n.data.quant_value !== null || n.data.log2fc !== null)) {
+            userQuant[n.data.id] = { value: n.data.quant_value, log2fc: n.data.log2fc };
+          }
+        });
+
+        const sel = document.getElementById("pathwaySelect");
+        data.pathways.forEach(pw => {
+          const opt = document.createElement("option");
+          opt.value = pw.id;
+          opt.textContent = `${pw.id} — ${pw.title}`;
+          sel.appendChild(opt);
+        });
+        const allOpt = document.createElement("option");
+        allOpt.value = "ALL";
+        allOpt.textContent = "Tout le réseau (lourd)";
+        sel.appendChild(allOpt);
+
+        // Sélectionner la voie du tréhalose/amidon (00500) par défaut si présente
+        if (data.pathways.some(p => p.id === "pmeo00500")) sel.value = "pmeo00500";
+        renderGraph();
+      })
+      .catch(err => {
+        document.getElementById("details").textContent =
+          "Impossible de charger pmeo_cytoscape.json. Lancez 'python -m http.server 8000' dans cytoscape_app/.";
+        console.error(err);
+      });
+  </script>
+</body>
+
+</html>

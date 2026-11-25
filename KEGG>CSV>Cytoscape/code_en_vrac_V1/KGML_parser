@@ -1,0 +1,221 @@
+import os
+import glob
+import pandas as pd
+import networkx as nx
+from Bio.KEGG.KGML import KGML_parser
+
+# Dossiers issus du script précédent
+DATA_DIR = "kegg_pmeo_data"
+KGML_DIR = os.path.join(DATA_DIR, "kgml")
+OUT_DIR = os.path.join(DATA_DIR, "graph_tables")
+os.makedirs(OUT_DIR, exist_ok=True)
+
+# Liste standard de cofacteurs / molécules "monnaie" (currency metabolites) à marquer
+CURRENCY_COMPOUNDS = {
+    "C00001",  # H2O
+    "C00002",  # ATP
+    "C00003",  # NAD+
+    "C00004",  # NADH
+    "C00005",  # NADPH
+    "C00006",  # NADP+
+    "C00007",  # O2
+    "C00008",  # ADP
+    "C00009",  # Orthophosphate (Pi)
+    "C00010",  # CoA
+    "C00011",  # CO2
+    "C00013",  # Pyrophosphate (PPi)
+    "C00014",  # NH3
+    "C00020",  # AMP
+    "C00080",  # H+
+}
+
+# Charger les noms chimiques depuis metabolites_uniques.csv (généré au script précédent)
+cpd_name_map = {}
+cpd_csv = os.path.join(DATA_DIR, "metabolites_uniques.csv")
+if os.path.exists(cpd_csv):
+    df_names = pd.read_csv(cpd_csv)
+    for _, row in df_names.iterrows():
+        cid = str(row["compound_id"]).replace("cpd:", "").strip()
+        cpd_name_map[cid] = str(row["compound_name"])
+
+metabolites = {}  # compound_id -> dict d'attributs
+reactions = {}    # reaction_id -> dict d'attributs
+edges = []        # liste d'arêtes bipartites (source, target, role, ...)
+
+kgml_files = sorted(glob.glob(os.path.join(KGML_DIR, "*.kgml")))
+print(f"Analyse de {len(kgml_files)} fichiers KGML...")
+
+for filepath in kgml_files:
+    pw_id = os.path.splitext(os.path.basename(filepath))[0]
+
+    # Ignorer la carte globale 01100 (redondante avec les cartes détaillées et sans boîtes classiques)
+    if pw_id.endswith("01100"):
+        continue
+
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            pathway = KGML_parser.read(f)
+    except Exception as e:
+        print(f"  [Ignoré] Erreur de lecture sur {pw_id}: {e}")
+        continue
+
+    if not pathway.reactions:
+        continue
+
+    pw_title = pathway.title or pw_id
+
+    # Indexer les entrées du fichier KGML (métabolites et gènes/enzymes)
+    entries_by_id = {}
+    for entry_id, entry in pathway.entries.items():
+        g = entry.graphics[0] if entry.graphics else None
+        entries_by_id[entry_id] = {
+            "name": entry.name,
+            "type": entry.type,
+            "label": g.name if g else "",
+            "x": getattr(g, "x", None),
+            "y": getattr(g, "y", None),
+            "bgcolor": getattr(g, "bgcolor", ""),
+        }
+
+    # Parcourir chaque réaction enzymatique présente dans le KGML
+    for rxn in pathway.reactions:
+        enzyme_entry = entries_by_id.get(rxn.id, {})
+        # Une balise <reaction> peut regrouper plusieurs IDs (ex: "rn:R00200 rn:R00201")
+        rxn_ids = [r.replace("rn:", "").strip() for r in rxn.name.split() if r.startswith("rn:")]
+        if not rxn_ids:
+            rxn_ids = [rxn.name.strip()]
+
+        is_reversible = (rxn.type == "reversible")
+        # Gènes pmeo associés à la boîte enzymatique
+        gene_ids = [g.strip() for g in enzyme_entry.get("name", "").split() if g.strip()]
+        present_in_org = (enzyme_entry.get("type") == "gene") or (enzyme_entry.get("bgcolor") == "#BFFFBF")
+
+        # Extraire les substrats et produits (Cxxxxx)
+        sub_ids = []
+        for sub in rxn.substrates:
+            sub_entry = entries_by_id.get(sub.id, {})
+            for cid in sub_entry.get("name", "").split():
+                clean_cid = cid.replace("cpd:", "").strip()
+                if clean_cid:
+                    sub_ids.append((clean_cid, sub_entry))
+
+        prod_ids = []
+        for prod in rxn.products:
+            prod_entry = entries_by_id.get(prod.id, {})
+            for cid in prod_entry.get("name", "").split():
+                clean_cid = cid.replace("cpd:", "").strip()
+                if clean_cid:
+                    prod_ids.append((clean_cid, prod_entry))
+
+        # Enregistrer les nœuds Métabolites
+        for cid, centry in sub_ids + prod_ids:
+            if cid not in metabolites:
+                metabolites[cid] = {
+                    "node_id": cid,
+                    "node_type": "metabolite",
+                    "name": cpd_name_map.get(cid, centry.get("label", cid)),
+                    "is_currency": cid in CURRENCY_COMPOUNDS,
+                    "evidence_status": "inferred_kegg",  # À passer à 'measured' après jointure GC-MS
+                    "pathways": set(),
+                    "x_kegg": centry.get("x"),
+                    "y_kegg": centry.get("y"),
+                }
+            metabolites[cid]["pathways"].add(pw_id)
+
+        # Enregistrer les nœuds Réactions et les arêtes bipartites
+        for rid in rxn_ids:
+            if rid not in reactions:
+                reactions[rid] = {
+                    "node_id": rid,
+                    "node_type": "reaction",
+                    "genes_pmeo": set(),
+                    "reversible": is_reversible,
+                    "evidence_source": "KEGG_pmeo" if present_in_org else "KEGG_reference",
+                    "pathways": set(),
+                    "pathway_titles": set(),
+                    "x_kegg": enzyme_entry.get("x"),
+                    "y_kegg": enzyme_entry.get("y"),
+                }
+            reactions[rid]["genes_pmeo"].update(gene_ids)
+            reactions[rid]["pathways"].add(pw_id)
+            reactions[rid]["pathway_titles"].add(pw_title)
+            if is_reversible:
+                reactions[rid]["reversible"] = True
+
+            # Arêtes Substrat -> Réaction
+            for cid, _ in sub_ids:
+                edges.append({
+                    "source": cid,
+                    "target": rid,
+                    "role": "substrate",
+                    "reversible": is_reversible,
+                    "pathway_id": pw_id,
+                })
+
+            # Arêtes Réaction -> Produit
+            for cid, _ in prod_ids:
+                edges.append({
+                    "source": rid,
+                    "target": cid,
+                    "role": "product",
+                    "reversible": is_reversible,
+                    "pathway_id": pw_id,
+                })
+
+# --- Conversion en DataFrames et export CSV ---
+
+df_met = pd.DataFrame([
+    {**v, "pathways": ";".join(sorted(v["pathways"]))}
+    for v in metabolites.values()
+]).sort_values("node_id")
+
+df_rxn = pd.DataFrame([
+    {
+        **v,
+        "genes_pmeo": ";".join(sorted(v["genes_pmeo"])),
+        "pathways": ";".join(sorted(v["pathways"])),
+        "pathway_titles": ";".join(sorted(v["pathway_titles"])),
+    }
+    for v in reactions.values()
+]).sort_values("node_id")
+
+df_edges = (
+    pd.DataFrame(edges)
+    .groupby(["source", "target", "role"], as_index=False)
+    .agg(
+        reversible=("reversible", "any"),
+        pathways=("pathway_id", lambda s: ";".join(sorted(set(s)))),
+    )
+)
+
+df_met.to_csv(os.path.join(OUT_DIR, "nodes_metabolites.csv"), index=False)
+df_rxn.to_csv(os.path.join(OUT_DIR, "nodes_reactions.csv"), index=False)
+df_edges.to_csv(os.path.join(OUT_DIR, "edges.csv"), index=False)
+
+# --- Bonus : Export au format GraphML (directement ouvrable dans Cytoscape / Gephi) ---
+G = nx.DiGraph()
+for _, row in df_met.iterrows():
+    attrs = {k: ("" if pd.isna(v) else v) for k, v in row.to_dict().items()}
+    G.add_node(row["node_id"], **attrs)
+
+for _, row in df_rxn.iterrows():
+    attrs = {k: ("" if pd.isna(v) else v) for k, v in row.to_dict().items()}
+    G.add_node(row["node_id"], **attrs)
+
+for _, row in df_edges.iterrows():
+    G.add_edge(
+        row["source"],
+        row["target"],
+        role=row["role"],
+        reversible=bool(row["reversible"]),
+        pathways=row["pathways"],
+    )
+
+graphml_path = os.path.join(OUT_DIR, "pmeo_bipartite_graph.graphml")
+nx.write_graphml(G, graphml_path)
+
+print("\nExtraction terminée !")
+print(f" - Métabolites (nodes_metabolites.csv) : {len(df_met)}")
+print(f" - Réactions   (nodes_reactions.csv)   : {len(df_rxn)}")
+print(f" - Arêtes      (edges.csv)             : {len(df_edges)}")
+print(f" - Graphe Cytoscape/NetworkX           : {graphml_path}")

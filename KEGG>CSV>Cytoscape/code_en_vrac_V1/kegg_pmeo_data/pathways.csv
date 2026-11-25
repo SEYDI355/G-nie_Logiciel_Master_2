@@ -1,0 +1,152 @@
+pathway_id,pathway_name
+pmeo01100,Metabolic pathways - Paramacrobiotus metropolitanus
+pmeo01200,Carbon metabolism - Paramacrobiotus metropolitanus
+pmeo01210,2-Oxocarboxylic acid metabolism - Paramacrobiotus metropolitanus
+pmeo01212,Fatty acid metabolism - Paramacrobiotus metropolitanus
+pmeo01230,Biosynthesis of amino acids - Paramacrobiotus metropolitanus
+pmeo01232,Nucleotide metabolism - Paramacrobiotus metropolitanus
+pmeo01250,Biosynthesis of nucleotide sugars - Paramacrobiotus metropolitanus
+pmeo01240,Biosynthesis of cofactors - Paramacrobiotus metropolitanus
+pmeo01320,Sulfur cycle - Paramacrobiotus metropolitanus
+pmeo00010,Glycolysis / Gluconeogenesis - Paramacrobiotus metropolitanus
+pmeo00020,Citrate cycle (TCA cycle) - Paramacrobiotus metropolitanus
+pmeo00030,Pentose phosphate pathway - Paramacrobiotus metropolitanus
+pmeo00040,Pentose and glucuronate interconversions - Paramacrobiotus metropolitanus
+pmeo00051,Fructose and mannose metabolism - Paramacrobiotus metropolitanus
+pmeo00052,Galactose metabolism - Paramacrobiotus metropolitanus
+pmeo00053,Ascorbate and aldarate metabolism - Paramacrobiotus metropolitanus
+pmeo00500,Starch and sucrose metabolism - Paramacrobiotus metropolitanus
+pmeo00620,Pyruvate metabolism - Paramacrobiotus metropolitanus
+pmeo00630,Glyoxylate and dicarboxylate metabolism - Paramacrobiotus metropolitanus
+pmeo00640,Propanoate metabolism - Paramacrobiotus metropolitanus
+pmeo00650,Butanoate metabolism - Paramacrobiotus metropolitanus
+pmeo00562,Inositol phosphate metabolism - Paramacrobiotus metropolitanus
+pmeo00190,Oxidative phosphorylation - Paramacrobiotus metropolitanus
+pmeo00910,Nitrogen metabolism - Paramacrobiotus metropolitanus
+pmeo00920,Sulfur metabolism - Paramacrobiotus metropolitanus
+pmeo00061,Fatty acid biosynthesis - Paramacrobiotus metropolitanus
+pmeo00062,Fatty acid elongation - Paramacrobiotus metropolitanus
+pmeo00071,Fatty acid degradation - Paramacrobiotus metropolitanus
+pmeo00100,Steroid biosynthesis - Paramacrobiotus metropolitanus
+pmeo00561,Glycerolipid metabolism - Paramacrobiotus metropolitanus
+pmeo00564,Glycerophospholipid metabolism - Paramacrobiotus metropolitanus
+pmeo00565,Ether lipid metabolism - Paramacrobiotus metropolitanus
+pmeo00600,Sphingolipid metabolism - Paramacrobiotus metropolitanus
+pmeo00590,Arachidonic acid metabolism - Paramacrobiotus metropolitanus
+pmeo00591,Linoleic acid metabolism - Paramacrobiotus metropolitanus
+pmeo01040,Biosynthesis of unsaturated fatty acids - Paramacrobiotus metropolitanus
+pmeo00230,Purine metabolism - Paramacrobiotus metropolitanus
+pmeo00240,Pyrimidine metabolism - Paramacrobiotus metropolitanus
+pmeo00250,"Alanine, aspartate and glutamate metabolism - Paramacrobiotus metropolitanus"
+pmeo00260,"Glycine, serine and threonine metabolism - Paramacrobiotus metropolitanus"
+pmeo00270,Cysteine and methionine metabolism - Paramacrobiotus metropolitanus
+pmeo00280,"Valine, leucine and isoleucine degradation - Paramacrobiotus metropolitanus"
+pmeo00290,"Valine, leucine and isoleucine biosynthesis - Paramacrobiotus metropolitanus"
+pmeo00310,Lysine degradation - Paramacrobiotus metropolitanus
+pmeo00220,Arginine biosynthesis - Paramacrobiotus metropolitanus
+pmeo00330,Arginine and proline metabolism - Paramacrobiotus metropolitanus
+pmeo00340,Histidine metabolism - Paramacrobiotus metropolitanus
+pmeo00350,Tyrosine metabolism - Paramacrobiotus metropolitanus
+pmeo00360,Phenylalanine metabolism - Paramacrobiotus metropolitanus
+pmeo00380,Tryptophan metabolism - Paramacrobiotus metropolitanus
+pmeo00400,"Phenylalanine, tyrosine and tryptophan biosynthesis - Paramacrobiotus metropolitanus"
+pmeo00410,beta-Alanine metabolism - Paramacrobiotus metropolitanus
+pmeo00430,Taurine and hypotaurine metabolism - Paramacrobiotus metropolitanus
+pmeo00440,Phosphonate and phosphinate metabolism - Paramacrobiotus metropolitanus
+pmeo00450,Selenocompound metabolism - Paramacrobiotus metropolitanus
+pmeo00470,D-Amino acid metabolism - Paramacrobiotus metropolitanus
+pmeo00480,Glutathione metabolism - Paramacrobiotus metropolitanus
+pmeo00520,Amino sugar and nucleotide sugar metabolism - Paramacrobiotus metropolitanus
+pmeo00541,Biosynthesis of various nucleotide sugars - Paramacrobiotus metropolitanus
+pmeo00510,N-Glycan biosynthesis - Paramacrobiotus metropolitanus
+pmeo00513,Various types of N-glycan biosynthesis - Paramacrobiotus metropolitanus
+pmeo00512,Mucin type O-glycan biosynthesis - Paramacrobiotus metropolitanus
+pmeo00515,Mannose type O-glycan biosynthesis - Paramacrobiotus metropolitanus
+pmeo00514,Other types of O-glycan biosynthesis - Paramacrobiotus metropolitanus
+pmeo00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Paramacrobiotus metropolitanus
+pmeo00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Paramacrobiotus metropolitanus
+pmeo00533,Glycosaminoglycan biosynthesis - keratan sulfate - Paramacrobiotus metropolitanus
+pmeo00531,Glycosaminoglycan degradation - Paramacrobiotus metropolitanus
+pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Paramacrobiotus metropolitanus
+pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series - Paramacrobiotus metropolitanus
+pmeo00603,Glycosphingolipid biosynthesis - globo and isoglobo series - Paramacrobiotus metropolitanus
+pmeo00604,Glycosphingolipid biosynthesis - ganglio series - Paramacrobiotus metropolitanus
+pmeo00511,Other glycan degradation - Paramacrobiotus metropolitanus
+pmeo00730,Thiamine metabolism - Paramacrobiotus metropolitanus
+pmeo00740,Riboflavin metabolism - Paramacrobiotus metropolitanus
+pmeo00750,Vitamin B6 metabolism - Paramacrobiotus metropolitanus
+pmeo00760,Nicotinate and nicotinamide metabolism - Paramacrobiotus metropolitanus
+pmeo00770,Pantothenate and CoA biosynthesis - Paramacrobiotus metropolitanus
+pmeo00780,Biotin metabolism - Paramacrobiotus metropolitanus
+pmeo00785,Lipoic acid metabolism - Paramacrobiotus metropolitanus
+pmeo00790,Folate biosynthesis - Paramacrobiotus metropolitanus
+pmeo00670,One carbon pool by folate - Paramacrobiotus metropolitanus
+pmeo00830,Retinol metabolism - Paramacrobiotus metropolitanus
+pmeo00860,Porphyrin metabolism - Paramacrobiotus metropolitanus
+pmeo00130,Ubiquinone and other terpenoid-quinone biosynthesis - Paramacrobiotus metropolitanus
+pmeo00900,Terpenoid backbone biosynthesis - Paramacrobiotus metropolitanus
+pmeo00232,Caffeine metabolism - Paramacrobiotus metropolitanus
+pmeo00311,Penicillin and cephalosporin biosynthesis - Paramacrobiotus metropolitanus
+pmeo00980,Metabolism of xenobiotics by cytochrome P450 - Paramacrobiotus metropolitanus
+pmeo00982,Drug metabolism - cytochrome P450 - Paramacrobiotus metropolitanus
+pmeo00983,Drug metabolism - other enzymes - Paramacrobiotus metropolitanus
+pmeo03020,RNA polymerase - Paramacrobiotus metropolitanus
+pmeo03022,Basal transcription factors - Paramacrobiotus metropolitanus
+pmeo03040,Spliceosome - Paramacrobiotus metropolitanus
+pmeo03010,Ribosome - Paramacrobiotus metropolitanus
+pmeo00970,Aminoacyl-tRNA biosynthesis - Paramacrobiotus metropolitanus
+pmeo03013,Nucleocytoplasmic transport - Paramacrobiotus metropolitanus
+pmeo03015,mRNA surveillance pathway - Paramacrobiotus metropolitanus
+pmeo03008,Ribosome biogenesis in eukaryotes - Paramacrobiotus metropolitanus
+pmeo03060,Protein export - Paramacrobiotus metropolitanus
+pmeo04141,Protein processing in endoplasmic reticulum - Paramacrobiotus metropolitanus
+pmeo04130,SNARE interactions in vesicular transport - Paramacrobiotus metropolitanus
+pmeo04120,Ubiquitin mediated proteolysis - Paramacrobiotus metropolitanus
+pmeo04122,Sulfur relay system - Paramacrobiotus metropolitanus
+pmeo03050,Proteasome - Paramacrobiotus metropolitanus
+pmeo03018,RNA degradation - Paramacrobiotus metropolitanus
+pmeo03030,DNA replication - Paramacrobiotus metropolitanus
+pmeo03410,Base excision repair - Paramacrobiotus metropolitanus
+pmeo03420,Nucleotide excision repair - Paramacrobiotus metropolitanus
+pmeo03430,Mismatch repair - Paramacrobiotus metropolitanus
+pmeo03440,Homologous recombination - Paramacrobiotus metropolitanus
+pmeo03450,Non-homologous end-joining - Paramacrobiotus metropolitanus
+pmeo03460,Fanconi anemia pathway - Paramacrobiotus metropolitanus
+pmeo03082,ATP-dependent chromatin remodeling - Paramacrobiotus metropolitanus
+pmeo03083,Polycomb repressive complex - Paramacrobiotus metropolitanus
+pmeo03250,Viral life cycle - HIV-1 - Paramacrobiotus metropolitanus
+pmeo03265,"Virion - Ebolavirus, Lyssavirus and Morbillivirus - Paramacrobiotus metropolitanus"
+pmeo03273,Virion - Lassa virus and SFTS virus - Paramacrobiotus metropolitanus
+pmeo03272,Virion - Hepatitis viruses - Paramacrobiotus metropolitanus
+pmeo02010,ABC transporters - Paramacrobiotus metropolitanus
+pmeo04310,Wnt signaling pathway - Paramacrobiotus metropolitanus
+pmeo04330,Notch signaling pathway - Paramacrobiotus metropolitanus
+pmeo04350,TGF-beta signaling pathway - Paramacrobiotus metropolitanus
+pmeo04068,FoxO signaling pathway - Paramacrobiotus metropolitanus
+pmeo04070,Phosphatidylinositol signaling system - Paramacrobiotus metropolitanus
+pmeo04150,mTOR signaling pathway - Paramacrobiotus metropolitanus
+pmeo04080,Neuroactive ligand-receptor interaction - Paramacrobiotus metropolitanus
+pmeo04082,Neuroactive ligand signaling - Paramacrobiotus metropolitanus
+pmeo04081,Hormone signaling - Paramacrobiotus metropolitanus
+pmeo04512,ECM-receptor interaction - Paramacrobiotus metropolitanus
+pmeo04517,IgSF CAM signaling - Paramacrobiotus metropolitanus
+pmeo04518,Integrin signaling - Paramacrobiotus metropolitanus
+pmeo04519,Cadherin signaling - Paramacrobiotus metropolitanus
+pmeo04144,Endocytosis - Paramacrobiotus metropolitanus
+pmeo04145,Phagocytosis - Paramacrobiotus metropolitanus
+pmeo04142,Lysosome biogenesis - Paramacrobiotus metropolitanus
+pmeo04146,Peroxisome - Paramacrobiotus metropolitanus
+pmeo04140,Autophagy - animal - Paramacrobiotus metropolitanus
+pmeo04136,Autophagy - other - Paramacrobiotus metropolitanus
+pmeo04137,Mitophagy - animal - Paramacrobiotus metropolitanus
+pmeo04148,Efferocytosis - Paramacrobiotus metropolitanus
+pmeo04156,Integrated stress response (ISR) signaling pathway - Paramacrobiotus metropolitanus
+pmeo04814,Motor proteins - Paramacrobiotus metropolitanus
+pmeo04820,Cytoskeleton in muscle cells - Paramacrobiotus metropolitanus
+pmeo04620,Toll-like receptor signaling pathway - Paramacrobiotus metropolitanus
+pmeo04900,Neuroendocrine signaling pathway of hypothalamus-pituitary axis - Paramacrobiotus metropolitanus
+pmeo04977,Vitamin digestion and absorption - Paramacrobiotus metropolitanus
+pmeo04981,Folate transport and metabolism - Paramacrobiotus metropolitanus
+pmeo04980,Cobalamin transport and metabolism - Paramacrobiotus metropolitanus
+pmeo04382,Cornified envelope formation - Paramacrobiotus metropolitanus
+pmeo05100,Bacterial invasion of epithelial cells - Paramacrobiotus metropolitanus

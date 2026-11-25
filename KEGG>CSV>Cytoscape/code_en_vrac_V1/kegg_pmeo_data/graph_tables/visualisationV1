@@ -1,0 +1,158 @@
+import os
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+from pyvis.network import Network
+
+# --- PARAMÈTRES À PERSONNALISER ---
+GRAPH_DIR = os.path.join("kegg_pmeo_data", "graph_tables")
+OUT_DIR = os.path.join("kegg_pmeo_data", "visualisations")
+os.makedirs(OUT_DIR, exist_ok=True)
+
+# Voie à visualiser (ex: "pmeo00500" = Tréhalose/Amidon, "pmeo00480" = Glutathion, "pmeo00010" = Glycolyse)
+# Mettre None pour visualiser l'ensemble du réseau (attention : lourd si > 500 nœuds)
+TARGET_PATHWAY = "pmeo00500"
+EXCLUDE_CURRENCY = True  # Masquer H2O, ATP, NADH, CO2... pour éviter l'effet "hairball"
+
+# --- 1. Chargement des tables ---
+df_met = pd.read_csv(os.path.join(GRAPH_DIR, "nodes_metabolites.csv"))
+df_rxn = pd.read_csv(os.path.join(GRAPH_DIR, "nodes_reactions.csv"))
+df_edges = pd.read_csv(os.path.join(GRAPH_DIR, "edges.csv"))
+
+# Vérifier si la voie cible existe dans les données, sinon prendre la première disponible
+all_pathways = sorted({
+    pw for pws in df_edges["pathways"].dropna()
+    for pw in str(pws).split(";") if pw
+})
+
+if TARGET_PATHWAY and TARGET_PATHWAY not in all_pathways:
+    print(f"Voie '{TARGET_PATHWAY}' absente des données. Voies disponibles (exemples) : {all_pathways[:10]}")
+    TARGET_PATHWAY = all_pathways[0]
+    print(f"Basculé automatiquement sur : {TARGET_PATHWAY}")
+
+# --- 2. Filtrage par voie et par cofacteurs ---
+if TARGET_PATHWAY:
+    edges_sub = df_edges[
+        df_edges["pathways"].fillna("").apply(lambda s: TARGET_PATHWAY in s.split(";"))
+    ].copy()
+    suffix = TARGET_PATHWAY
+else:
+    edges_sub = df_edges.copy()
+    suffix = "reseau_complet"
+
+if EXCLUDE_CURRENCY:
+    currency_ids = set(df_met.loc[df_met["is_currency"] == True, "node_id"])
+    edges_sub = edges_sub[
+        (~edges_sub["source"].isin(currency_ids)) &
+        (~edges_sub["target"].isin(currency_ids))
+    ]
+
+active_nodes = set(edges_sub["source"]).union(set(edges_sub["target"]))
+met_sub = df_met[df_met["node_id"].isin(active_nodes)].set_index("node_id")
+rxn_sub = df_rxn[df_rxn["node_id"].isin(active_nodes)].set_index("node_id")
+
+# --- 3. Construction du sous-graphe NetworkX ---
+G = nx.DiGraph()
+
+for nid, row in met_sub.iterrows():
+    short_name = str(row["name"]).split(";")[0][:25]  # Premier nom chimique, tronqué si trop long
+    G.add_node(
+        nid,
+        node_type="metabolite",
+        label=short_name,
+        full_name=str(row["name"]),
+        pathways=str(row["pathways"]),
+    )
+
+for nid, row in rxn_sub.iterrows():
+    G.add_node(
+        nid,
+        node_type="reaction",
+        label=nid,
+        genes=str(row.get("genes_pmeo", "")),
+        evidence=str(row.get("evidence_source", "")),
+        reversible=bool(row.get("reversible", False)),
+        pathways=str(row.get("pathway_titles", "")),
+    )
+
+for _, row in edges_sub.iterrows():
+    G.add_edge(
+        row["source"],
+        row["target"],
+        role=row["role"],
+        reversible=bool(row["reversible"]),
+    )
+
+print(f"Sous-graphe '{suffix}' : {G.number_of_nodes()} nœuds, {G.number_of_edges()} arêtes.")
+
+# --- 4. Visualisation interactive HTML (PyVis) ---
+net = Network(height="800px", width="100%", directed=True, bgcolor="#ffffff", font_color="#222222")
+net.barnes_hut(gravity=-4000, central_gravity=0.3, spring_length=120)
+
+for nid, data in G.nodes(data=True):
+    if data["node_type"] == "metabolite":
+        tooltip = f"<b>Métabolite :</b> {nid}<br><b>Nom :</b> {data['full_name']}<br><b>Voies :</b> {data['pathways']}"
+        net.add_node(
+            nid,
+            label=data["label"],
+            title=tooltip,
+            shape="dot",
+            size=16,
+            color="#FF9800",  # Orange pour les métabolites
+        )
+    else:
+        is_pmeo = (data["evidence"] == "KEGG_pmeo")
+        color = "#4CAF50" if is_pmeo else "#BDBDBD"  # Vert si présent chez pmeo, gris sinon
+        tooltip = (
+            f"<b>Réaction :</b> {nid}<br>"
+            f"<b>Source :</b> {data['evidence']}<br>"
+            f"<b>Gènes pmeo :</b> {data['genes'] or 'Aucun'}<br>"
+            f"<b>Réversible :</b> {data['reversible']}"
+        )
+        net.add_node(
+            nid,
+            label=nid,
+            title=tooltip,
+            shape="box",
+            color=color,
+            font={"color": "#ffffff" if is_pmeo else "#333333"},
+        )
+
+for u, v, data in G.edges(data=True):
+    arrows = "to, from" if data.get("reversible") else "to"
+    net.add_edge(u, v, arrows=arrows, color="#888888")
+
+html_path = os.path.join(OUT_DIR, f"viz_{suffix}.html")
+net.write_html(html_path)
+print(f"Visualisation interactive enregistrée : {html_path}")
+
+# --- 5. Visualisation statique PNG (Matplotlib) ---
+plt.figure(figsize=(14, 10))
+try:
+    pos = nx.kamada_kawai_layout(G)
+except Exception:
+    pos = nx.spring_layout(G, seed=42, k=0.8)
+
+met_nodes = [n for n, d in G.nodes(data=True) if d["node_type"] == "metabolite"]
+rxn_pmeo = [n for n, d in G.nodes(data=True) if d["node_type"] == "reaction" and d["evidence"] == "KEGG_pmeo"]
+rxn_ref = [n for n, d in G.nodes(data=True) if d["node_type"] == "reaction" and d["evidence"] != "KEGG_pmeo"]
+
+# Dessiner les nœuds par catégorie
+nx.draw_networkx_nodes(G, pos, nodelist=met_nodes, node_shape="o", node_color="#FF9800", node_size=450, label="Métabolites")
+nx.draw_networkx_nodes(G, pos, nodelist=rxn_pmeo, node_shape="s", node_color="#4CAF50", node_size=350, label="Réactions (pmeo)")
+nx.draw_networkx_nodes(G, pos, nodelist=rxn_ref, node_shape="s", node_color="#BDBDBD", node_size=300, label="Réactions (référence)")
+
+# Dessiner les arêtes et les étiquettes
+nx.draw_networkx_edges(G, pos, edge_color="#777777", arrows=True, arrowsize=12, alpha=0.75)
+labels = {n: d["label"] for n, d in G.nodes(data=True)}
+nx.draw_networkx_labels(G, pos, labels=labels, font_size=7)
+
+plt.title(f"Graphe métabolique biparti — {suffix} (cofacteurs masqués : {EXCLUDE_CURRENCY})", fontsize=13)
+plt.legend(scatterpoints=1, frameon=True, loc="best")
+plt.axis("off")
+plt.tight_layout()
+
+png_path = os.path.join(OUT_DIR, f"viz_{suffix}.png")
+plt.savefig(png_path, dpi=200)
+plt.close()
+print(f"Image statique enregistrée : {png_path}")

@@ -1,0 +1,1237 @@
+node_id,node_type,genes_pmeo,reversible,evidence_source,pathways,pathway_titles,x_kegg,y_kegg
+R00009,reaction,pmeo:129581217;pmeo:129587084;pmeo:129599740,False,KEGG_pmeo,pmeo00630,Glyoxylate and dicarboxylate metabolism,819.0,615.0
+R00010,reaction,pmeo:129581677;pmeo:129595165;pmeo:129595733;pmeo:129600678;pmeo:129600730,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1088.0,123.0
+R00014,reaction,pmeo:129599498;pmeo:129601677,False,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00620;pmeo00785,Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Lipoic acid metabolism;Pyruvate metabolism,431.0,858.0
+R00022,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,1034.0,328.0
+R00028,reaction,pmeo:129580625;pmeo:129580771;pmeo:129581076;pmeo:129588370;pmeo:129589548;pmeo:129590877;pmeo:129595471;pmeo:129599367,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1167.0,434.0
+R00036,reaction,pmeo:129586334,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,219.0,356.0
+R00078,reaction,pmeo:129584893;pmeo:129586139;pmeo:129592633;pmeo:129595731;pmeo:129597997;pmeo:129600612,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,599.0,150.0
+R00084,reaction,pmeo:129592213,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,302.0,356.0
+R00086,reaction,pmeo:129581204;pmeo:129581536;pmeo:129588653;pmeo:129590677;pmeo:129599874,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1444.0,422.0
+R00087,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1297.0,379.0
+R00100,reaction,pmeo:129581714;pmeo:129582792;pmeo:129585181;pmeo:129590441,False,KEGG_pmeo,pmeo00541,Biosynthesis of various nucleotide sugars,983.0,918.0
+R00102,reaction,pmeo:129581050,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,126.0
+R00103,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,935.0,257.0
+R00104,reaction,pmeo:129591177;pmeo:129594412,False,KEGG_pmeo,pmeo00760;pmeo01240,Biosynthesis of cofactors;Nicotinate and nicotinamide metabolism,1086.0,180.0
+R00111,reaction,pmeo:129580705;pmeo:129585738,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,471.0,385.0
+R00115,reaction,pmeo:129591988;pmeo:129598455,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,169.0,458.0
+R00122,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1297.0,427.0
+R00127,reaction,pmeo:129580645;pmeo:129580778;pmeo:129584133;pmeo:129586827;pmeo:129587296;pmeo:129590288;pmeo:129590564;pmeo:129590749;pmeo:129595981;pmeo:129602719;pmeo:129602721,True,KEGG_pmeo,pmeo00230;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Purine metabolism,1331.0,452.0
+R00130,reaction,pmeo:129581881,False,KEGG_pmeo,pmeo00770;pmeo01240,Biosynthesis of cofactors;Pantothenate and CoA biosynthesis,706.0,579.0
+R00135,reaction,pmeo:129581095;pmeo:129602100,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1047.0,373.0
+R00139,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,False,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,790.0,542.0
+R00155,reaction,pmeo:129580701;pmeo:129581536;pmeo:129582017;pmeo:129588653;pmeo:129590677;pmeo:129601255,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,184.0
+R00156,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00240;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Pyrimidine metabolism,395.0,237.0
+R00158,reaction,pmeo:129581987;pmeo:129583332;pmeo:129584522;pmeo:129593740,True,KEGG_pmeo,pmeo00240;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Pyrimidine metabolism,506.0,226.0
+R00159,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,262.0
+R00160,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00740,Riboflavin metabolism,918.0,151.0
+R00173,reaction,pmeo:129582133;pmeo:129598659;pmeo:129599846,True,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,682.0,222.0
+R00174,reaction,pmeo:129582133;pmeo:129598659;pmeo:129599846,True,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,682.0,203.0
+R00177,reaction,pmeo:129584375;pmeo:129589090;pmeo:129593824;pmeo:129599079,False,KEGG_pmeo,pmeo00270;pmeo00670;pmeo01230;pmeo01240,Biosynthesis of amino acids;Biosynthesis of cofactors;Cysteine and methionine metabolism;One carbon pool by folate,616.0,1087.0
+R00178,reaction,pmeo:129600699,False,KEGG_pmeo,pmeo00270;pmeo00330,Arginine and proline metabolism;Cysteine and methionine metabolism,779.0,1087.0
+R00181,reaction,pmeo:129587277;pmeo:129602828,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1091.0,460.0
+R00183,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1192.0,510.0
+R00184,reaction,pmeo:129586173;pmeo:129589138,False,KEGG_pmeo,pmeo00230,Purine metabolism,1340.0,200.0
+R00185,reaction,pmeo:129587470;pmeo:129587477,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1121.0,510.0
+R00187,reaction,pmeo:129593780,False,KEGG_pmeo,pmeo00230,Purine metabolism,1343.0,294.0
+R00189,reaction,pmeo:129584857,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R00190,reaction,pmeo:129600178,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1300.0,552.0
+R00192,reaction,pmeo:129585197;pmeo:129593889,False,KEGG_pmeo,pmeo00270;pmeo00670,Cysteine and methionine metabolism;One carbon pool by folate,694.0,898.0
+R00200,reaction,pmeo:129585136;pmeo:129597517,False,KEGG_pmeo,pmeo00010;pmeo00620;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Glycolysis / Gluconeogenesis;Pyruvate metabolism,483.0,771.0
+R00209,reaction,pmeo:129591190;pmeo:129595578;pmeo:129599498;pmeo:129601677;pmeo:129601868,False,KEGG_pmeo,pmeo01200;pmeo01210,2-Oxocarboxylic acid metabolism;Carbon metabolism,,
+R00210,reaction,pmeo:129591190;pmeo:129595578;pmeo:129599498;pmeo:129601677;pmeo:129601868,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R00214,reaction,pmeo:129585808,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00216,reaction,pmeo:129585808,True,KEGG_pmeo,pmeo00620;pmeo01200,Carbon metabolism;Pyruvate metabolism,237.0,479.0
+R00220,reaction,pmeo:129584068,False,KEGG_pmeo,pmeo00260;pmeo01200;pmeo01230,"Biosynthesis of amino acids;Carbon metabolism;Glycine, serine and threonine metabolism",708.0,305.0
+R00233,reaction,pmeo:129587720,False,KEGG_pmeo,pmeo00410;pmeo00640,Propanoate metabolism;beta-Alanine metabolism,145.0,570.0
+R00235,reaction,pmeo:129594400,False,KEGG_pmeo,pmeo00010;pmeo00630;pmeo01200,Carbon metabolism;Glycolysis / Gluconeogenesis;Glyoxylate and dicarboxylate metabolism,96.0,916.0
+R00236,reaction,pmeo:129594400,True,KEGG_pmeo,pmeo00620,Pyruvate metabolism,535.0,650.0
+R00238,reaction,pmeo:129584785;pmeo:129584839;pmeo:129585627;pmeo:129589002,True,KEGG_pmeo,pmeo00071;pmeo00280;pmeo00310;pmeo00380;pmeo00620;pmeo00630;pmeo00650;pmeo00900;pmeo01200;pmeo01212,"Butanoate metabolism;Carbon metabolism;Fatty acid degradation;Fatty acid metabolism;Glyoxylate and dicarboxylate metabolism;Lysine degradation;Pyruvate metabolism;Terpenoid backbone biosynthesis;Tryptophan metabolism;Valine, leucine and isoleucine degradation",923.0,659.0
+R00243,reaction,pmeo:129594832,True,KEGG_pmeo,pmeo00220;pmeo00250;pmeo00910,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Nitrogen metabolism",160.0,324.0
+R00245,reaction,pmeo:129598336,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,824.0,204.0
+R00248,reaction,pmeo:129594832,True,KEGG_pmeo,pmeo00220;pmeo00250;pmeo00910;pmeo01200,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Carbon metabolism;Nitrogen metabolism",160.0,324.0
+R00253,reaction,pmeo:129584924;pmeo:129585111,False,KEGG_pmeo,pmeo00220;pmeo00250;pmeo00630;pmeo00910;pmeo01230,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids;Glyoxylate and dicarboxylate metabolism;Nitrogen metabolism",107.0,203.0
+R00256,reaction,pmeo:129589220,False,KEGG_pmeo,pmeo00220;pmeo00250,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis",160.0,203.0
+R00257,reaction,pmeo:129584857,False,KEGG_pmeo,pmeo00760;pmeo01240,Biosynthesis of cofactors;Nicotinate and nicotinamide metabolism,1037.0,293.0
+R00258,reaction,pmeo:129580716;pmeo:129581659;pmeo:129584534;pmeo:129589598;pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00220;pmeo00250;pmeo01200;pmeo01210;pmeo01230,"2-Oxocarboxylic acid metabolism;Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids;Carbon metabolism",129.0,374.0
+R00261,reaction,pmeo:129585499,False,KEGG_pmeo,pmeo00250;pmeo00650,"Alanine, aspartate and glutamate metabolism;Butanoate metabolism",542.0,719.0
+R00267,reaction,pmeo:129588555;pmeo:129594118;pmeo:129594902;pmeo:129596009;pmeo:129599484,True,KEGG_pmeo,pmeo00480;pmeo01200;pmeo01210;pmeo01230,2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Carbon metabolism;Glutathione metabolism,169.0,490.0
+R00268,reaction,pmeo:129594118,True,KEGG_pmeo,pmeo00020;pmeo01210,2-Oxocarboxylic acid metabolism;Citrate cycle (TCA cycle),718.0,510.0
+R00269,reaction,pmeo:129593338;pmeo:129593725,False,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",778.0,577.0
+R00277,reaction,pmeo:129588126,False,KEGG_pmeo,pmeo00750,Vitamin B6 metabolism,757.0,136.0
+R00278,reaction,pmeo:129588126,False,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,757.0,291.0
+R00286,reaction,pmeo:129599495,True,KEGG_pmeo,pmeo00040;pmeo00053;pmeo00520;pmeo00541;pmeo01240;pmeo01250,Amino sugar and nucleotide sugar metabolism;Ascorbate and aldarate metabolism;Biosynthesis of cofactors;Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars;Pentose and glucuronate interconversions,241.0,576.0
+R00287,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,668.0,376.0
+R00289,reaction,pmeo:129585748;pmeo:129597095,True,KEGG_pmeo,pmeo00040;pmeo00052;pmeo00500;pmeo00520;pmeo00541;pmeo01240;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of cofactors;Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars;Galactose metabolism;Pentose and glucuronate interconversions;Starch and sucrose metabolism,117.0,576.0
+R00291,reaction,pmeo:129581928;pmeo:129602358,True,KEGG_pmeo,pmeo00052;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Galactose metabolism,524.0,306.0
+R00292,reaction,pmeo:129585652;pmeo:129589262;pmeo:129595629;pmeo:129597079,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,835.0,330.0
+R00293,reaction,pmeo:129600002,False,KEGG_pmeo,pmeo00541;pmeo01250,Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars,276.0,1140.0
+R00299,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,486.0,735.0
+R00310,reaction,pmeo:129591706,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,745.0,357.0
+R00316,reaction,pmeo:129594400,True,KEGG_pmeo,pmeo00620,Pyruvate metabolism,736.0,650.0
+R00328,reaction,pmeo:129580701;pmeo:129581536;pmeo:129582017;pmeo:129588653;pmeo:129590677;pmeo:129601255,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,539.0,405.0
+R00330,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,404.0,449.0
+R00331,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Purine metabolism,1470.0,462.0
+R00332,reaction,pmeo:129600681;pmeo:129602864,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,539.0,449.0
+R00333,reaction,pmeo:129580645;pmeo:129580778;pmeo:129584133;pmeo:129586827;pmeo:129587296;pmeo:129590288;pmeo:129590564;pmeo:129590749;pmeo:129595981;pmeo:129602719;pmeo:129602721,True,KEGG_pmeo,pmeo00230;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Purine metabolism,1331.0,473.0
+R00335,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,404.0,416.0
+R00336,reaction,pmeo:129585242,True,KEGG_pmeo,pmeo00230,Purine metabolism,406.0,334.0
+R00342,reaction,pmeo:129585918;pmeo:129588105,True,KEGG_pmeo,pmeo00020;pmeo00620;pmeo00630;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism;Pyruvate metabolism,253.0,349.0
+R00343,reaction,pmeo:129585918;pmeo:129588105,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00344,reaction,pmeo:129593572,False,KEGG_pmeo,pmeo00020;pmeo00620;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Citrate cycle (TCA cycle);Pyruvate metabolism,736.0,278.0
+R00348,reaction,pmeo:129593338;pmeo:129593725,False,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",752.0,440.0
+R00351,reaction,pmeo:129581866,True,KEGG_pmeo,pmeo00020;pmeo00630;pmeo01200;pmeo01210;pmeo01230,2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Carbon metabolism;Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism,424.0,339.0
+R00352,reaction,pmeo:129581866;pmeo:129594357,True,KEGG_pmeo,pmeo00020;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle),472.0,360.0
+R00355,reaction,pmeo:129580716;pmeo:129584534;pmeo:129589598;pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00220;pmeo00250;pmeo01200;pmeo01210;pmeo01230,"2-Oxocarboxylic acid metabolism;Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids;Carbon metabolism",129.0,353.0
+R00359,reaction,pmeo:129592807;pmeo:129593674,False,KEGG_pmeo,pmeo00250;pmeo00470,"Alanine, aspartate and glutamate metabolism;D-Amino acid metabolism",678.0,445.0
+R00369,reaction,pmeo:129580716;pmeo:129581659;pmeo:129584534;pmeo:129589598,True,KEGG_pmeo,pmeo00250;pmeo00630;pmeo01200;pmeo01210,"2-Oxocarboxylic acid metabolism;Alanine, aspartate and glutamate metabolism;Carbon metabolism;Glyoxylate and dicarboxylate metabolism",143.0,395.0
+R00372,reaction,pmeo:129581659,True,KEGG_pmeo,pmeo00260;pmeo01200,"Carbon metabolism;Glycine, serine and threonine metabolism",741.0,529.0
+R00390,reaction,pmeo:129581522;pmeo:129584341;pmeo:129586515;pmeo:129586541;pmeo:129592364;pmeo:129593827;pmeo:129597553;pmeo:129599059;pmeo:129599508;pmeo:129601051;pmeo:129601055;pmeo:129601059;pmeo:129601062;pmeo:129601064,False,KEGG_pmeo,pmeo00061,Fatty acid biosynthesis,677.0,1540.0
+R00391,reaction,pmeo:129584839;pmeo:129589002,False,KEGG_pmeo,pmeo00062,Fatty acid elongation,214.0,768.0
+R00400,reaction,pmeo:129580716;pmeo:129581659;pmeo:129584534;pmeo:129589598,True,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R00402,reaction,pmeo:129581555;pmeo:129583563;pmeo:129586819;pmeo:129587097;pmeo:129590717,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00405,reaction,pmeo:129588080;pmeo:129597741;pmeo:129598527,True,KEGG_pmeo,pmeo00020;pmeo00640;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle);Propanoate metabolism,260.0,579.0
+R00406,reaction,pmeo:129588080;pmeo:129597741;pmeo:129598527,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00410,reaction,pmeo:129595611,True,KEGG_pmeo,pmeo00280;pmeo00650,"Butanoate metabolism;Valine, leucine and isoleucine degradation",101.0,718.0
+R00416,reaction,pmeo:129585807,False,KEGG_pmeo,pmeo00520;pmeo00541;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars,594.0,379.0
+R00418,reaction,pmeo:129581928;pmeo:129602358,True,KEGG_pmeo,pmeo01250,Biosynthesis of nucleotide sugars,,
+R00424,reaction,pmeo:129582753,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R00426,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,539.0,362.0
+R00428,reaction,pmeo:129582753,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,157.0,252.0
+R00431,reaction,pmeo:129590605,True,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00620,Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Pyruvate metabolism,239.0,726.0
+R00432,reaction,pmeo:129588080;pmeo:129597741;pmeo:129598527,True,KEGG_pmeo,pmeo00020;pmeo00640;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle);Propanoate metabolism,260.0,560.0
+R00434,reaction,pmeo:129580734;pmeo:129580783;pmeo:129581125;pmeo:129581533;pmeo:129581933;pmeo:129581934;pmeo:129581936;pmeo:129581976;pmeo:129582080;pmeo:129582119;pmeo:129582475;pmeo:129583255;pmeo:129583259;pmeo:129583344;pmeo:129583417;pmeo:129583551;pmeo:129583863;pmeo:129584220;pmeo:129584298;pmeo:129584457;pmeo:129584713;pmeo:129585268;pmeo:129585270;pmeo:129585276;pmeo:129585302;pmeo:129585679;pmeo:129585850;pmeo:129585851;pmeo:129586296;pmeo:129586432;pmeo:129586489;pmeo:129586656;pmeo:129586663;pmeo:129586771;pmeo:129586806;pmeo:129586908;pmeo:129586994;pmeo:129587570;pmeo:129588280;pmeo:129588285;pmeo:129588304;pmeo:129588433;pmeo:129588451;pmeo:129588453;pmeo:129588459;pmeo:129588645;pmeo:129588652;pmeo:129588738;pmeo:129589076;pmeo:129589591;pmeo:129589742;pmeo:129590152;pmeo:129590417;pmeo:129590449;pmeo:129590495;pmeo:129590589;pmeo:129590648;pmeo:129590651;pmeo:129590967;pmeo:129590981;pmeo:129591163;pmeo:129591214;pmeo:129591273;pmeo:129591290;pmeo:129592181;pmeo:129592228;pmeo:129592409;pmeo:129592591;pmeo:129593048;pmeo:129593277;pmeo:129593287;pmeo:129593329;pmeo:129593330;pmeo:129593400;pmeo:129593964;pmeo:129593984;pmeo:129593986;pmeo:129594281;pmeo:129594289;pmeo:129594316;pmeo:129594361;pmeo:129594372;pmeo:129594452;pmeo:129594461;pmeo:129594485;pmeo:129594490;pmeo:129594864;pmeo:129594897;pmeo:129594909;pmeo:129594913;pmeo:129594922;pmeo:129595029;pmeo:129595239;pmeo:129595333;pmeo:129595334;pmeo:129595503;pmeo:129595668;pmeo:129595675;pmeo:129595862;pmeo:129595877;pmeo:129596153;pmeo:129596240;pmeo:129596275;pmeo:129596436;pmeo:129596647;pmeo:129596926;pmeo:129596970;pmeo:129597420;pmeo:129597595;pmeo:129597738;pmeo:129597939;pmeo:129597956;pmeo:129598229;pmeo:129598249;pmeo:129598666;pmeo:129598739;pmeo:129598765;pmeo:129599567;pmeo:129599622;pmeo:129600073;pmeo:129600074;pmeo:129600087;pmeo:129600089;pmeo:129600164;pmeo:129600189;pmeo:129600539;pmeo:129600632;pmeo:129601073;pmeo:129601331;pmeo:129601646;pmeo:129602617;pmeo:129602650;pmeo:129602694;pmeo:129602697;pmeo:129602728;pmeo:129602789;pmeo:129602796;pmeo:129602847;pmeo:129602867,False,KEGG_pmeo,pmeo00230,Purine metabolism,165.0,409.0
+R00481,reaction,pmeo:129581452,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R00483,reaction,pmeo:129584945;pmeo:129585113,False,KEGG_pmeo,pmeo01230,Biosynthesis of amino acids,,
+R00489,reaction,pmeo:129585499;pmeo:129589110,False,KEGG_pmeo,pmeo00410;pmeo00770,Pantothenate and CoA biosynthesis;beta-Alanine metabolism,577.0,150.0
+R00494,reaction,pmeo:129583765;pmeo:129586701;pmeo:129586823;pmeo:129586966;pmeo:129588658,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,332.0,430.0
+R00497,reaction,pmeo:129592347,False,KEGG_pmeo,pmeo00480;pmeo01240,Biosynthesis of cofactors;Glutathione metabolism,458.0,457.0
+R00503,reaction,pmeo:129589657;pmeo:129593681,False,KEGG_pmeo,pmeo00052,Galactose metabolism,317.0,429.0
+R00508,reaction,pmeo:129585239;pmeo:129587319;pmeo:129597464,False,KEGG_pmeo,pmeo00920,Sulfur metabolism,171.0,537.0
+R00509,reaction,pmeo:129597679,False,KEGG_pmeo,pmeo00230;pmeo00920;pmeo01320,Purine metabolism;Sulfur cycle;Sulfur metabolism,1505.0,249.0
+R00511,reaction,pmeo:129589050;pmeo:129589309;pmeo:129599688,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,409.0
+R00512,reaction,pmeo:129581987;pmeo:129583332;pmeo:129584522;pmeo:129593740,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,417.0
+R00513,reaction,pmeo:129592366,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,366.0
+R00514,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,393.0
+R00515,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,453.0,358.0
+R00517,reaction,pmeo:129592366,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,366.0
+R00527,reaction,pmeo:129584063;pmeo:129598044,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00529,reaction,pmeo:129597679,True,KEGG_pmeo,pmeo00230;pmeo00920;pmeo01320,Purine metabolism;Sulfur cycle;Sulfur metabolism,1553.0,211.0
+R00533,reaction,pmeo:129585642;pmeo:129585644,False,KEGG_pmeo,pmeo00920,Sulfur metabolism,198.0,370.0
+R00548,reaction,pmeo:129587098;pmeo:129587116;pmeo:129590764;pmeo:129591616;pmeo:129597966,False,KEGG_pmeo,pmeo00740,Riboflavin metabolism,772.0,151.0
+R00549,reaction,pmeo:129594757,False,KEGG_pmeo,pmeo00740;pmeo01240,Biosynthesis of cofactors;Riboflavin metabolism,772.0,195.0
+R00551,reaction,pmeo:129587596,False,KEGG_pmeo,pmeo00220;pmeo00330;pmeo01230,Arginine and proline metabolism;Arginine biosynthesis;Biosynthesis of amino acids,897.0,296.0
+R00554,reaction,pmeo:129581624,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,389.0,310.0
+R00557,reaction,pmeo:129580705;pmeo:129585738,True,KEGG_pmeo,pmeo00220,Arginine biosynthesis,785.0,207.0
+R00558,reaction,pmeo:129580705;pmeo:129585738,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,344.0,363.0
+R00569,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,418.0
+R00570,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00240;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Pyrimidine metabolism,395.0,437.0
+R00571,reaction,pmeo:129597773,False,KEGG_pmeo,pmeo00240;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Pyrimidine metabolism,334.0,319.0
+R00573,reaction,pmeo:129597773,False,KEGG_pmeo,pmeo00240;pmeo01232;pmeo01240,Biosynthesis of cofactors;Nucleotide metabolism;Pyrimidine metabolism,334.0,319.0
+R00575,reaction,pmeo:129580598;pmeo:129589145,False,KEGG_pmeo,pmeo00220;pmeo00240;pmeo00250;pmeo01240,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of cofactors;Pyrimidine metabolism",401.0,203.0
+R00578,reaction,pmeo:129584945;pmeo:129585113,True,KEGG_pmeo,pmeo00250;pmeo01230,"Alanine, aspartate and glutamate metabolism;Biosynthesis of amino acids",647.0,273.0
+R00582,reaction,pmeo:129601170,False,KEGG_pmeo,pmeo00260;pmeo01200;pmeo01230,"Biosynthesis of amino acids;Carbon metabolism;Glycine, serine and threonine metabolism",615.0,218.0
+R00589,reaction,pmeo:129593272,True,KEGG_pmeo,pmeo00260;pmeo00470,"D-Amino acid metabolism;Glycine, serine and threonine metabolism",708.0,222.0
+R00604,reaction,pmeo:129584063;pmeo:129598044,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00614,reaction,pmeo:129584063;pmeo:129598044,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R00615,reaction,pmeo:129581204,False,KEGG_pmeo,pmeo00730,Thiamine metabolism,704.0,546.0
+R00618,reaction,pmeo:129596006,False,KEGG_pmeo,pmeo00730,Thiamine metabolism,835.0,557.0
+R00619,reaction,pmeo:129594303,False,KEGG_pmeo,pmeo00730;pmeo01240,Biosynthesis of cofactors;Thiamine metabolism,705.0,700.0
+R00621,reaction,pmeo:129585090;pmeo:129593472,False,KEGG_pmeo,pmeo00020;pmeo00785,Citrate cycle (TCA cycle);Lipoic acid metabolism,661.0,579.0
+R00623,reaction,pmeo:129584063,True,KEGG_pmeo,pmeo00071,Fatty acid degradation,455.0,905.0
+R00631,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,True,KEGG_pmeo,pmeo00071,Fatty acid degradation,557.0,905.0
+R00658,reaction,pmeo:129586951;pmeo:129593748,True,KEGG_pmeo,pmeo00010;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Glycolysis / Gluconeogenesis,483.0,701.0
+R00662,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,453.0,288.0
+R00667,reaction,pmeo:129587203;pmeo:129587204,True,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,695.0,330.0
+R00670,reaction,pmeo:129582012;pmeo:129582266;pmeo:129582299;pmeo:129582431;pmeo:129583355;pmeo:129593726;pmeo:129593744;pmeo:129599414,False,KEGG_pmeo,pmeo00330;pmeo00480,Arginine and proline metabolism;Glutathione metabolism,622.0,425.0
+R00678,reaction,pmeo:129591010;pmeo:129596105,False,KEGG_pmeo,pmeo00380;pmeo01240,Biosynthesis of cofactors;Tryptophan metabolism,485.0,629.0
+R00685,reaction,pmeo:129580691;pmeo:129602224,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,575.0,445.0
+R00694,reaction,pmeo:129580611;pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00360;pmeo00400,"Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",390.0,235.0
+R00699,reaction,pmeo:129580691;pmeo:129602224,False,KEGG_pmeo,pmeo00360,Phenylalanine metabolism,242.0,230.0
+R00702,reaction,pmeo:129589107;pmeo:129591718,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,372.0,137.0
+R00703,reaction,pmeo:129587579;pmeo:129589094,True,KEGG_pmeo,pmeo00010;pmeo00620,Glycolysis / Gluconeogenesis;Pyruvate metabolism,579.0,869.0
+R00705,reaction,pmeo:129581356,False,KEGG_pmeo,pmeo00410;pmeo00562;pmeo00640;pmeo01200,Carbon metabolism;Inositol phosphate metabolism;Propanoate metabolism;beta-Alanine metabolism,203.0,611.0
+R00706,reaction,pmeo:129581356,False,KEGG_pmeo,pmeo00410;pmeo00562;pmeo00640;pmeo01200,Carbon metabolism;Inositol phosphate metabolism;Propanoate metabolism;beta-Alanine metabolism,203.0,611.0
+R00707,reaction,pmeo:129598336,True,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",676.0,793.0
+R00708,reaction,pmeo:129598336,True,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",676.0,793.0
+R00709,reaction,pmeo:129588555;pmeo:129594118;pmeo:129594902;pmeo:129596009;pmeo:129599484,True,KEGG_pmeo,pmeo00020;pmeo01200;pmeo01210;pmeo01230,2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Carbon metabolism;Citrate cycle (TCA cycle),766.0,463.0
+R00710,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,True,KEGG_pmeo,pmeo00010;pmeo00620,Glycolysis / Gluconeogenesis;Pyruvate metabolism,284.0,948.0
+R00713,reaction,pmeo:129590742,False,KEGG_pmeo,pmeo00250;pmeo00650,"Alanine, aspartate and glutamate metabolism;Butanoate metabolism",309.0,661.0
+R00716,reaction,pmeo:129588049,False,KEGG_pmeo,pmeo00310,Lysine degradation,277.0,96.0
+R00719,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,805.0,352.0
+R00720,reaction,pmeo:129586892;pmeo:129591799,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,863.0,299.0
+R00722,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,805.0,328.0
+R00726,reaction,pmeo:129590605,True,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00620,Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Pyruvate metabolism,239.0,726.0
+R00727,reaction,pmeo:129588080;pmeo:129597741;pmeo:129598527,True,KEGG_pmeo,pmeo00020;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle),260.0,560.0
+R00734,reaction,pmeo:129580611;pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00130;pmeo00350;pmeo00400,"Phenylalanine, tyrosine and tryptophan biosynthesis;Tyrosine metabolism;Ubiquinone and other terpenoid-quinone biosynthesis",317.0,256.0
+R00736,reaction,pmeo:129580691;pmeo:129583889;pmeo:129602224,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,555.0,291.0
+R00742,reaction,pmeo:129591814,True,KEGG_pmeo,pmeo00061;pmeo00620;pmeo00640;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism;Propanoate metabolism;Pyruvate metabolism,275.0,147.0
+R00746,reaction,pmeo:129584494;pmeo:129584749;pmeo:129593141,True,KEGG_pmeo,pmeo00010;pmeo00620,Glycolysis / Gluconeogenesis;Pyruvate metabolism,487.0,948.0
+R00748,reaction,pmeo:129584951,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1097.0,512.0
+R00751,reaction,pmeo:129587732,True,KEGG_pmeo,pmeo00260;pmeo01230,"Biosynthesis of amino acids;Glycine, serine and threonine metabolism",593.0,751.0
+R00754,reaction,pmeo:129584063,True,KEGG_pmeo,pmeo00010;pmeo00620,Glycolysis / Gluconeogenesis;Pyruvate metabolism,439.0,941.0
+R00756,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo00010;pmeo00030;pmeo00051;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Fructose and mannose metabolism;Glycolysis / Gluconeogenesis;Pentose phosphate pathway,458.0,339.0
+R00760,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo00051;pmeo00500;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Fructose and mannose metabolism;Starch and sucrose metabolism,496.0,300.0
+R00762,reaction,pmeo:129594744,False,KEGG_pmeo,pmeo00010;pmeo00030;pmeo00051;pmeo01200,Carbon metabolism;Fructose and mannose metabolism;Glycolysis / Gluconeogenesis;Pentose phosphate pathway,408.0,339.0
+R00763,reaction,pmeo:129586389;pmeo:129587786,False,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,923.0,287.0
+R00765,reaction,pmeo:129593502,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,334.0,754.0
+R00768,reaction,pmeo:129585994,False,KEGG_pmeo,pmeo00250;pmeo00520;pmeo01250,"Alanine, aspartate and glutamate metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars",897.0,671.0
+R00771,reaction,pmeo:129591461,True,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,206.0,746.0
+R00772,reaction,pmeo:129583242,True,KEGG_pmeo,pmeo00051;pmeo00520;pmeo01240;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of cofactors;Biosynthesis of nucleotide sugars;Fructose and mannose metabolism,705.0,342.0
+R00782,reaction,pmeo:129584141;pmeo:129586532;pmeo:129587816;pmeo:129591279,True,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,177.0,472.0
+R00801,reaction,pmeo:129580625;pmeo:129580771;pmeo:129581076;pmeo:129588370;pmeo:129589548;pmeo:129590877;pmeo:129595471;pmeo:129599367,False,KEGG_pmeo,pmeo00052;pmeo00500,Galactose metabolism;Starch and sucrose metabolism,740.0,503.0
+R00830,reaction,pmeo:129591922,False,KEGG_pmeo,pmeo00260;pmeo00860;pmeo01240,"Biosynthesis of cofactors;Glycine, serine and threonine metabolism;Porphyrin metabolism",744.0,625.0
+R00833,reaction,pmeo:129588423,True,KEGG_pmeo,pmeo00280;pmeo00630;pmeo00640;pmeo01200,"Carbon metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Valine, leucine and isoleucine degradation",350.0,916.0
+R00842,reaction,pmeo:129588005;pmeo:129599697,True,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,170.0,214.0
+R00847,reaction,pmeo:129583506,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,405.0,369.0
+R00848,reaction,pmeo:129582595;pmeo:129593343,True,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,170.0,273.0
+R00851,reaction,pmeo:129580830;pmeo:129602850,False,KEGG_pmeo,pmeo00561;pmeo00564,Glycerolipid metabolism;Glycerophospholipid metabolism,382.0,445.0
+R00875,reaction,pmeo:129584309;pmeo:129591207;pmeo:129599406,True,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,221.0,206.0
+R00885,reaction,pmeo:129581639;pmeo:129591380,True,KEGG_pmeo,pmeo00051;pmeo00520;pmeo00541;pmeo01240;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of cofactors;Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars;Fructose and mannose metabolism,395.0,444.0
+R00888,reaction,pmeo:129602599,False,KEGG_pmeo,pmeo00051;pmeo00541;pmeo01250,Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars;Fructose and mannose metabolism,420.0,536.0
+R00891,reaction,pmeo:129595495,False,KEGG_pmeo,pmeo00260,"Glycine, serine and threonine metabolism",532.0,361.0
+R00894,reaction,pmeo:129581922;pmeo:129593422;pmeo:129598461,False,KEGG_pmeo,pmeo00480;pmeo01240,Biosynthesis of cofactors;Glutathione metabolism,542.0,275.0
+R00896,reaction,pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,76.0,472.0
+R00897,reaction,pmeo:129592346,False,KEGG_pmeo,pmeo00270;pmeo00920;pmeo01200;pmeo01230;pmeo01320,Biosynthesis of amino acids;Carbon metabolism;Cysteine and methionine metabolism;Sulfur cycle;Sulfur metabolism,491.0,224.0
+R00899,reaction,pmeo:129581095;pmeo:129586552;pmeo:129587761;pmeo:129591778;pmeo:129595355,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,357.0,323.0
+R00904,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00410;pmeo00770;pmeo01240,Biosynthesis of cofactors;Pantothenate and CoA biosynthesis;beta-Alanine metabolism,467.0,282.0
+R00905,reaction,pmeo:129580934,True,KEGG_pmeo,pmeo00240;pmeo00410;pmeo00770,Pantothenate and CoA biosynthesis;Pyrimidine metabolism;beta-Alanine metabolism,1127.0,236.0
+R00908,reaction,pmeo:129581895;pmeo:129588704,True,KEGG_pmeo,pmeo00410;pmeo00640,Propanoate metabolism;beta-Alanine metabolism,216.0,432.0
+R00922,reaction,pmeo:129581356,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",531.0,757.0
+R00923,reaction,pmeo:129595958,False,KEGG_pmeo,pmeo00640,Propanoate metabolism,831.0,390.0
+R00926,reaction,pmeo:129584561;pmeo:129594400;pmeo:129600407;pmeo:129600416,True,KEGG_pmeo,pmeo00640,Propanoate metabolism,1051.0,229.0
+R00927,reaction,pmeo:129584839;pmeo:129589002,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",622.0,703.0
+R00935,reaction,pmeo:129581356,False,KEGG_pmeo,pmeo00640,Propanoate metabolism,951.0,409.0
+R00936,reaction,pmeo:129594394;pmeo:129597036,True,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,261.0,261.0
+R00937,reaction,pmeo:129594394;pmeo:129597036,False,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,256.0,172.0
+R00939,reaction,pmeo:129594394;pmeo:129597036,True,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,261.0,261.0
+R00940,reaction,pmeo:129594394;pmeo:129597036,False,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,256.0,172.0
+R00941,reaction,pmeo:129599237,False,KEGG_pmeo,pmeo00670,One carbon pool by folate,412.0,336.0
+R00942,reaction,pmeo:129598500,True,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,547.0,781.0
+R00943,reaction,pmeo:129585035,True,KEGG_pmeo,pmeo00670;pmeo01240,Biosynthesis of cofactors;One carbon pool by folate,411.0,265.0
+R00945,reaction,pmeo:129581388,True,KEGG_pmeo,pmeo00260;pmeo00630;pmeo00670;pmeo01200;pmeo01230;pmeo01240,"Biosynthesis of amino acids;Biosynthesis of cofactors;Carbon metabolism;Glycine, serine and threonine metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate",611.0,426.0
+R00946,reaction,pmeo:129585962,True,KEGG_pmeo,pmeo00270;pmeo00670;pmeo01230,Biosynthesis of amino acids;Cysteine and methionine metabolism;One carbon pool by folate,492.0,1002.0
+R00955,reaction,pmeo:129598497,True,KEGG_pmeo,pmeo00052;pmeo00520,Amino sugar and nucleotide sugar metabolism;Galactose metabolism,332.0,306.0
+R00959,reaction,pmeo:129586746;pmeo:129589192,True,KEGG_pmeo,pmeo00010;pmeo00052;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Galactose metabolism;Glycolysis / Gluconeogenesis,483.0,178.0
+R00961,reaction,pmeo:129580701;pmeo:129581536;pmeo:129582017;pmeo:129588653;pmeo:129589118;pmeo:129590677;pmeo:129601255,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,894.0,369.0
+R00963,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,255.0
+R00964,reaction,pmeo:129592366,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,233.0
+R00965,reaction,pmeo:129584965,False,KEGG_pmeo,pmeo00240;pmeo01240,Biosynthesis of cofactors;Pyrimidine metabolism,519.0,154.0
+R00968,reaction,pmeo:129592366,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,233.0
+R00969,reaction,pmeo:129586173;pmeo:129589138,False,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,288.0,208.0
+R00974,reaction,pmeo:129593547;pmeo:129593548,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,854.0,357.0
+R00978,reaction,pmeo:129590432,True,KEGG_pmeo,pmeo00240;pmeo00410;pmeo00770,Pantothenate and CoA biosynthesis;Pyrimidine metabolism;beta-Alanine metabolism,930.0,246.0
+R00987,reaction,pmeo:129599452,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,587.0,749.0
+R00988,reaction,pmeo:129596557;pmeo:129596877,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,679.0,702.0
+R00996,reaction,pmeo:129584068,False,KEGG_pmeo,pmeo00260;pmeo00290;pmeo01230,"Biosynthesis of amino acids;Glycine, serine and threonine metabolism;Valine, leucine and isoleucine biosynthesis",560.0,790.0
+R01000,reaction,pmeo:129587579;pmeo:129589094,True,KEGG_pmeo,pmeo00640,Propanoate metabolism,743.0,64.0
+R01001,reaction,pmeo:129586532;pmeo:129587816;pmeo:129591279,True,KEGG_pmeo,pmeo00260;pmeo00270;pmeo00670;pmeo01230,"Biosynthesis of amino acids;Cysteine and methionine metabolism;Glycine, serine and threonine metabolism;One carbon pool by folate",480.0,396.0
+R01004,reaction,pmeo:129589271,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,179.0,480.0
+R01005,reaction,pmeo:129590280,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,271.0,417.0
+R01009,reaction,pmeo:129581674;pmeo:129596369,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,456.0,327.0
+R01011,reaction,pmeo:129591263,False,KEGG_pmeo,pmeo00561;pmeo01200,Carbon metabolism;Glycerolipid metabolism,157.0,309.0
+R01013,reaction,pmeo:129594201,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,112.0,306.0
+R01015,reaction,pmeo:129586989,True,KEGG_pmeo,pmeo00010;pmeo00051;pmeo00562;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Fructose and mannose metabolism;Glycolysis / Gluconeogenesis;Inositol phosphate metabolism,386.0,449.0
+R01023,reaction,pmeo:129591546,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1262.0,321.0
+R01026,reaction,pmeo:129593599,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1262.0,341.0
+R01030,reaction,pmeo:129589287;pmeo:129590533,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1124.0,233.0
+R01036,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,484.0,279.0
+R01041,reaction,pmeo:129584494;pmeo:129584749;pmeo:129585318;pmeo:129589061;pmeo:129593141;pmeo:129598525,True,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,484.0,279.0
+R01049,reaction,pmeo:129584470,True,KEGG_pmeo,pmeo00030;pmeo00230;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose phosphate pathway;Purine metabolism,536.0,613.0
+R01051,reaction,pmeo:129584529,True,KEGG_pmeo,pmeo00030,Pentose phosphate pathway,615.0,548.0
+R01054,reaction,pmeo:129585724,False,KEGG_pmeo,pmeo00230,Purine metabolism,112.0,253.0
+R01055,reaction,pmeo:129589226,True,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,904.0,181.0
+R01056,reaction,pmeo:129587590,True,KEGG_pmeo,pmeo00030;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose phosphate pathway,535.0,513.0
+R01057,reaction,pmeo:129586746;pmeo:129589192,True,KEGG_pmeo,pmeo00030;pmeo00230,Pentose phosphate pathway;Purine metabolism,615.0,569.0
+R01059,reaction,pmeo:129591263,False,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,999.0,756.0
+R01061,reaction,pmeo:129590270;pmeo:129591254,True,KEGG_pmeo,pmeo00010;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Glycolysis / Gluconeogenesis,458.0,484.0
+R01063,reaction,pmeo:129591254,True,KEGG_pmeo,pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism,,
+R01066,reaction,pmeo:129580643,True,KEGG_pmeo,pmeo00030,Pentose phosphate pathway,268.0,791.0
+R01067,reaction,pmeo:129591375,True,KEGG_pmeo,pmeo00030;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose phosphate pathway,311.0,474.0
+R01068,reaction,pmeo:129580818,True,KEGG_pmeo,pmeo00010;pmeo00030;pmeo00051;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Fructose and mannose metabolism;Glycolysis / Gluconeogenesis;Pentose phosphate pathway,483.0,407.0
+R01072,reaction,pmeo:129597609;pmeo:129601725,False,KEGG_pmeo,pmeo00230;pmeo00250,"Alanine, aspartate and glutamate metabolism;Purine metabolism",297.0,188.0
+R01082,reaction,pmeo:129593244,True,KEGG_pmeo,pmeo00020;pmeo00620;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle);Pyruvate metabolism,191.0,441.0
+R01083,reaction,pmeo:129586525;pmeo:129595436;pmeo:129595494,False,KEGG_pmeo,pmeo00230;pmeo00250;pmeo01232;pmeo01240,"Alanine, aspartate and glutamate metabolism;Biosynthesis of cofactors;Nucleotide metabolism;Purine metabolism",1140.0,342.0
+R01085,reaction,pmeo:129589139,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,128.0,714.0
+R01086,reaction,pmeo:129592677,False,KEGG_pmeo,pmeo00220;pmeo00250;pmeo01230,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids",899.0,109.0
+R01090,reaction,pmeo:129583828,True,KEGG_pmeo,pmeo00280;pmeo00290;pmeo01210;pmeo01230,"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Valine, leucine and isoleucine biosynthesis;Valine, leucine and isoleucine degradation",142.0,194.0
+R01092,reaction,pmeo:129584489,False,KEGG_pmeo,pmeo00052;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Galactose metabolism,223.0,306.0
+R01093,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00052,Galactose metabolism,174.0,858.0
+R01095,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00052,Galactose metabolism,174.0,858.0
+R01121,reaction,pmeo:129599446,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,435.0,562.0
+R01123,reaction,pmeo:129586923,True,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,613.0,682.0
+R01126,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1010.0,510.0
+R01127,reaction,pmeo:129597122,True,KEGG_pmeo,pmeo00230,Purine metabolism,982.0,283.0
+R01130,reaction,pmeo:129594968,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,903.0,453.0
+R01132,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,932.0,552.0
+R01134,reaction,pmeo:129590386,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,806.0,397.0
+R01135,reaction,pmeo:129584873,False,KEGG_pmeo,pmeo00230;pmeo00250;pmeo01232;pmeo01240,"Alanine, aspartate and glutamate metabolism;Biosynthesis of cofactors;Nucleotide metabolism;Purine metabolism",1033.0,342.0
+R01137,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1470.0,540.0
+R01154,reaction,pmeo:129583201,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,431.0,655.0
+R01167,reaction,pmeo:129593480,False,KEGG_pmeo,pmeo00340,Histidine metabolism,657.0,341.0
+R01168,reaction,pmeo:129601351,False,KEGG_pmeo,pmeo00340,Histidine metabolism,828.0,373.0
+R01175,reaction,pmeo:129586127;pmeo:129592884;pmeo:129593245;pmeo:129596248,True,KEGG_pmeo,pmeo00071;pmeo00650;pmeo01200;pmeo01212,Butanoate metabolism;Carbon metabolism;Fatty acid degradation;Fatty acid metabolism,873.0,404.0
+R01177,reaction,pmeo:129584785;pmeo:129584839;pmeo:129585627;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,126.0,204.0
+R01184,reaction,pmeo:129592069,False,KEGG_pmeo,pmeo00053;pmeo00562;pmeo01250,Ascorbate and aldarate metabolism;Biosynthesis of nucleotide sugars;Inositol phosphate metabolism,487.0,151.0
+R01185,reaction,pmeo:129599458,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,636.0,366.0
+R01186,reaction,pmeo:129599458,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,492.0,270.0
+R01187,reaction,pmeo:129599458,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,492.0,366.0
+R01196,reaction,pmeo:129591190;pmeo:129595578;pmeo:129599498;pmeo:129601677;pmeo:129601868,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R01197,reaction,pmeo:129585090;pmeo:129585124;pmeo:129591190;pmeo:129593472,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R01201,reaction,pmeo:129584628;pmeo:129599125,False,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,282.0,379.0
+R01206,reaction,pmeo:129580610;pmeo:129581294;pmeo:129582554;pmeo:129583276;pmeo:129589198;pmeo:129589200;pmeo:129589607;pmeo:129589608;pmeo:129592405;pmeo:129596376;pmeo:129597315;pmeo:129597320;pmeo:129600960;pmeo:129601429;pmeo:129601976,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,988.0,368.0
+R01210,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R01214,reaction,pmeo:129583828,True,KEGG_pmeo,pmeo00280;pmeo00290;pmeo00770;pmeo01210;pmeo01230;pmeo01240,"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of cofactors;Pantothenate and CoA biosynthesis;Valine, leucine and isoleucine biosynthesis;Valine, leucine and isoleucine degradation",444.0,194.0
+R01218,reaction,pmeo:129585035;pmeo:129591602,True,KEGG_pmeo,pmeo00670;pmeo01240,Biosynthesis of cofactors;One carbon pool by folate,682.0,316.0
+R01220,reaction,pmeo:129585035;pmeo:129591602,True,KEGG_pmeo,pmeo00670;pmeo01240,Biosynthesis of cofactors;One carbon pool by folate,682.0,265.0
+R01221,reaction,pmeo:129581571;pmeo:129587868;pmeo:129591190;pmeo:129597969;pmeo:129602330,False,KEGG_pmeo,pmeo00630;pmeo00670;pmeo01200,Carbon metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate,580.0,912.0
+R01224,reaction,pmeo:129593250,False,KEGG_pmeo,pmeo00670,One carbon pool by folate,722.0,393.0
+R01227,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,624.0,529.0
+R01229,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,541.0,630.0
+R01230,reaction,pmeo:129602191,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,733.0,453.0
+R01231,reaction,pmeo:129602191,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,733.0,453.0
+R01232,reaction,pmeo:129586173;pmeo:129589138,False,KEGG_pmeo,pmeo00230,Purine metabolism,224.0,481.0
+R01234,reaction,pmeo:129586262;pmeo:129586327;pmeo:129589920,False,KEGG_pmeo,pmeo00230,Purine metabolism,267.0,286.0
+R01248,reaction,pmeo:129586299,True,KEGG_pmeo,pmeo00330;pmeo01230,Arginine and proline metabolism;Biosynthesis of amino acids,938.0,329.0
+R01251,reaction,pmeo:129586299,True,KEGG_pmeo,pmeo00330;pmeo01230,Arginine and proline metabolism;Biosynthesis of amino acids,938.0,329.0
+R01252,reaction,pmeo:129582296;pmeo:129595137;pmeo:129597950;pmeo:129599620;pmeo:129599621;pmeo:129599624;pmeo:129599634;pmeo:129600221;pmeo:129601376;pmeo:129602572,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1080.0,330.0
+R01253,reaction,pmeo:129589006;pmeo:129589007,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,938.0,300.0
+R01262,reaction,pmeo:129583765;pmeo:129586701;pmeo:129586823;pmeo:129586966;pmeo:129588658,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,195.0,405.0
+R01269,reaction,pmeo:129587429,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,532.0,242.0
+R01274,reaction,pmeo:129587388;pmeo:129594905;pmeo:129596048,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,836.0,539.0
+R01278,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,810.0,451.0
+R01279,reaction,pmeo:129586127;pmeo:129596248;pmeo:129599287,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,118.0,404.0
+R01280,reaction,pmeo:129581522;pmeo:129584341;pmeo:129586515;pmeo:129586541;pmeo:129592364;pmeo:129593827;pmeo:129597553;pmeo:129599059;pmeo:129599508;pmeo:129601051;pmeo:129601055;pmeo:129601059;pmeo:129601062;pmeo:129601064,True,KEGG_pmeo,pmeo00061;pmeo00071;pmeo01212,Fatty acid biosynthesis;Fatty acid degradation;Fatty acid metabolism,1012.0,829.0
+R01281,reaction,pmeo:129584155;pmeo:129584786;pmeo:129601601,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,198.0,349.0
+R01286,reaction,pmeo:129584141,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,517.0,811.0
+R01290,reaction,pmeo:129595495,False,KEGG_pmeo,pmeo00260;pmeo00270;pmeo00670;pmeo01230,"Biosynthesis of amino acids;Cysteine and methionine metabolism;Glycine, serine and threonine metabolism;One carbon pool by folate",480.0,326.0
+R01310,reaction,pmeo:129591113;pmeo:129593284;pmeo:129597089,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,424.0,427.0
+R01315,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,840.0,210.0
+R01317,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,True,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,894.0,154.0
+R01321,reaction,pmeo:129588694,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,758.0,303.0
+R01324,reaction,pmeo:129590319;pmeo:129601176,True,KEGG_pmeo,pmeo01200;pmeo01210;pmeo01230,2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Carbon metabolism,,
+R01325,reaction,pmeo:129590319;pmeo:129601176,True,KEGG_pmeo,pmeo00020;pmeo00630;pmeo01210,2-Oxocarboxylic acid metabolism;Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism,571.0,350.0
+R01326,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo00051;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Fructose and mannose metabolism,333.0,341.0
+R01334,reaction,pmeo:129595065,False,KEGG_pmeo,pmeo00630;pmeo01200,Carbon metabolism;Glyoxylate and dicarboxylate metabolism,666.0,662.0
+R01348,reaction,pmeo:129585224;pmeo:129593997;pmeo:129594991,False,KEGG_pmeo,pmeo00071,Fatty acid degradation,656.0,925.0
+R01351,reaction,pmeo:129586156;pmeo:129589792;pmeo:129597115;pmeo:129599199,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,492.0,444.0
+R01354,reaction,pmeo:129584561;pmeo:129594400;pmeo:129600407;pmeo:129600416,True,KEGG_pmeo,pmeo00640,Propanoate metabolism,1051.0,143.0
+R01360,reaction,pmeo:129593447,False,KEGG_pmeo,pmeo00280;pmeo00650,"Butanoate metabolism;Valine, leucine and isoleucine degradation",167.0,669.0
+R01361,reaction,pmeo:129594283,True,KEGG_pmeo,pmeo00650,Butanoate metabolism,351.0,594.0
+R01364,reaction,pmeo:129599797,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,336.0,714.0
+R01372,reaction,pmeo:129596096,False,KEGG_pmeo,pmeo00360,Phenylalanine metabolism,415.0,378.0
+R01378,reaction,pmeo:129591174;pmeo:129591286;pmeo:129594801;pmeo:129594818;pmeo:129598631;pmeo:129600072,True,KEGG_pmeo,pmeo00360,Phenylalanine metabolism,608.0,386.0
+R01384,reaction,pmeo:129593470,False,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,648.0,1024.0
+R01394,reaction,pmeo:129593906,False,KEGG_pmeo,pmeo00630,Glyoxylate and dicarboxylate metabolism,432.0,589.0
+R01397,reaction,pmeo:129580598;pmeo:129589145,False,KEGG_pmeo,pmeo00240;pmeo00250;pmeo01240,"Alanine, aspartate and glutamate metabolism;Biosynthesis of cofactors;Pyrimidine metabolism",128.0,192.0
+R01402,reaction,pmeo:129581429,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,1051.0,1174.0
+R01404,reaction,pmeo:129583877;pmeo:129586268,True,KEGG_pmeo,pmeo00061,Fatty acid biosynthesis,957.0,1415.0
+R01411,reaction,pmeo:129593547;pmeo:129593548,False,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,808.0,824.0
+R01415,reaction,pmeo:129590432,True,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,930.0,912.0
+R01430,reaction,pmeo:129584996;pmeo:129585026;pmeo:129597062;pmeo:129597732;pmeo:129597951;pmeo:129598052;pmeo:129598676;pmeo:129601609,False,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,247.0,840.0
+R01431,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,381.0,829.0
+R01451,reaction,pmeo:129584973,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,238.0,1026.0
+R01456,reaction,pmeo:129584973,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,238.0,1026.0
+R01457,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,1055.0
+R01461,reaction,pmeo:129590407;pmeo:129598651;pmeo:129598664,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,195.0,1075.0
+R01462,reaction,pmeo:129582691,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,195.0,1052.0
+R01468,reaction,pmeo:129580850;pmeo:129590293;pmeo:129590294;pmeo:129595815;pmeo:129597097;pmeo:129601978,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1097.0,563.0
+R01470,reaction,pmeo:129589287;pmeo:129590533,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1124.0,705.0
+R01478,reaction,pmeo:129584523,False,KEGG_pmeo,pmeo00040;pmeo00053;pmeo01240,Ascorbate and aldarate metabolism;Biosynthesis of cofactors;Pentose and glucuronate interconversions,486.0,621.0
+R01481,reaction,pmeo:129584494;pmeo:129584749;pmeo:129593141,True,KEGG_pmeo,pmeo00040;pmeo00053;pmeo01240,Ascorbate and aldarate metabolism;Biosynthesis of cofactors;Pentose and glucuronate interconversions,597.0,566.0
+R01492,reaction,pmeo:129581093,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,325.0,1432.0
+R01494,reaction,pmeo:129583284;pmeo:129584765;pmeo:129589088,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,672.0,244.0
+R01495,reaction,pmeo:129583850,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,439.0
+R01496,reaction,pmeo:129582967;pmeo:129602802,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,600.0,263.0
+R01497,reaction,pmeo:129585703,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,580.0,439.0
+R01498,reaction,pmeo:129593788,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,583.0,493.0
+R01503,reaction,pmeo:129585639;pmeo:129586958;pmeo:129589141;pmeo:129591694,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,266.0
+R01512,reaction,pmeo:129584844,True,KEGG_pmeo,pmeo00010;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Glycolysis / Gluconeogenesis,483.0,557.0
+R01513,reaction,pmeo:129587531,True,KEGG_pmeo,pmeo00260;pmeo00270;pmeo01200;pmeo01230,"Biosynthesis of amino acids;Carbon metabolism;Cysteine and methionine metabolism;Glycine, serine and threonine metabolism",426.0,192.0
+R01518,reaction,pmeo:129595713;pmeo:129599663,True,KEGG_pmeo,pmeo00010;pmeo00260;pmeo01200;pmeo01230,"Biosynthesis of amino acids;Carbon metabolism;Glycine, serine and threonine metabolism;Glycolysis / Gluconeogenesis",508.0,632.0
+R01519,reaction,pmeo:129600247,False,KEGG_pmeo,pmeo00030;pmeo01200,Carbon metabolism;Pentose phosphate pathway,427.0,156.0
+R01526,reaction,pmeo:129586210,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,490.0,1079.0
+R01528,reaction,pmeo:129600099,False,KEGG_pmeo,pmeo00030;pmeo00480;pmeo01200,Carbon metabolism;Glutathione metabolism;Pentose phosphate pathway,510.0,373.0
+R01529,reaction,pmeo:129588263,True,KEGG_pmeo,pmeo00030;pmeo00040;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose and glucuronate interconversions;Pentose phosphate pathway,476.0,474.0
+R01547,reaction,pmeo:129580645;pmeo:129580778;pmeo:129584133;pmeo:129586827;pmeo:129587296;pmeo:129590288;pmeo:129590564;pmeo:129595981;pmeo:129602719;pmeo:129602721,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1405.0,581.0
+R01560,reaction,pmeo:129590668;pmeo:129590687;pmeo:129599416,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1091.0,563.0
+R01561,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1192.0,606.0
+R01567,reaction,pmeo:129580812;pmeo:129587663;pmeo:129588944;pmeo:129593989,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,840.0
+R01569,reaction,pmeo:129590213;pmeo:129599688,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,882.0
+R01570,reaction,pmeo:129586723,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,768.0,912.0
+R01579,reaction,pmeo:129589220,False,KEGG_pmeo,pmeo00470,D-Amino acid metabolism,258.0,326.0
+R01595,reaction,pmeo:129593708,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,717.0,283.0
+R01600,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo00010,Glycolysis / Gluconeogenesis,219.0,293.0
+R01602,reaction,pmeo:129584618;pmeo:129587722;pmeo:129587819,True,KEGG_pmeo,pmeo00010,Glycolysis / Gluconeogenesis,173.0,268.0
+R01624,reaction,pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,137.0,178.0
+R01625,reaction,pmeo:129593402,False,KEGG_pmeo,pmeo00770,Pantothenate and CoA biosynthesis,826.0,540.0
+R01626,reaction,pmeo:129600440;pmeo:129602591,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,300.0,227.0
+R01639,reaction,pmeo:129587618,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,490.0,917.0
+R01641,reaction,pmeo:129591375,True,KEGG_pmeo,pmeo00030;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose phosphate pathway,416.0,588.0
+R01648,reaction,pmeo:129581895;pmeo:129588704,True,KEGG_pmeo,pmeo00250;pmeo00650,"Alanine, aspartate and glutamate metabolism;Butanoate metabolism",352.0,708.0
+R01651,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R01655,reaction,pmeo:129585035;pmeo:129591602,True,KEGG_pmeo,pmeo00670;pmeo01240,Biosynthesis of cofactors;One carbon pool by folate,552.0,265.0
+R01658,reaction,pmeo:129590802;pmeo:129597692,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,673.0,741.0
+R01663,reaction,pmeo:129585574,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,563.0,668.0
+R01664,reaction,pmeo:129590213;pmeo:129599688,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,579.0
+R01665,reaction,pmeo:129581987;pmeo:129583332;pmeo:129584522;pmeo:129593740,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,588.0
+R01666,reaction,pmeo:129588944;pmeo:129593989;pmeo:129595685,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,643.0
+R01668,reaction,pmeo:129581293,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,453.0,637.0
+R01678,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00052,Galactose metabolism,186.0,418.0
+R01682,reaction,pmeo:129585499;pmeo:129589110,False,KEGG_pmeo,pmeo00430,Taurine and hypotaurine metabolism,300.0,313.0
+R01687,reaction,pmeo:129583765;pmeo:129586701;pmeo:129586823;pmeo:129586966;pmeo:129588658,False,KEGG_pmeo,pmeo00430,Taurine and hypotaurine metabolism,446.0,231.0
+R01706,reaction,pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,987.0,740.0
+R01710,reaction,pmeo:129588126,True,KEGG_pmeo,pmeo00750,Vitamin B6 metabolism,623.0,136.0
+R01711,reaction,pmeo:129588126,True,KEGG_pmeo,pmeo00750,Vitamin B6 metabolism,623.0,291.0
+R01724,reaction,pmeo:129597706,True,KEGG_pmeo,pmeo00760;pmeo01240,Biosynthesis of cofactors;Nicotinate and nicotinamide metabolism,718.0,316.0
+R01736,reaction,pmeo:129583250;pmeo:129593275,False,KEGG_pmeo,pmeo00620,Pyruvate metabolism,773.0,187.0
+R01737,reaction,pmeo:129594960;pmeo:129596044,False,KEGG_pmeo,pmeo00030;pmeo01200,Carbon metabolism;Pentose phosphate pathway,540.0,244.0
+R01752,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,True,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,380.0,209.0
+R01758,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,827.0,819.0
+R01759,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,827.0,819.0
+R01768,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,904.0,701.0
+R01769,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,904.0,680.0
+R01778,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062,Fatty acid elongation,239.0,843.0
+R01786,reaction,pmeo:129587747,True,KEGG_pmeo,pmeo00010;pmeo00052;pmeo00520;pmeo01200;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Carbon metabolism;Galactose metabolism;Glycolysis / Gluconeogenesis,219.0,218.0
+R01787,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,True,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,202.0,153.0
+R01790,reaction,pmeo:129580771,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1038.0,577.0
+R01791,reaction,pmeo:129580771,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1088.0,534.0
+R01793,reaction,pmeo:129590864,True,KEGG_pmeo,pmeo00790,Folate biosynthesis,1136.0,404.0
+R01794,reaction,pmeo:129590864,True,KEGG_pmeo,pmeo00790,Folate biosynthesis,1136.0,404.0
+R01795,reaction,pmeo:129585993;pmeo:129592972,False,KEGG_pmeo,pmeo00360;pmeo00400;pmeo01230,"Biosynthesis of amino acids;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",116.0,160.0
+R01799,reaction,pmeo:129584887,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,371.0,610.0
+R01801,reaction,pmeo:129584119,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,345.0,754.0
+R01802,reaction,pmeo:129588470,False,KEGG_pmeo,pmeo00562;pmeo00564,Glycerophospholipid metabolism;Inositol phosphate metabolism,716.0,330.0
+R01811,reaction,pmeo:129585958;pmeo:129586736,False,KEGG_pmeo,pmeo00541,Biosynthesis of various nucleotide sugars,658.0,885.0
+R01814,reaction,pmeo:129590610,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,510.0,298.0
+R01815,reaction,pmeo:129601922,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,701.0,276.0
+R01818,reaction,pmeo:129581110,True,KEGG_pmeo,pmeo00051;pmeo00520;pmeo01240;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of cofactors;Biosynthesis of nucleotide sugars;Fructose and mannose metabolism,420.0,373.0
+R01829,reaction,pmeo:129580818,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R01844,reaction,pmeo:129599699,False,KEGG_pmeo,pmeo00030,Pentose phosphate pathway,356.0,671.0
+R01851,reaction,pmeo:129590409;pmeo:129593845;pmeo:129596383;pmeo:129601171,False,KEGG_pmeo,pmeo00920,Sulfur metabolism,739.0,498.0
+R01857,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,404.0,541.0
+R01859,reaction,pmeo:129580790;pmeo:129598491,False,KEGG_pmeo,pmeo00280;pmeo00630;pmeo00640;pmeo01200,"Carbon metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Valine, leucine and isoleucine degradation",622.0,830.0
+R01863,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,986.0,638.0
+R01867,reaction,pmeo:129592058,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R01868,reaction,pmeo:129592058,True,KEGG_pmeo,pmeo00240;pmeo01240,Biosynthesis of cofactors;Pyrimidine metabolism,290.0,173.0
+R01869,reaction,pmeo:129592058,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R01870,reaction,pmeo:129584965,True,KEGG_pmeo,pmeo00240;pmeo01240,Biosynthesis of cofactors;Pyrimidine metabolism,422.0,154.0
+R01874,reaction,pmeo:129589265,False,KEGG_pmeo,pmeo00270;pmeo00470,Cysteine and methionine metabolism;D-Amino acid metabolism,276.0,516.0
+R01876,reaction,pmeo:129587229;pmeo:129594203,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,768.0,243.0
+R01878,reaction,pmeo:129599637,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,694.0,357.0
+R01890,reaction,pmeo:129600187,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,934.0,335.0
+R01896,reaction,pmeo:129584309;pmeo:129591207;pmeo:129599406,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,455.0,885.0
+R01899,reaction,pmeo:129594118,True,KEGG_pmeo,pmeo00020;pmeo01210,2-Oxocarboxylic acid metabolism;Citrate cycle (TCA cycle),718.0,405.0
+R01900,reaction,pmeo:129590319;pmeo:129601176,True,KEGG_pmeo,pmeo00020;pmeo00630;pmeo01210,2-Oxocarboxylic acid metabolism;Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism,670.0,350.0
+R01904,reaction,pmeo:129583745;pmeo:129595447,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,513.0,836.0
+R01905,reaction,pmeo:129586730,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,652.0,742.0
+R01909,reaction,pmeo:129582133;pmeo:129598659;pmeo:129599846,True,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,682.0,339.0
+R01911,reaction,pmeo:129582133;pmeo:129598659;pmeo:129599846,True,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,682.0,358.0
+R01920,reaction,pmeo:129589062;pmeo:129589372,False,KEGG_pmeo,pmeo00270;pmeo00330;pmeo00480,Arginine and proline metabolism;Cysteine and methionine metabolism;Glutathione metabolism,939.0,1076.0
+R01923,reaction,pmeo:129586371;pmeo:129596083,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,143.0,330.0
+R01926,reaction,pmeo:129591797,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,672.0,169.0
+R01931,reaction,pmeo:129591102,False,KEGG_pmeo,pmeo00920,Sulfur metabolism,499.0,236.0
+R01933,reaction,pmeo:129585124;pmeo:129591190;pmeo:129597133,False,KEGG_pmeo,pmeo00380;pmeo01210,2-Oxocarboxylic acid metabolism;Tryptophan metabolism,499.0,1068.0
+R01951,reaction,pmeo:129594094,True,KEGG_pmeo,pmeo00051;pmeo00520,Amino sugar and nucleotide sugar metabolism;Fructose and mannose metabolism,420.0,668.0
+R01954,reaction,pmeo:129592697,False,KEGG_pmeo,pmeo00220;pmeo00250;pmeo01230,"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids",729.0,111.0
+R01956,reaction,pmeo:129584141,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,461.0,750.0
+R01959,reaction,pmeo:129596557;pmeo:129596877,False,KEGG_pmeo,pmeo00380;pmeo00630;pmeo01240,Biosynthesis of cofactors;Glyoxylate and dicarboxylate metabolism;Tryptophan metabolism,510.0,702.0
+R01960,reaction,pmeo:129583574,False,KEGG_pmeo,pmeo00380;pmeo01240,Biosynthesis of cofactors;Tryptophan metabolism,509.0,804.0
+R01961,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,282.0,496.0
+R01967,reaction,pmeo:129588944;pmeo:129593989;pmeo:129595685,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,404.0,655.0
+R01968,reaction,pmeo:129590213;pmeo:129599688,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,404.0,613.0
+R01969,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,539.0,692.0
+R01975,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387,True,KEGG_pmeo,pmeo00071;pmeo00310;pmeo00380;pmeo00650;pmeo01212,Butanoate metabolism;Fatty acid degradation;Fatty acid metabolism;Lysine degradation;Tryptophan metabolism,898.0,578.0
+R01978,reaction,pmeo:129591727,False,KEGG_pmeo,pmeo00280;pmeo00650;pmeo00900,"Butanoate metabolism;Terpenoid backbone biosynthesis;Valine, leucine and isoleucine degradation",50.0,712.0
+R01986,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,621.0,863.0
+R01993,reaction,pmeo:129580598;pmeo:129589145,True,KEGG_pmeo,pmeo00240;pmeo01240,Biosynthesis of cofactors;Pyrimidine metabolism,179.0,154.0
+R02003,reaction,pmeo:129590802;pmeo:129597692,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,493.0,929.0
+R02017,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1381.0,508.0
+R02018,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,450.0,807.0
+R02019,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,466.0,491.0
+R02024,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,450.0,522.0
+R02030,reaction,pmeo:129595742,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,277.0,858.0
+R02035,reaction,pmeo:129590183,False,KEGG_pmeo,pmeo00030;pmeo01200,Carbon metabolism;Pentose phosphate pathway,456.0,329.0
+R02037,reaction,pmeo:129598043;pmeo:129601378,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1010.0,498.0
+R02038,reaction,pmeo:129600685,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,934.0,573.0
+R02050,reaction,pmeo:129581659,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",389.0,793.0
+R02051,reaction,pmeo:129591113;pmeo:129593284;pmeo:129597089,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,424.0,547.0
+R02052,reaction,pmeo:129585639;pmeo:129586958;pmeo:129589141;pmeo:129591694,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,718.0,576.0
+R02053,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,840.0,681.0
+R02055,reaction,pmeo:129601428;pmeo:129601975,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,588.0,710.0
+R02057,reaction,pmeo:129588694;pmeo:129599359;pmeo:129601322,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,759.0,642.0
+R02058,reaction,pmeo:129581811;pmeo:129594265;pmeo:129600259,False,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,380.0,455.0
+R02059,reaction,pmeo:129584882,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,334.0,436.0
+R02061,reaction,pmeo:129597692,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,552.0,996.0
+R02080,reaction,pmeo:129580691;pmeo:129602224,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,951.0,276.0
+R02082,reaction,pmeo:129587202;pmeo:129590750,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,409.0,353.0
+R02085,reaction,pmeo:129599384,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,617.0
+R02088,reaction,pmeo:129590213;pmeo:129599688,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1470.0,613.0
+R02089,reaction,pmeo:129588944;pmeo:129593989;pmeo:129595685,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1470.0,654.0
+R02090,reaction,pmeo:129600681;pmeo:129602864,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,467.0,572.0
+R02092,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,911.0
+R02093,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,901.0
+R02094,reaction,pmeo:129597990,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,892.0
+R02095,reaction,pmeo:129581536;pmeo:129588653;pmeo:129590677,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,928.0
+R02098,reaction,pmeo:129597990,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,506.0,752.0
+R02099,reaction,pmeo:129580812;pmeo:129587663;pmeo:129588944;pmeo:129593989,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,796.0
+R02101,reaction,pmeo:129582272,True,KEGG_pmeo,pmeo00240;pmeo00670;pmeo01232,Nucleotide metabolism;One carbon pool by folate;Pyrimidine metabolism,538.0,826.0
+R02102,reaction,pmeo:129590213;pmeo:129599688,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,639.0,734.0
+R02103,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,798.0,750.0
+R02107,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,848.0,750.0
+R02110,reaction,pmeo:129591420,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,916.0,497.0
+R02111,reaction,pmeo:129581449;pmeo:129589191;pmeo:129590734;pmeo:129597871,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,801.0,577.0
+R02112,reaction,pmeo:129583990;pmeo:129583999,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1038.0,476.0
+R02124,reaction,pmeo:129584063;pmeo:129587554;pmeo:129589333;pmeo:129590250;pmeo:129590314;pmeo:129593310;pmeo:129594263,True,KEGG_pmeo,pmeo00830;pmeo01240,Biosynthesis of cofactors;Retinol metabolism,252.0,259.0
+R02135,reaction,pmeo:129584319;pmeo:129586410;pmeo:129587644;pmeo:129587740;pmeo:129591616;pmeo:129594379,False,KEGG_pmeo,pmeo00730,Thiamine metabolism,598.0,633.0
+R02142,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,851.0,613.0
+R02144,reaction,pmeo:129583278,False,KEGG_pmeo,pmeo00340,Histidine metabolism,685.0,249.0
+R02147,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,624.0,608.0
+R02164,reaction,pmeo:129581555;pmeo:129583563;pmeo:129586819;pmeo:129587097;pmeo:129590717,True,KEGG_pmeo,pmeo00020;pmeo01200,Carbon metabolism;Citrate cycle (TCA cycle),165.0,535.0
+R02189,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo01200;pmeo01250,Biosynthesis of nucleotide sugars;Carbon metabolism,,
+R02199,reaction,pmeo:129583828,True,KEGG_pmeo,pmeo00280;pmeo00290;pmeo01210;pmeo01230,"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Valine, leucine and isoleucine biosynthesis;Valine, leucine and isoleucine degradation",621.0,194.0
+R02235,reaction,pmeo:129594394;pmeo:129597036,True,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,207.0,212.0
+R02236,reaction,pmeo:129594394;pmeo:129597036,True,KEGG_pmeo,pmeo00670;pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis;One carbon pool by folate,207.0,212.0
+R02237,reaction,pmeo:129598500,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,522.0,609.0
+R02239,reaction,pmeo:129593454;pmeo:129593482;pmeo:129594731;pmeo:129594735,False,KEGG_pmeo,pmeo00561;pmeo00564,Glycerolipid metabolism;Glycerophospholipid metabolism,448.0,587.0
+R02240,reaction,pmeo:129583641;pmeo:129585071;pmeo:129593459;pmeo:129598084,False,KEGG_pmeo,pmeo00561;pmeo00564,Glycerolipid metabolism;Glycerophospholipid metabolism,448.0,621.0
+R02241,reaction,pmeo:129582322;pmeo:129589267;pmeo:129593090;pmeo:129597059;pmeo:129602585,False,KEGG_pmeo,pmeo00561;pmeo00564,Glycerolipid metabolism;Glycerophospholipid metabolism,382.0,540.0
+R02245,reaction,pmeo:129581384,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,434.0,422.0
+R02250,reaction,pmeo:129582691;pmeo:129585190;pmeo:129590063;pmeo:129591862;pmeo:129591878;pmeo:129593821;pmeo:129596116;pmeo:129600435,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,636.0,534.0
+R02251,reaction,pmeo:129583587;pmeo:129592061;pmeo:129595329,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,636.0,596.0
+R02265,reaction,pmeo:129583552,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,268.0,347.0
+R02266,reaction,pmeo:129581593;pmeo:129587298;pmeo:129589922;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129596856,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,267.0,403.0
+R02268,reaction,pmeo:129587781,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,332.0,318.0
+R02269,reaction,pmeo:129580639,True,KEGG_pmeo,pmeo00240;pmeo00410;pmeo00770,Pantothenate and CoA biosynthesis;Pyrimidine metabolism;beta-Alanine metabolism,1032.0,236.0
+R02287,reaction,pmeo:129587480,True,KEGG_pmeo,pmeo00340;pmeo00670,Histidine metabolism;One carbon pool by folate,849.0,620.0
+R02288,reaction,pmeo:129589736;pmeo:129602531,False,KEGG_pmeo,pmeo00340,Histidine metabolism,829.0,548.0
+R02294,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,653.0,211.0
+R02295,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,653.0,359.0
+R02297,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,824.0,638.0
+R02300,reaction,pmeo:129581571;pmeo:129597969,False,KEGG_pmeo,pmeo00670,One carbon pool by folate,618.0,225.0
+R02302,reaction,pmeo:129587480,True,KEGG_pmeo,pmeo00670,One carbon pool by folate,615.0,341.0
+R02313,reaction,pmeo:129588049,True,KEGG_pmeo,pmeo00310,Lysine degradation,558.0,75.0
+R02320,reaction,pmeo:129585136;pmeo:129597517,False,KEGG_pmeo,pmeo00620,Pyruvate metabolism,406.0,252.0
+R02323,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,258.0
+R02324,reaction,pmeo:129598236,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,211.0
+R02326,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,599.0
+R02331,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,395.0,744.0
+R02334,reaction,pmeo:129580610;pmeo:129581294;pmeo:129582554;pmeo:129583276;pmeo:129589198;pmeo:129589200;pmeo:129589607;pmeo:129589608;pmeo:129592405;pmeo:129596376;pmeo:129597315;pmeo:129597320;pmeo:129600960;pmeo:129601429;pmeo:129601976,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,941.0,328.0
+R02335,reaction,pmeo:129588946;pmeo:129592607,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,826.0,378.0
+R02408,reaction,pmeo:129584141;pmeo:129586532;pmeo:129587816;pmeo:129591279,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,62.0,268.0
+R02433,reaction,pmeo:129591942;pmeo:129598368,True,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,766.0,415.0
+R02464,reaction,pmeo:129593804,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,450.0,129.0
+R02466,reaction,pmeo:129585499;pmeo:129589110,False,KEGG_pmeo,pmeo00430,Taurine and hypotaurine metabolism,300.0,204.0
+R02467,reaction,pmeo:129594994,False,KEGG_pmeo,pmeo00430,Taurine and hypotaurine metabolism,300.0,145.0
+R02480,reaction,pmeo:129593911,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,855.0,494.0
+R02484,reaction,pmeo:129586723;pmeo:129587229;pmeo:129594203,True,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,768.0,772.0
+R02485,reaction,pmeo:129599637,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,693.0,668.0
+R02487,reaction,pmeo:129600158,False,KEGG_pmeo,pmeo00071,Fatty acid degradation,977.0,421.0
+R02488,reaction,pmeo:129600158,False,KEGG_pmeo,pmeo00310;pmeo00380,Lysine degradation;Tryptophan metabolism,936.0,374.0
+R02493,reaction,pmeo:129598659,False,KEGG_pmeo,pmeo00750,Vitamin B6 metabolism,682.0,67.0
+R02494,reaction,pmeo:129582133;pmeo:129599846,False,KEGG_pmeo,pmeo00750,Vitamin B6 metabolism,682.0,86.0
+R02519,reaction,pmeo:129591856,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,336.0,575.0
+R02521,reaction,pmeo:129596096,False,KEGG_pmeo,pmeo00130;pmeo00350;pmeo01240,Biosynthesis of cofactors;Tyrosine metabolism;Ubiquinone and other terpenoid-quinone biosynthesis,382.0,189.0
+R02530,reaction,pmeo:129581341,True,KEGG_pmeo,pmeo00620,Pyruvate metabolism,691.0,187.0
+R02535,reaction,pmeo:129599633,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,1208.0,265.0
+R02541,reaction,pmeo:129580888;pmeo:129586978;pmeo:129591725;pmeo:129595965,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,358.0
+R02549,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,621.0,863.0
+R02556,reaction,pmeo:129590668;pmeo:129590687;pmeo:129599416,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1566.0,718.0
+R02557,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1395.0,695.0
+R02565,reaction,pmeo:129588910,False,KEGG_pmeo,pmeo00260;pmeo00670,"Glycine, serine and threonine metabolism;One carbon pool by folate",76.0,510.0
+R02566,reaction,pmeo:129588910,False,KEGG_pmeo,pmeo00260;pmeo00670,"Glycine, serine and threonine metabolism;One carbon pool by folate",76.0,510.0
+R02568,reaction,pmeo:129580818,True,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,638.0,1007.0
+R02569,reaction,pmeo:129595578;pmeo:129601868,True,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00620;pmeo00785,Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Lipoic acid metabolism;Pyruvate metabolism,210.0,870.0
+R02570,reaction,pmeo:129585124,True,KEGG_pmeo,pmeo00020;pmeo00785,Citrate cycle (TCA cycle);Lipoic acid metabolism,403.0,579.0
+R02571,reaction,pmeo:129585124,False,KEGG_pmeo,pmeo00310;pmeo00785,Lipoic acid metabolism;Lysine degradation,895.0,338.0
+R02581,reaction,pmeo:129583534;pmeo:129583559;pmeo:129599447;pmeo:129599448,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,190.0,318.0
+R02590,reaction,pmeo:129600187,False,KEGG_pmeo,pmeo00440,Phosphonate and phosphinate metabolism,550.0,619.0
+R02619,reaction,pmeo:129591942;pmeo:129598368,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,343.0,560.0
+R02640,reaction,pmeo:129584817,True,KEGG_pmeo,pmeo00040,Pentose and glucuronate interconversions,652.0,610.0
+R02661,reaction,pmeo:129586127;pmeo:129592884;pmeo:129593245;pmeo:129596140;pmeo:129596248,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",469.0,477.0
+R02662,reaction,pmeo:129583648,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,399.0
+R02665,reaction,pmeo:129599626,False,KEGG_pmeo,pmeo00380;pmeo01240,Biosynthesis of cofactors;Tryptophan metabolism,679.0,916.0
+R02668,reaction,pmeo:129599452,False,KEGG_pmeo,pmeo00380;pmeo01240,Biosynthesis of cofactors;Tryptophan metabolism,587.0,857.0
+R02670,reaction,pmeo:129581217;pmeo:129587084;pmeo:129599740,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,776.0,813.0
+R02678,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,946.0,486.0
+R02685,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062,Fatty acid elongation,189.0,923.0
+R02687,reaction,pmeo:129582691;pmeo:129585190;pmeo:129590063;pmeo:129591862;pmeo:129591878;pmeo:129593821;pmeo:129596116;pmeo:129600435,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,557.0,524.0
+R02701,reaction,pmeo:129580691;pmeo:129602224,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,575.0,227.0
+R02719,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,824.0,510.0
+R02720,reaction,pmeo:129586892;pmeo:129591799,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,775.0,485.0
+R02736,reaction,pmeo:129591376,False,KEGG_pmeo,pmeo00030;pmeo00480;pmeo01200,Carbon metabolism;Glutathione metabolism;Pentose phosphate pathway,286.0,319.0
+R02737,reaction,pmeo:129594290;pmeo:129595929;pmeo:129600998,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,801.0,156.0
+R02739,reaction,pmeo:129591461,True,KEGG_pmeo,pmeo00010;pmeo00030,Glycolysis / Gluconeogenesis;Pentose phosphate pathway,349.0,268.0
+R02743,reaction,pmeo:129588779,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,449.0,103.0
+R02745,reaction,pmeo:129600140,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,505.0,854.0
+R02746,reaction,pmeo:129582951;pmeo:129583897;pmeo:129586971;pmeo:129587521;pmeo:129590344;pmeo:129595844;pmeo:129596671,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,983.0,235.0
+R02747,reaction,pmeo:129586971;pmeo:129596671,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,983.0,254.0
+R02748,reaction,pmeo:129587715;pmeo:129590603,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,1395.0,757.0
+R02749,reaction,pmeo:129586746,True,KEGG_pmeo,pmeo00030,Pentose phosphate pathway,398.0,791.0
+R02750,reaction,pmeo:129584529,True,KEGG_pmeo,pmeo00030,Pentose phosphate pathway,398.0,743.0
+R02757,reaction,pmeo:129580973,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,446.0,499.0
+R02765,reaction,pmeo:129596162,True,KEGG_pmeo,pmeo00280;pmeo00630;pmeo00640;pmeo01200,"Carbon metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Valine, leucine and isoleucine degradation",531.0,916.0
+R02768,reaction,pmeo:129583813,False,KEGG_pmeo,pmeo00061,Fatty acid biosynthesis,957.0,1193.0
+R02778,reaction,pmeo:129594290;pmeo:129595929,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,926.0,156.0
+R02799,reaction,pmeo:129593135,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,153.0,435.0
+R02805,reaction,pmeo:129586173;pmeo:129589138,False,KEGG_pmeo,pmeo00230,Purine metabolism,728.0,510.0
+R02872,reaction,pmeo:129589107;pmeo:129591718,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,372.0,195.0
+R02874,reaction,pmeo:129597136,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,347.0,256.0
+R02914,reaction,pmeo:129581000,False,KEGG_pmeo,pmeo00340,Histidine metabolism,829.0,475.0
+R02918,reaction,pmeo:129589215;pmeo:129594105,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,968.0
+R02921,reaction,pmeo:129594130,True,KEGG_pmeo,pmeo00040;pmeo00515,Mannose type O-glycan biosynthesis;Pentose and glucuronate interconversions,703.0,1070.0
+R02922,reaction,pmeo:129593547;pmeo:129593548,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,701.0,235.0
+R02933,reaction,pmeo:129600247,True,KEGG_pmeo,pmeo00053;pmeo01240,Ascorbate and aldarate metabolism;Biosynthesis of cofactors,514.0,276.0
+R02957,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,True,KEGG_pmeo,pmeo00053,Ascorbate and aldarate metabolism,721.0,194.0
+R02971,reaction,pmeo:129589073,False,KEGG_pmeo,pmeo00770,Pantothenate and CoA biosynthesis,566.0,471.0
+R02973,reaction,pmeo:129581086,False,KEGG_pmeo,pmeo00770,Pantothenate and CoA biosynthesis,450.0,432.0
+R02975,reaction,pmeo:129583559;pmeo:129599447;pmeo:129599448,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,940.0,315.0
+R02976,reaction,pmeo:129591797,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,362.0,213.0
+R02978,reaction,pmeo:129586194,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,307.0,358.0
+R03004,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,935.0,380.0
+R03018,reaction,pmeo:129589073,False,KEGG_pmeo,pmeo00770;pmeo01240,Biosynthesis of cofactors;Pantothenate and CoA biosynthesis,524.0,339.0
+R03026,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00071;pmeo00310;pmeo00380;pmeo00650;pmeo01212,Butanoate metabolism;Fatty acid degradation;Fatty acid metabolism;Lysine degradation;Tryptophan metabolism,898.0,495.0
+R03035,reaction,pmeo:129581881,True,KEGG_pmeo,pmeo00770;pmeo01240,Biosynthesis of cofactors;Pantothenate and CoA biosynthesis,601.0,540.0
+R03036,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,True,KEGG_pmeo,pmeo00770,Pantothenate and CoA biosynthesis,651.0,540.0
+R03038,reaction,pmeo:129594320;pmeo:129598917,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,371.0
+R03045,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00410;pmeo00640;pmeo01200,Carbon metabolism;Propanoate metabolism;beta-Alanine metabolism,659.0,631.0
+R03055,reaction,pmeo:129580639,True,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,1032.0,902.0
+R03057,reaction,pmeo:129587494,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,490.0,284.0
+R03058,reaction,pmeo:129593708,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,585.0,284.0
+R03102,reaction,pmeo:129588910,False,KEGG_pmeo,pmeo00310,Lysine degradation,815.0,75.0
+R03103,reaction,pmeo:129588910,False,KEGG_pmeo,pmeo00310,Lysine degradation,815.0,75.0
+R03104,reaction,pmeo:129587579;pmeo:129589094,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,101.0,615.0
+R03105,reaction,pmeo:129591102,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,148.0,571.0
+R03158,reaction,pmeo:129590567,True,KEGG_pmeo,pmeo00410;pmeo00640;pmeo01200,Carbon metabolism;Propanoate metabolism;beta-Alanine metabolism,528.0,642.0
+R03161,reaction,pmeo:129589244,False,KEGG_pmeo,pmeo00051;pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Fructose and mannose metabolism,333.0,701.0
+R03167,reaction,pmeo:129588880,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,217.0,546.0
+R03171,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R03172,reaction,pmeo:129586127;pmeo:129592884;pmeo:129593245;pmeo:129596248,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",647.0,477.0
+R03174,reaction,pmeo:129583648,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",622.0,399.0
+R03181,reaction,pmeo:129592076;pmeo:129592167;pmeo:129592177;pmeo:129592223;pmeo:129592224;pmeo:129592225;pmeo:129592227,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,336.0,644.0
+R03184,reaction,pmeo:129581885,False,KEGG_pmeo,pmeo00053,Ascorbate and aldarate metabolism,624.0,287.0
+R03189,reaction,pmeo:129587480,False,KEGG_pmeo,pmeo00670,One carbon pool by folate,512.0,180.0
+R03197,reaction,pmeo:129593554,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,474.0,355.0
+R03199,reaction,pmeo:129587495;pmeo:129587496,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,372.0,317.0
+R03208,reaction,pmeo:129593455,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,114.0,242.0
+R03220,reaction,pmeo:129588078;pmeo:129588234,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,551.0,345.0
+R03222,reaction,pmeo:129598231,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,626.0,337.0
+R03236,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo00052,Galactose metabolism,957.0,563.0
+R03237,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo00052,Galactose metabolism,957.0,563.0
+R03238,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo00052,Galactose metabolism,957.0,563.0
+R03239,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo00052,Galactose metabolism,957.0,563.0
+R03245,reaction,pmeo:129589078,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,434.0,491.0
+R03270,reaction,pmeo:129599498;pmeo:129601677,False,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00620;pmeo00785,Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Lipoic acid metabolism;Pyruvate metabolism,319.0,870.0
+R03283,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00310,Lysine degradation,873.0,695.0
+R03291,reaction,pmeo:129586299,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1180.0,301.0
+R03293,reaction,pmeo:129586299,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1180.0,301.0
+R03315,reaction,pmeo:129589226,False,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,1013.0,181.0
+R03316,reaction,pmeo:129585090;pmeo:129593472,False,KEGG_pmeo,pmeo00020;pmeo00785,Citrate cycle (TCA cycle);Lipoic acid metabolism,530.0,580.0
+R03342,reaction,pmeo:129591174;pmeo:129591286;pmeo:129594801;pmeo:129594818;pmeo:129598631;pmeo:129600072,True,KEGG_pmeo,pmeo00350,Tyrosine metabolism,224.0,458.0
+R03346,reaction,pmeo:129599688,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,383.0
+R03347,reaction,pmeo:129598236,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,359.0
+R03353,reaction,pmeo:129583579,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,238.0,874.0
+R03355,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,450.0,506.0
+R03361,reaction,pmeo:129580855;pmeo:129580890;pmeo:129580918,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,716.0,260.0
+R03362,reaction,pmeo:129591551,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,839.0,238.0
+R03363,reaction,pmeo:129581446;pmeo:129584971;pmeo:129585085,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,889.0,238.0
+R03376,reaction,pmeo:129586199,False,KEGG_pmeo,pmeo00310,Lysine degradation,265.0,765.0
+R03378,reaction,pmeo:129584498,False,KEGG_pmeo,pmeo00310,Lysine degradation,524.0,133.0
+R03380,reaction,pmeo:129586199;pmeo:129599400,False,KEGG_pmeo,pmeo00310,Lysine degradation,384.0,764.0
+R03383,reaction,pmeo:129580697,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,881.0
+R03393,reaction,pmeo:129581668,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,383.0,270.0
+R03394,reaction,pmeo:129581129,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,278.0,270.0
+R03409,reaction,pmeo:129585648,True,KEGG_pmeo,pmeo00230,Purine metabolism,267.0,323.0
+R03415,reaction,pmeo:129600140,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,485.0,525.0
+R03416,reaction,pmeo:129586971;pmeo:129587521;pmeo:129596671,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,983.0,706.0
+R03417,reaction,pmeo:129586971;pmeo:129596671,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,983.0,726.0
+R03425,reaction,pmeo:129581571;pmeo:129587868;pmeo:129591190;pmeo:129597969;pmeo:129602330,False,KEGG_pmeo,pmeo00260;pmeo00785;pmeo01200,"Carbon metabolism;Glycine, serine and threonine metabolism;Lipoic acid metabolism",785.0,577.0
+R03427,reaction,pmeo:129581668,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,278.0,366.0
+R03428,reaction,pmeo:129583283,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,139.0,394.0
+R03429,reaction,pmeo:129583283,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,223.0,409.0
+R03430,reaction,pmeo:129581129,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,139.0,366.0
+R03433,reaction,pmeo:129589367,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,139.0,270.0
+R03435,reaction,pmeo:129580735;pmeo:129580738;pmeo:129582060;pmeo:129588420;pmeo:129588422;pmeo:129591229;pmeo:129594296;pmeo:129600127,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,391.0,182.0
+R03469,reaction,pmeo:129582552;pmeo:129584665,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,552.0,229.0
+R03479,reaction,pmeo:129583283,True,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,278.0,512.0
+R03492,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,143.0,626.0
+R03511,reaction,pmeo:129595072,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,966.0,1340.0
+R03522,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,388.0,526.0
+R03530,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,True,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,464.0,263.0
+R03531,reaction,pmeo:129586892;pmeo:129591799,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,552.0,264.0
+R03534,reaction,pmeo:129589251,False,KEGG_pmeo,pmeo00650,Butanoate metabolism,946.0,458.0
+R03539,reaction,pmeo:129593455,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,290.0,241.0
+R03595,reaction,pmeo:129580833,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,328.0,459.0
+R03596,reaction,pmeo:129599864,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,570.0,459.0
+R03599,reaction,pmeo:129585345,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,328.0,395.0
+R03646,reaction,pmeo:129589315;pmeo:129599732,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,611.0
+R03648,reaction,pmeo:129587460;pmeo:129597578,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,583.0
+R03650,reaction,pmeo:129590607;pmeo:129591851,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,1076.0
+R03652,reaction,pmeo:129597664,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,281.0
+R03654,reaction,pmeo:129584367,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,672.0
+R03655,reaction,pmeo:129599834,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,790.0
+R03656,reaction,pmeo:129587699;pmeo:129599193,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,335.0
+R03657,reaction,pmeo:129580988;pmeo:129591339,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,246.0
+R03658,reaction,pmeo:129599066,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,424.0
+R03659,reaction,pmeo:129581879;pmeo:129592377,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,1165.0
+R03660,reaction,pmeo:129583888;pmeo:129589912;pmeo:129594385,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,879.0
+R03661,reaction,pmeo:129591985;pmeo:129602688,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,701.0
+R03662,reaction,pmeo:129581071;pmeo:129582488;pmeo:129591760,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,850.0
+R03663,reaction,pmeo:129583583,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,761.0
+R03664,reaction,pmeo:129583953;pmeo:129590117,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,1057.0
+R03665,reaction,pmeo:129597586;pmeo:129602783,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,875.0,157.0
+R03688,reaction,pmeo:129601809,False,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,470.0,806.0
+R03689,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,354.0
+R03749,reaction,pmeo:129588779,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,195.0,257.0
+R03755,reaction,pmeo:129581011;pmeo:129583462;pmeo:129585605;pmeo:129586554;pmeo:129587683;pmeo:129594475;pmeo:129596391;pmeo:129601161;pmeo:129602500,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,489.0,535.0
+R03756,reaction,pmeo:129581011;pmeo:129583462;pmeo:129585605;pmeo:129586554;pmeo:129587683;pmeo:129594475;pmeo:129596391;pmeo:129601161;pmeo:129602500,False,KEGG_pmeo,pmeo00561,Glycerolipid metabolism,489.0,535.0
+R03776,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,243.0,451.0
+R03777,reaction,pmeo:129586127;pmeo:129596248,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,621.0,417.0
+R03778,reaction,pmeo:129584839;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,410.0,204.0
+R03815,reaction,pmeo:129581571;pmeo:129587868;pmeo:129591190;pmeo:129597969;pmeo:129602330,True,KEGG_pmeo,pmeo00260;pmeo00785;pmeo01200,"Carbon metabolism;Glycine, serine and threonine metabolism;Lipoic acid metabolism",1040.0,539.0
+R03856,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,527.0,451.0
+R03857,reaction,pmeo:129586127;pmeo:129596248,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,369.0,418.0
+R03858,reaction,pmeo:129584839;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,694.0,204.0
+R03869,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",419.0,815.0
+R03875,reaction,pmeo:129582226;pmeo:129583608;pmeo:129584376;pmeo:129585165;pmeo:129586808;pmeo:129589222;pmeo:129590556;pmeo:129590807;pmeo:129594651;pmeo:129596090;pmeo:129596095;pmeo:129597314;pmeo:129598493;pmeo:129599628;pmeo:129599815;pmeo:129601128;pmeo:129601333;pmeo:129601674,False,KEGG_pmeo,pmeo00310,Lysine degradation,265.0,706.0
+R03889,reaction,pmeo:129580967,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,679.0,1033.0
+R03905,reaction,pmeo:129581122;pmeo:129585164;pmeo:129586166,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,338.0,245.0
+R03916,reaction,pmeo:129583765;pmeo:129586701;pmeo:129586823;pmeo:129586966;pmeo:129588658,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,489.0,526.0
+R03936,reaction,pmeo:129599452,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,587.0,667.0
+R03940,reaction,pmeo:129580784,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,409.0,1165.0
+R03953,reaction,pmeo:129593455,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,114.0,267.0
+R03973,reaction,pmeo:129593455,False,KEGG_pmeo,pmeo00350,Tyrosine metabolism,199.0,242.0
+R03989,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,668.0,451.0
+R03990,reaction,pmeo:129586127;pmeo:129596248;pmeo:129599287,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,243.0,404.0
+R03991,reaction,pmeo:129584839;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,835.0,204.0
+R04017,reaction,pmeo:129592802;pmeo:129593790,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,587.0
+R04065,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00340,Histidine metabolism,422.0,341.0
+R04095,reaction,pmeo:129586127;pmeo:129587339;pmeo:129596248,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,477.0
+R04097,reaction,pmeo:129583648,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,399.0
+R04125,reaction,pmeo:129581571;pmeo:129587868;pmeo:129591190;pmeo:129597969;pmeo:129602330,True,KEGG_pmeo,pmeo00260;pmeo00670;pmeo00785;pmeo01200,"Carbon metabolism;Glycine, serine and threonine metabolism;Lipoic acid metabolism;One carbon pool by folate",904.0,515.0
+R04137,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",122.0,528.0
+R04138,reaction,pmeo:129585134;pmeo:129587385,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,554.0
+R04144,reaction,pmeo:129597051,False,KEGG_pmeo,pmeo00230,Purine metabolism,383.0,188.0
+R04162,reaction,pmeo:129593454;pmeo:129594731;pmeo:129594735,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,613.0,383.0
+R04170,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,527.0,370.0
+R04171,reaction,pmeo:129584141,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,461.0,858.0
+R04173,reaction,pmeo:129598513,True,KEGG_pmeo,pmeo00260;pmeo00270;pmeo01200;pmeo01230,"Biosynthesis of amino acids;Carbon metabolism;Cysteine and methionine metabolism;Glycine, serine and threonine metabolism",552.0,193.0
+R04178,reaction,pmeo:129598231,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,578.0,278.0
+R04184,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,281.0,626.0
+R04188,reaction,pmeo:129581895;pmeo:129588704,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",389.0,767.0
+R04203,reaction,pmeo:129581137;pmeo:129583335;pmeo:129583377;pmeo:129584270;pmeo:129584271;pmeo:129586187;pmeo:129589768;pmeo:129589791;pmeo:129589810;pmeo:129589832;pmeo:129592188;pmeo:129593815;pmeo:129596387;pmeo:129598566,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",597.0,636.0
+R04204,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",622.0,564.0
+R04208,reaction,pmeo:129597051,False,KEGG_pmeo,pmeo00230,Purine metabolism,650.0,188.0
+R04209,reaction,pmeo:129594308,True,KEGG_pmeo,pmeo00230,Purine metabolism,745.0,188.0
+R04212,reaction,pmeo:129581122;pmeo:129585164;pmeo:129586166,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,337.0,548.0
+R04224,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,564.0
+R04230,reaction,pmeo:129581273,False,KEGG_pmeo,pmeo00770;pmeo01240,Biosynthesis of cofactors;Pantothenate and CoA biosynthesis,651.0,385.0
+R04231,reaction,pmeo:129581273,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R04241,reaction,pmeo:129598500,True,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,547.0,867.0
+R04242,reaction,pmeo:129581026;pmeo:129589846;pmeo:129589855,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,605.0,817.0
+R04247,reaction,pmeo:129600685,False,KEGG_pmeo,pmeo00440,Phosphonate and phosphinate metabolism,550.0,463.0
+R04285,reaction,pmeo:129583559;pmeo:129585318;pmeo:129589061;pmeo:129598525;pmeo:129599447;pmeo:129599448,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1098.0,242.0
+R04286,reaction,pmeo:129597726,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,1136.0,167.0
+R04311,reaction,pmeo:129595693,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,396.0,168.0
+R04321,reaction,pmeo:129588694,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,180.0,453.0
+R04323,reaction,pmeo:129600268,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,679.0,974.0
+R04325,reaction,pmeo:129597051,True,KEGG_pmeo,pmeo00230;pmeo00670,One carbon pool by folate;Purine metabolism,471.0,177.0
+R04326,reaction,pmeo:129597051,False,KEGG_pmeo,pmeo00670,One carbon pool by folate,461.0,360.0
+R04355,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,137.0,310.0
+R04378,reaction,pmeo:129600178,True,KEGG_pmeo,pmeo00230,Purine metabolism,1035.0,188.0
+R04391,reaction,pmeo:129589073,False,KEGG_pmeo,pmeo00770,Pantothenate and CoA biosynthesis,565.0,417.0
+R04404,reaction,pmeo:129591639;pmeo:129593283,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,502.0,229.0
+R04405,reaction,pmeo:129585962,False,KEGG_pmeo,pmeo01230,Biosynthesis of amino acids,,
+R04420,reaction,pmeo:129582985,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,993.0,1271.0
+R04428,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,137.0,498.0
+R04429,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04430,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,137.0,600.0
+R04432,reaction,pmeo:129593245,True,KEGG_pmeo,pmeo00410;pmeo00640;pmeo01200,Carbon metabolism;Propanoate metabolism;beta-Alanine metabolism,791.0,631.0
+R04444,reaction,pmeo:129598336,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1232.0,375.0
+R04445,reaction,pmeo:129598336,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1232.0,375.0
+R04452,reaction,pmeo:129588558;pmeo:129588562;pmeo:129594039;pmeo:129596790,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,159.0,521.0
+R04463,reaction,pmeo:129593100,False,KEGG_pmeo,pmeo00230,Purine metabolism,558.0,188.0
+R04480,reaction,pmeo:129593090,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,840.0,707.0
+R04496,reaction,pmeo:129591313,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,147.0,1066.0
+R04513,reaction,pmeo:129585834;pmeo:129593940,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,608.0,126.0
+R04533,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,137.0,405.0
+R04534,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,562.0,405.0
+R04535,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,562.0,498.0
+R04536,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,420.0,405.0
+R04537,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,420.0,498.0
+R04543,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,987.0,405.0
+R04544,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,987.0,498.0
+R04545,reaction,pmeo:129589336,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,609.0,182.0
+R04559,reaction,pmeo:129586525;pmeo:129595436;pmeo:129595494,True,KEGG_pmeo,pmeo00230,Purine metabolism,934.0,188.0
+R04560,reaction,pmeo:129597122,True,KEGG_pmeo,pmeo00230;pmeo00670,One carbon pool by folate;Purine metabolism,957.0,213.0
+R04566,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,845.0,405.0
+R04568,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,845.0,498.0
+R04571,reaction,pmeo:129590387,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,612.0,516.0
+R04586,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,212.0,626.0
+R04591,reaction,pmeo:129594308,True,KEGG_pmeo,pmeo00230,Purine metabolism,839.0,188.0
+R04620,reaction,pmeo:129584319;pmeo:129586410;pmeo:129587644;pmeo:129587740;pmeo:129594379,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,548.0,189.0
+R04633,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,212.0,710.0
+R04639,reaction,pmeo:129582753,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,376.0,143.0
+R04666,reaction,pmeo:129580934,False,KEGG_pmeo,pmeo00240,Pyrimidine metabolism,1127.0,902.0
+R04724,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04725,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,704.0,600.0
+R04726,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,895.0,339.0
+R04734,reaction,pmeo:129600166,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1136.0,487.0
+R04737,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,835.0,285.0
+R04738,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,810.0,370.0
+R04739,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,694.0,285.0
+R04740,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,668.0,370.0
+R04741,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,552.0,285.0
+R04742,reaction,pmeo:129584839;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,553.0,204.0
+R04743,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,435.0,285.0
+R04744,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,385.0,370.0
+R04745,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,293.0,285.0
+R04746,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,243.0,370.0
+R04747,reaction,pmeo:129584839;pmeo:129589002,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,268.0,204.0
+R04748,reaction,pmeo:129581137;pmeo:129593815;pmeo:129596387;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,151.0,285.0
+R04749,reaction,pmeo:129584984;pmeo:129590545;pmeo:129599868,True,KEGG_pmeo,pmeo00062;pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid elongation;Fatty acid metabolism,101.0,370.0
+R04751,reaction,pmeo:129586127;pmeo:129592884;pmeo:129593245;pmeo:129596248,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,747.0,385.0
+R04753,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,385.0,451.0
+R04754,reaction,pmeo:129586127;pmeo:129596248,False,KEGG_pmeo,pmeo00071;pmeo01212,Fatty acid degradation;Fatty acid metabolism,495.0,418.0
+R04756,reaction,pmeo:129595441,True,KEGG_pmeo,pmeo00071,Fatty acid degradation,470.0,825.0
+R04770,reaction,pmeo:129586532;pmeo:129587816;pmeo:129591279,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,248.0,164.0
+R04773,reaction,pmeo:129581879;pmeo:129592377,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,118.0,176.0
+R04804,reaction,pmeo:129583579,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,874.0
+R04866,reaction,pmeo:129582226;pmeo:129583608;pmeo:129584376;pmeo:129585165;pmeo:129586808;pmeo:129590556;pmeo:129590807;pmeo:129594651;pmeo:129596090;pmeo:129596095;pmeo:129597314;pmeo:129598493;pmeo:129599628;pmeo:129599815;pmeo:129601128;pmeo:129601333;pmeo:129601674,False,KEGG_pmeo,pmeo00310,Lysine degradation,384.0,706.0
+R04867,reaction,pmeo:129582226;pmeo:129583608;pmeo:129584376;pmeo:129585165;pmeo:129586808;pmeo:129590556;pmeo:129590807;pmeo:129596090;pmeo:129596095;pmeo:129597314;pmeo:129599628;pmeo:129599815;pmeo:129601128;pmeo:129601333;pmeo:129601674,False,KEGG_pmeo,pmeo00310,Lysine degradation,501.0,706.0
+R04870,reaction,pmeo:129593796;pmeo:129595266,False,KEGG_pmeo,pmeo00311,Penicillin and cephalosporin biosynthesis,199.0,190.0
+R04872,reaction,pmeo:129593743,False,KEGG_pmeo,pmeo00311,Penicillin and cephalosporin biosynthesis,294.0,190.0
+R04880,reaction,pmeo:129584063,True,KEGG_pmeo,pmeo00350,Tyrosine metabolism,1206.0,469.0
+R04903,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,687.0,71.0
+R04909,reaction,pmeo:129580691;pmeo:129602224,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,315.0,266.0
+R04911,reaction,pmeo:129596557;pmeo:129596877,False,KEGG_pmeo,pmeo00380,Tryptophan metabolism,367.0,227.0
+R04920,reaction,pmeo:129588694;pmeo:129599359;pmeo:129601322,False,KEGG_pmeo,pmeo00440,Phosphonate and phosphinate metabolism,658.0,474.0
+R04922,reaction,pmeo:129588694,False,KEGG_pmeo,pmeo00440,Phosphonate and phosphinate metabolism,658.0,619.0
+R04929,reaction,pmeo:129597679,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,824.0,365.0
+R04941,reaction,pmeo:129584141,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,199.0,299.0
+R04951,reaction,pmeo:129581095;pmeo:129586552;pmeo:129587761;pmeo:129591778;pmeo:129595355,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,592.0,515.0
+R04952,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,328.0,339.0
+R04953,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,278.0,405.0
+R04954,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,278.0,498.0
+R04955,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04956,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,278.0,600.0
+R04957,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,470.0,339.0
+R04958,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04959,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,420.0,600.0
+R04960,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,612.0,339.0
+R04961,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04962,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,562.0,600.0
+R04963,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,754.0,339.0
+R04964,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,704.0,405.0
+R04965,reaction,pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,704.0,498.0
+R04966,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04967,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,845.0,600.0
+R04968,reaction,pmeo:129583813;pmeo:129600440,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,1037.0,339.0
+R04969,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R04970,reaction,pmeo:129583877;pmeo:129586268;pmeo:129600440,True,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,987.0,600.0
+R04972,reaction,pmeo:129593554,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,474.0,259.0
+R04979,reaction,pmeo:129584523,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,1135.0,600.0
+R05000,reaction,pmeo:129601598,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,458.0,697.0
+R05046,reaction,pmeo:129582753,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,156.0,181.0
+R05048,reaction,pmeo:129582753,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,231.0,143.0
+R05050,reaction,pmeo:129580640;pmeo:129587475;pmeo:129588910;pmeo:129599499,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,456.0,814.0
+R05051,reaction,pmeo:129598336,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1301.0,375.0
+R05052,reaction,pmeo:129591942;pmeo:129598368,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,1233.0,455.0
+R05064,reaction,pmeo:129590567,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,636.0
+R05066,reaction,pmeo:129583483,True,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",445.0,703.0
+R05085,reaction,pmeo:129598513,True,KEGG_pmeo,pmeo00750;pmeo01240,Biosynthesis of cofactors;Vitamin B6 metabolism,592.0,527.0
+R05105,reaction,pmeo:129592802;pmeo:129593790,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,694.0
+R05112,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,143.0,710.0
+R05144,reaction,pmeo:129597747,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,965.0,1260.0
+R05188,reaction,pmeo:129600440,False,KEGG_pmeo,pmeo00061,Fatty acid biosynthesis,307.0,1244.0
+R05202,reaction,pmeo:129597933,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,223.0,552.0
+R05220,reaction,pmeo:129581093,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,413.0,1135.0
+R05556,reaction,pmeo:129589710;pmeo:129601613,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,379.0,1187.0
+R05577,reaction,pmeo:129587543;pmeo:129594432;pmeo:129599267,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,448.0
+R05578,reaction,pmeo:129585933;pmeo:129602688,False,KEGG_pmeo,pmeo00860;pmeo00970;pmeo01240,Aminoacyl-tRNA biosynthesis;Biosynthesis of cofactors;Porphyrin metabolism,135.0,604.0
+R05639,reaction,pmeo:129583528,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,425.0
+R05640,reaction,pmeo:129587499,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,347.0,375.0
+R05692,reaction,pmeo:129586276,False,KEGG_pmeo,pmeo00051;pmeo00541;pmeo01250,Biosynthesis of nucleotide sugars;Biosynthesis of various nucleotide sugars;Fructose and mannose metabolism,420.0,601.0
+R05703,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,954.0
+R05731,reaction,pmeo:129587499,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,669.0,675.0
+R05795,reaction,pmeo:129586257,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,675.0,229.0
+R05799,reaction,pmeo:129585954;pmeo:129587847,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,264.0,612.0
+R05803,reaction,pmeo:129587542,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,552.0,114.0
+R05805,reaction,pmeo:129593401,True,KEGG_pmeo,pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism,,
+R05841,reaction,pmeo:129588606,False,KEGG_pmeo,pmeo00360,Phenylalanine metabolism,198.0,677.0
+R05907,reaction,pmeo:129581419;pmeo:129581421;pmeo:129581693;pmeo:129581740;pmeo:129582593;pmeo:129585924;pmeo:129589874;pmeo:129592007;pmeo:129594061;pmeo:129598001,False,KEGG_pmeo,pmeo00512,Mucin type O-glycan biosynthesis,149.0,328.0
+R05908,reaction,pmeo:129594276;pmeo:129601332,False,KEGG_pmeo,pmeo00512,Mucin type O-glycan biosynthesis,267.0,271.0
+R05916,reaction,pmeo:129582106;pmeo:129600267,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,187.0,172.0
+R05917,reaction,pmeo:129583656,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,328.0,190.0
+R05918,reaction,pmeo:129593734,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,389.0,236.0
+R05919,reaction,pmeo:129594163,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,334.0,260.0
+R05923,reaction,pmeo:129590740;pmeo:129598018,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,301.0,491.0
+R05924,reaction,pmeo:129595380;pmeo:129598018,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,301.0,577.0
+R05925,reaction,pmeo:129589923,False,KEGG_pmeo,pmeo00532;pmeo00534,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate;Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1135.0,133.0
+R05926,reaction,pmeo:129580603,False,KEGG_pmeo,pmeo00532;pmeo00534,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate;Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1135.0,184.0
+R05928,reaction,pmeo:129593282,False,KEGG_pmeo,pmeo00532;pmeo00534,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate;Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1135.0,283.0
+R05930,reaction,pmeo:129596158,False,KEGG_pmeo,pmeo00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1312.0,452.0
+R05931,reaction,pmeo:129581940;pmeo:129597230,False,KEGG_pmeo,pmeo00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,1135.0,383.0
+R05932,reaction,pmeo:129597230,False,KEGG_pmeo,pmeo00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,1135.0,434.0
+R05935,reaction,pmeo:129586373;pmeo:129588086,False,KEGG_pmeo,pmeo00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1312.0,520.0
+R05936,reaction,pmeo:129596158,False,KEGG_pmeo,pmeo00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1312.0,589.0
+R05963,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00603,Glycosphingolipid biosynthesis - globo and isoglobo series,274.0,265.0
+R05966,reaction,pmeo:129584925;pmeo:129597038,False,KEGG_pmeo,pmeo00603,Glycosphingolipid biosynthesis - globo and isoglobo series,387.0,264.0
+R05968,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00603,Glycosphingolipid biosynthesis - globo and isoglobo series,282.0,436.0
+R05969,reaction,pmeo:129594171,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,213.0,193.0
+R05970,reaction,pmeo:129581430;pmeo:129589092,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,305.0,201.0
+R05973,reaction,pmeo:129589083,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,498.0,193.0
+R05976,reaction,pmeo:129581069;pmeo:129581438;pmeo:129581875;pmeo:129584035;pmeo:129585005;pmeo:129585133;pmeo:129586868;pmeo:129591260;pmeo:129598339;pmeo:129602810,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,238.0,526.0
+R05977,reaction,pmeo:129586766;pmeo:129589580;pmeo:129589581;pmeo:129589657;pmeo:129593665;pmeo:129593681;pmeo:129594730;pmeo:129594805;pmeo:129596057;pmeo:129601400,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,489.0,203.0
+R05979,reaction,pmeo:129593826,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,305.0,572.0
+R05980,reaction,pmeo:129599924,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,407.0,572.0
+R05981,reaction,pmeo:129599924,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,496.0,572.0
+R05983,reaction,pmeo:129595195,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,765.0,572.0
+R05984,reaction,pmeo:129590602;pmeo:129598492;pmeo:129599344;pmeo:129599393,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,821.0,604.0
+R05985,reaction,pmeo:129583744;pmeo:129596224,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,821.0,674.0
+R05986,reaction,pmeo:129590296,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,765.0,711.0
+R05987,reaction,pmeo:129588035;pmeo:129596001;pmeo:129596060;pmeo:129596733,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,765.0,756.0
+R05988,reaction,pmeo:129584513,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,765.0,802.0
+R05989,reaction,pmeo:129586766;pmeo:129589580;pmeo:129589581;pmeo:129589657;pmeo:129593665;pmeo:129593681;pmeo:129594730;pmeo:129594805;pmeo:129596057;pmeo:129601400,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,673.0,803.0
+R06004,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00604,Glycosphingolipid biosynthesis - ganglio series,398.0,245.0
+R06006,reaction,pmeo:129594566;pmeo:129595399,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,252.0,182.0
+R06010,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00604,Glycosphingolipid biosynthesis - ganglio series,398.0,351.0
+R06024,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,653.0,394.0
+R06025,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,590.0,364.0
+R06027,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,784.0,394.0
+R06031,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,521.0,554.0
+R06033,reaction,pmeo:129586766;pmeo:129589580;pmeo:129589581;pmeo:129589657;pmeo:129593665;pmeo:129593681;pmeo:129594730;pmeo:129594805;pmeo:129596057;pmeo:129601400,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,890.0,429.0
+R06035,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,919.0,762.0
+R06038,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,653.0,841.0
+R06039,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,459.0,841.0
+R06041,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,784.0,901.0
+R06075,reaction,pmeo:129591095;pmeo:129596917;pmeo:129597312;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,852.0,203.0
+R06076,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,919.0,841.0
+R06095,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,653.0,483.0
+R06127,reaction,pmeo:129581792,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,681.0,193.0
+R06128,reaction,pmeo:129581792,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,737.0,261.0
+R06156,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,210.0,394.0
+R06170,reaction,pmeo:129587364;pmeo:129587582;pmeo:129598752,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,340.0,394.0
+R06171,reaction,pmeo:129587732,True,KEGG_pmeo,pmeo00260,"Glycine, serine and threonine metabolism",681.0,644.0
+R06221,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,653.0,912.0
+R06222,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,459.0,912.0
+R06224,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,459.0,983.0
+R06227,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,919.0,912.0
+R06230,reaction,pmeo:129591095;pmeo:129596917;pmeo:129599524,False,KEGG_pmeo,pmeo00601,Glycosphingolipid biosynthesis - lacto and neolacto series,852.0,608.0
+R06238,reaction,pmeo:129589083,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,589.0,193.0
+R06258,reaction,pmeo:129597096,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,737.0,349.0
+R06259,reaction,pmeo:129582059,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,692.0,389.0
+R06260,reaction,pmeo:129584957,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,596.0,389.0
+R06261,reaction,pmeo:129582059,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,508.0,388.0
+R06262,reaction,pmeo:129587051,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,453.0,439.0
+R06263,reaction,pmeo:129584864,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,414.0,481.0
+R06264,reaction,pmeo:129581145,False,KEGG_pmeo,pmeo00510,N-Glycan biosynthesis,317.0,481.0
+R06364,reaction,pmeo:129588694;pmeo:129599359;pmeo:129601322,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,613.0,453.0
+R06516,reaction,pmeo:129593804,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,583.0,120.0
+R06517,reaction,pmeo:129582967;pmeo:129602802,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,450.0,359.0
+R06518,reaction,pmeo:129583284;pmeo:129584765,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,450.0,384.0
+R06519,reaction,pmeo:129583059,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,574.0,347.0
+R06520,reaction,pmeo:129584583;pmeo:129593454;pmeo:129594731;pmeo:129594735,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,282.0,213.0
+R06521,reaction,pmeo:129584583;pmeo:129593454;pmeo:129594731;pmeo:129594735,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,573.0,169.0
+R06522,reaction,pmeo:129593454;pmeo:129594731;pmeo:129594735,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,494.0
+R06525,reaction,pmeo:129583059,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,388.0,322.0
+R06526,reaction,pmeo:129583059,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,510.0,322.0
+R06528,reaction,pmeo:129583284;pmeo:129584765,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,450.0,266.0
+R06613,reaction,pmeo:129582272,False,KEGG_pmeo,pmeo01232,Nucleotide metabolism,,
+R06722,reaction,pmeo:129588584,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,580.0,572.0
+R06868,reaction,pmeo:129598043;pmeo:129601378,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1010.0,440.0
+R06869,reaction,pmeo:129598043;pmeo:129601378,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,1011.0,382.0
+R06895,reaction,pmeo:129588078;pmeo:129588234,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R06982,reaction,pmeo:129584063;pmeo:129598044,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R06983,reaction,pmeo:129584063;pmeo:129598044,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R06985,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062;pmeo01212,Fatty acid elongation;Fatty acid metabolism,101.0,451.0
+R07000,reaction,pmeo:129599906,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,139.0,548.0
+R07001,reaction,pmeo:129599906,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,139.0,548.0
+R07002,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,269.0,381.0
+R07015,reaction,pmeo:129584996;pmeo:129585026;pmeo:129597062;pmeo:129597732;pmeo:129597951;pmeo:129598052;pmeo:129598676;pmeo:129601609,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,439.0,529.0
+R07027,reaction,pmeo:129585230;pmeo:129589033;pmeo:129591709;pmeo:129591716,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,986.0,868.0
+R07034,reaction,pmeo:129588880,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,629.0,259.0
+R07035,reaction,pmeo:129588880,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,629.0,528.0
+R07041,reaction,pmeo:129585224;pmeo:129593997;pmeo:129594991,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,742.0,189.0
+R07042,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,546.0,519.0
+R07043,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,488.0,519.0
+R07044,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,548.0,575.0
+R07045,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,489.0,575.0
+R07046,reaction,pmeo:129583244;pmeo:129584069;pmeo:129585224;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129593997;pmeo:129594991;pmeo:129596265;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,717.0,252.0
+R07048,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,723.0,431.0
+R07050,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,776.0,431.0
+R07051,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,899.0,431.0
+R07052,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591781;pmeo:129596265;pmeo:129596816;pmeo:129596855;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,970.0,431.0
+R07054,reaction,pmeo:129596816;pmeo:129596855,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,742.0,122.0
+R07055,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591730;pmeo:129591731;pmeo:129591781;pmeo:129592254;pmeo:129593278;pmeo:129596265;pmeo:129596816;pmeo:129596853;pmeo:129596854;pmeo:129596855;pmeo:129597884;pmeo:129597885;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,True,KEGG_pmeo,pmeo00591,Linoleic acid metabolism,352.0,375.0
+R07056,reaction,pmeo:129583244;pmeo:129584069;pmeo:129586991;pmeo:129587294;pmeo:129588909;pmeo:129588911;pmeo:129590632;pmeo:129591730;pmeo:129591731;pmeo:129591781;pmeo:129592254;pmeo:129593278;pmeo:129596265;pmeo:129596816;pmeo:129596853;pmeo:129596854;pmeo:129596855;pmeo:129597884;pmeo:129597885;pmeo:129598004;pmeo:129599617;pmeo:129599629;pmeo:129599630;pmeo:129600908;pmeo:129600978;pmeo:129600979;pmeo:129600986,False,KEGG_pmeo,pmeo00591,Linoleic acid metabolism,248.0,375.0
+R07064,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,False,KEGG_pmeo,pmeo00591,Linoleic acid metabolism,378.0,204.0
+R07069,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,245.0,1248.0
+R07070,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,245.0,1409.0
+R07082,reaction,pmeo:129585230;pmeo:129589033;pmeo:129591709;pmeo:129591716,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,316.0,176.0
+R07083,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,267.0,241.0
+R07084,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,373.0,203.0
+R07091,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,948.0,1061.0
+R07092,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,948.0,1104.0
+R07093,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,948.0,1148.0
+R07094,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,1093.0,1144.0
+R07100,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,111.0,1164.0
+R07105,reaction,pmeo:129584063,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,335.0,1153.0
+R07113,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,809.0,1407.0
+R07116,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,935.0,1344.0
+R07129,reaction,pmeo:129587079,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,270.0,429.0
+R07136,reaction,pmeo:129585918;pmeo:129588105,True,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,861.0,404.0
+R07160,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R07162,reaction,pmeo:129583877;pmeo:129586268,False,KEGG_pmeo,pmeo00062,Fatty acid elongation,189.0,1001.0
+R07211,reaction,pmeo:129585993;pmeo:129592972,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1234.0,410.0
+R07212,reaction,pmeo:129601922,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1284.0,410.0
+R07213,reaction,pmeo:129590610,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1260.0,429.0
+R07215,reaction,pmeo:129588625,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,238.0,975.0
+R07268,reaction,pmeo:129581093,False,KEGG_pmeo,pmeo00860,Porphyrin metabolism,532.0,1266.0
+R07274,reaction,pmeo:129592346,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,468.0,271.0
+R07363,reaction,pmeo:129583639;pmeo:129585231,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,649.0,1270.0
+R07364,reaction,pmeo:129583639;pmeo:129585231,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,605.0,1311.0
+R07376,reaction,pmeo:129586129,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,588.0,730.0
+R07379,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,541.0,575.0
+R07384,reaction,pmeo:129588694;pmeo:129599359;pmeo:129601322,True,KEGG_pmeo,pmeo00565,Ether lipid metabolism,593.0,656.0
+R07385,reaction,pmeo:129591113;pmeo:129593284;pmeo:129597089,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,541.0,656.0
+R07387,reaction,pmeo:129582558;pmeo:129586145;pmeo:129586944;pmeo:129589056;pmeo:129591097,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,271.0,558.0
+R07388,reaction,pmeo:129583045;pmeo:129585930,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,469.0,595.0
+R07389,reaction,pmeo:129588694,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,314.0,453.0
+R07392,reaction,pmeo:129585990,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,939.0,1311.0
+R07396,reaction,pmeo:129580611,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,492.0,1198.0
+R07407,reaction,pmeo:129581452,False,KEGG_pmeo,pmeo00760;pmeo01240,Biosynthesis of cofactors;Nicotinate and nicotinamide metabolism,894.0,567.0
+R07410,reaction,pmeo:129581452,False,KEGG_pmeo,pmeo00760;pmeo01240,Biosynthesis of cofactors;Nicotinate and nicotinamide metabolism,894.0,567.0
+R07411,reaction,pmeo:129583602,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,886.0,326.0
+R07412,reaction,pmeo:129598051,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,1037.0,326.0
+R07460,reaction,pmeo:129599496,False,KEGG_pmeo,pmeo00730;pmeo01240,Biosynthesis of cofactors;Thiamine metabolism,223.0,285.0
+R07483,reaction,pmeo:129583528,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,668.0,725.0
+R07484,reaction,pmeo:129583579,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,668.0,775.0
+R07486,reaction,pmeo:129588625,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,835.0,975.0
+R07487,reaction,pmeo:129584973,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,835.0,1026.0
+R07488,reaction,pmeo:129580622,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,835.0,1075.0
+R07491,reaction,pmeo:129588625,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,523.0,975.0
+R07492,reaction,pmeo:129584973,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,668.0,1026.0
+R07493,reaction,pmeo:129580622,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,668.0,1075.0
+R07494,reaction,pmeo:129591898,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,525.0
+R07495,reaction,pmeo:129586192,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,575.0
+R07498,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,805.0
+R07499,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,455.0
+R07507,reaction,pmeo:129580622,True,KEGG_pmeo,pmeo00100,Steroid biosynthesis,306.0,1005.0
+R07509,reaction,pmeo:129580993,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,475.0
+R07599,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,261.0
+R07600,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",444.0,325.0
+R07601,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,261.0
+R07602,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",167.0,325.0
+R07603,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",622.0,261.0
+R07604,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00280,"Valine, leucine and isoleucine degradation",622.0,325.0
+R07618,reaction,pmeo:129591190,True,KEGG_pmeo,pmeo00010;pmeo00020;pmeo00280;pmeo00310;pmeo00620;pmeo00640;pmeo00785;pmeo01240,"Biosynthesis of cofactors;Citrate cycle (TCA cycle);Glycolysis / Gluconeogenesis;Lipoic acid metabolism;Lysine degradation;Propanoate metabolism;Pyruvate metabolism;Valine, leucine and isoleucine degradation",262.0,913.0
+R07619,reaction,pmeo:129586205,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,218.0,259.0
+R07620,reaction,pmeo:129593833;pmeo:129599641,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,153.0,187.0
+R07759,reaction,pmeo:129580644;pmeo:129582229;pmeo:129584034;pmeo:129590883;pmeo:129590938;pmeo:129591026;pmeo:129591998;pmeo:129594109,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R07760,reaction,pmeo:129589097;pmeo:129589197,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R07762,reaction,pmeo:129583813,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,1264.0,339.0
+R07763,reaction,pmeo:129580644;pmeo:129582229;pmeo:129584034;pmeo:129590883;pmeo:129590938;pmeo:129591026;pmeo:129591998;pmeo:129594109,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R07764,reaction,pmeo:129589097;pmeo:129589197,False,KEGG_pmeo,pmeo01212,Fatty acid metabolism,,
+R07807,reaction,pmeo:129585674;pmeo:129585675;pmeo:129600163,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,648.0,353.0
+R07809,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,648.0,475.0
+R07810,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,715.0,475.0
+R07815,reaction,pmeo:129593813,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,512.0,475.0
+R07816,reaction,pmeo:129590591,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,512.0,536.0
+R07818,reaction,pmeo:129584523,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,512.0,657.0
+R07823,reaction,pmeo:129585166;pmeo:129585195;pmeo:129585198;pmeo:129585200;pmeo:129585209;pmeo:129585210;pmeo:129585810;pmeo:129587772;pmeo:129587830;pmeo:129591966;pmeo:129594778;pmeo:129599659;pmeo:129599660;pmeo:129600677;pmeo:129600781;pmeo:129600797;pmeo:129602320,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,295.0,412.0
+R07942,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00232,Caffeine metabolism,396.0,641.0
+R07977,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00232,Caffeine metabolism,476.0,179.0
+R07978,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00232,Caffeine metabolism,551.0,408.0
+R07979,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00232,Caffeine metabolism,393.0,359.0
+R08107,reaction,pmeo:129590740;pmeo:129598018,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,146.0,491.0
+R08159,reaction,pmeo:129600440,False,KEGG_pmeo,pmeo00061,Fatty acid biosynthesis,845.0,740.0
+R08193,reaction,pmeo:129581074,True,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,458.0,379.0
+R08218,reaction,pmeo:129581071;pmeo:129582488;pmeo:129591760,False,KEGG_pmeo,pmeo00970,Aminoacyl-tRNA biosynthesis,271.0,930.0
+R08220,reaction,pmeo:129588120;pmeo:129600350,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,122.0,546.0
+R08221,reaction,pmeo:129599637,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,217.0,546.0
+R08222,reaction,pmeo:129586723,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,270.0,579.0
+R08223,reaction,pmeo:129588226,False,KEGG_pmeo,pmeo00450;pmeo00970,Aminoacyl-tRNA biosynthesis;Selenocompound metabolism,170.0,525.0
+R08224,reaction,pmeo:129588240,False,KEGG_pmeo,pmeo00450;pmeo00970,Aminoacyl-tRNA biosynthesis;Selenocompound metabolism,125.0,469.0
+R08226,reaction,pmeo:129590432,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,319.0,611.0
+R08227,reaction,pmeo:129580639,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,414.0,611.0
+R08228,reaction,pmeo:129580934,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,515.0,611.0
+R08229,reaction,pmeo:129587229;pmeo:129594203,True,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,217.0,671.0
+R08230,reaction,pmeo:129586723,True,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,331.0,663.0
+R08231,reaction,pmeo:129584965,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,270.0,697.0
+R08232,reaction,pmeo:129592366,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,217.0,737.0
+R08233,reaction,pmeo:129580812;pmeo:129587663,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,392.0,697.0
+R08235,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,182.0,322.0
+R08237,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,238.0,271.0
+R08238,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,238.0,188.0
+R08240,reaction,pmeo:129594968,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,354.0,272.0
+R08243,reaction,pmeo:129586892;pmeo:129591799,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,332.0,353.0
+R08244,reaction,pmeo:129602191,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,452.0,272.0
+R08245,reaction,pmeo:129584609;pmeo:129595405,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,503.0,313.0
+R08249,reaction,pmeo:129588120;pmeo:129600350,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,1056.0,768.0
+R08251,reaction,pmeo:129588120;pmeo:129600350,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,864.0,768.0
+R08255,reaction,pmeo:129588120;pmeo:129600350,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,877.0,189.0
+R08258,reaction,pmeo:129588120;pmeo:129600350,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,915.0,238.0
+R08260,reaction,pmeo:129584523,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,1035.0,238.0
+R08280,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00982,Drug metabolism - cytochrome P450,766.0,192.0
+R08281,reaction,pmeo:129584063,False,KEGG_pmeo,pmeo00982,Drug metabolism - cytochrome P450,817.0,206.0
+R08306,reaction,pmeo:129584063,False,KEGG_pmeo,pmeo00982,Drug metabolism - cytochrome P450,221.0,870.0
+R08310,reaction,pmeo:129584063,False,KEGG_pmeo,pmeo00982,Drug metabolism - cytochrome P450,311.0,941.0
+R08359,reaction,pmeo:129589062;pmeo:129589372,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,237.0,921.0
+R08363,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,736.0,729.0
+R08364,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,736.0,790.0
+R08379,reaction,pmeo:129587554;pmeo:129589333;pmeo:129590250;pmeo:129590314;pmeo:129593310;pmeo:129594263,True,KEGG_pmeo,pmeo00830;pmeo01240,Biosynthesis of cofactors;Retinol metabolism,252.0,280.0
+R08381,reaction,pmeo:129592061,False,KEGG_pmeo,pmeo00830,Retinol metabolism,173.0,541.0
+R08383,reaction,pmeo:129587554,True,KEGG_pmeo,pmeo00830,Retinol metabolism,276.0,118.0
+R08390,reaction,pmeo:129591730;pmeo:129591731;pmeo:129592254;pmeo:129593278;pmeo:129596816;pmeo:129596853;pmeo:129596854;pmeo:129596855;pmeo:129597884;pmeo:129597885,False,KEGG_pmeo,pmeo00830,Retinol metabolism,593.0,304.0
+R08391,reaction,pmeo:129591730;pmeo:129591731;pmeo:129592254;pmeo:129593278;pmeo:129596853;pmeo:129596854;pmeo:129597884;pmeo:129597885,False,KEGG_pmeo,pmeo00830,Retinol metabolism,617.0,355.0
+R08392,reaction,pmeo:129591730;pmeo:129591731;pmeo:129592254;pmeo:129593278;pmeo:129596816;pmeo:129596853;pmeo:129596854;pmeo:129596855;pmeo:129597884;pmeo:129597885,False,KEGG_pmeo,pmeo00830,Retinol metabolism,642.0,219.0
+R08549,reaction,pmeo:129585090;pmeo:129585124;pmeo:129591190;pmeo:129593472,False,KEGG_pmeo,pmeo01200;pmeo01210,2-Oxocarboxylic acid metabolism;Carbon metabolism,,
+R08566,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R08567,reaction,pmeo:129583648;pmeo:129583873;pmeo:129585147;pmeo:129591190,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R08575,reaction,pmeo:129586220,True,KEGG_pmeo,pmeo00030;pmeo01200;pmeo01230,Biosynthesis of amino acids;Carbon metabolism;Pentose phosphate pathway,357.0,565.0
+R08639,reaction,pmeo:129586746;pmeo:129589192,True,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,485.0,649.0
+R08770,reaction,pmeo:129587403,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,394.0,766.0
+R08771,reaction,pmeo:129582614;pmeo:129593712;pmeo:129599930,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,394.0,846.0
+R08772,reaction,pmeo:129591698,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,394.0,927.0
+R08781,reaction,pmeo:129582614;pmeo:129593712;pmeo:129599930,True,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,366.0,1262.0
+R08964,reaction,pmeo:129585954;pmeo:129587847,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,264.0,693.0
+R08967,reaction,pmeo:129600016,False,KEGG_pmeo,pmeo00520,Amino sugar and nucleotide sugar metabolism,282.0,723.0
+R08969,reaction,pmeo:129585639;pmeo:129586958;pmeo:129591694,True,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,318.0
+R09034,reaction,pmeo:129587625;pmeo:129589267;pmeo:129602585,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,162.0,663.0
+R09035,reaction,pmeo:129593090,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,568.0,769.0
+R09036,reaction,pmeo:129602585,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,345.0,906.0
+R09037,reaction,pmeo:129588912;pmeo:129602585,False,KEGG_pmeo,pmeo00564,Glycerophospholipid metabolism,162.0,848.0
+R09076,reaction,pmeo:129584586;pmeo:129585716;pmeo:129589462;pmeo:129597585;pmeo:129597808;pmeo:129597813,False,KEGG_pmeo,pmeo00330;pmeo00410,Arginine and proline metabolism;beta-Alanine metabolism,1053.0,870.0
+R09085,reaction,pmeo:129587747,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R09249,reaction,pmeo:129593428,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,553.0,1248.0
+R09318,reaction,pmeo:129586113;pmeo:129601335;pmeo:129602741,False,KEGG_pmeo,pmeo00513,Various types of N-glycan biosynthesis,791.0,616.0
+R09319,reaction,pmeo:129584513,False,KEGG_pmeo,pmeo00513,Various types of N-glycan biosynthesis,559.0,1479.0
+R09323,reaction,pmeo:129586680,False,KEGG_pmeo,pmeo00513,Various types of N-glycan biosynthesis,687.0,1519.0
+R09324,reaction,pmeo:129581562;pmeo:129582686;pmeo:129584591;pmeo:129585832;pmeo:129587233;pmeo:129590489;pmeo:129593494;pmeo:129594901;pmeo:129597387;pmeo:129598478;pmeo:129599363;pmeo:129601890;pmeo:129601893;pmeo:129602086,False,KEGG_pmeo,pmeo00513,Various types of N-glycan biosynthesis,780.0,1519.0
+R09365,reaction,pmeo:129585962,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,199.0,219.0
+R09366,reaction,pmeo:129584141;pmeo:129586532;pmeo:129587816;pmeo:129591279,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,307.0,219.0
+R09372,reaction,pmeo:129599864,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,472.0,176.0
+R09373,reaction,pmeo:129584141,False,KEGG_pmeo,pmeo00450,Selenocompound metabolism,328.0,331.0
+R09394,reaction,pmeo:129584575,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,188.0,309.0
+R09395,reaction,pmeo:129600172,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,188.0,447.0
+R09409,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129581593;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129587298;pmeo:129588256;pmeo:129588380;pmeo:129589922;pmeo:129590285;pmeo:129590308;pmeo:129590477;pmeo:129593543;pmeo:129593588;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129596856;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,255.0,832.0
+R09410,reaction,pmeo:129585230;pmeo:129589033;pmeo:129591709;pmeo:129591716,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,255.0,876.0
+R09417,reaction,pmeo:129585230;pmeo:129589033;pmeo:129591709;pmeo:129591716,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,914.0,123.0
+R09420,reaction,pmeo:129583534;pmeo:129583559;pmeo:129597735;pmeo:129599447;pmeo:129599448,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,762.0,483.0
+R09443,reaction,pmeo:129585230;pmeo:129589033;pmeo:129591709;pmeo:129591716,False,KEGG_pmeo,pmeo00980,Metabolism of xenobiotics by cytochrome P450,914.0,236.0
+R09489,reaction,pmeo:129598231,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R09515,reaction,pmeo:129595599,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,88.0,1138.0
+R09516,reaction,pmeo:129595599,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,144.0,1138.0
+R09726,reaction,pmeo:129591591,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,188.0,516.0
+R09735,reaction,pmeo:129591591,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,188.0,583.0
+R09737,reaction,pmeo:129598433,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,458.0,1092.0
+R09844,reaction,pmeo:129591250;pmeo:129597074,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,379.0,1066.0
+R09845,reaction,pmeo:129580895;pmeo:129586289;pmeo:129602019,False,KEGG_pmeo,pmeo00900,Terpenoid backbone biosynthesis,259.0,1076.0
+R09875,reaction,pmeo:129586701;pmeo:129586823;pmeo:129586966;pmeo:129588658,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,527.0,204.0
+R09959,reaction,pmeo:129597726,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,604.0,80.0
+R09979,reaction,pmeo:129596162,False,KEGG_pmeo,pmeo00630;pmeo01200,Carbon metabolism;Glyoxylate and dicarboxylate metabolism,855.0,265.0
+R09991,reaction,pmeo:129597747,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,799.0,1260.0
+R09992,reaction,pmeo:129595072,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,799.0,1340.0
+R10053,reaction,pmeo:129581885,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R10092,reaction,pmeo:129582664;pmeo:129583303;pmeo:129587721;pmeo:129593851;pmeo:129597044;pmeo:129597117;pmeo:129597628;pmeo:129598040;pmeo:129599890;pmeo:129602743,False,KEGG_pmeo,pmeo00910,Nitrogen metabolism,840.0,200.0
+R10115,reaction,pmeo:129583813,False,KEGG_pmeo,pmeo00780;pmeo01240,Biosynthesis of cofactors;Biotin metabolism,203.0,229.0
+R10119,reaction,pmeo:129583813,False,KEGG_pmeo,pmeo00780;pmeo01240,Biosynthesis of cofactors;Biotin metabolism,318.0,229.0
+R10183,reaction,pmeo:129585807,True,KEGG_pmeo,pmeo00520;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars,594.0,723.0
+R10221,reaction,pmeo:129600099,False,KEGG_pmeo,pmeo00030;pmeo01200,Carbon metabolism;Pentose phosphate pathway,560.0,373.0
+R10235,reaction,pmeo:129589118,False,KEGG_pmeo,pmeo00230;pmeo01232,Nucleotide metabolism;Purine metabolism,520.0,219.0
+R10343,reaction,pmeo:129588080;pmeo:129597741;pmeo:129598527,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R10619,reaction,pmeo:129584618;pmeo:129587722;pmeo:129587819,False,KEGG_pmeo,pmeo00052,Galactose metabolism,141.0,306.0
+R10633,reaction,pmeo:129583341;pmeo:129584668;pmeo:129591641;pmeo:129591884;pmeo:129598012,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,145.0
+R10634,reaction,pmeo:129583341;pmeo:129584668;pmeo:129591641;pmeo:129591884;pmeo:129598012,False,KEGG_pmeo,pmeo00760,Nicotinate and nicotinamide metabolism,789.0,145.0
+R10660,reaction,pmeo:129581555;pmeo:129583563;pmeo:129586819;pmeo:129587097;pmeo:129590717,True,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R10687,reaction,pmeo:129585736,False,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",745.0,241.0
+R10688,reaction,pmeo:129585736,False,KEGG_pmeo,pmeo00250,"Alanine, aspartate and glutamate metabolism",876.0,241.0
+R10764,reaction,pmeo:129580629;pmeo:129586581,True,KEGG_pmeo,pmeo00051,Fructose and mannose metabolism,138.0,750.0
+R10805,reaction,pmeo:129592802;pmeo:129593790,False,KEGG_pmeo,pmeo00565,Ether lipid metabolism,794.0,516.0
+R10825,reaction,pmeo:129582610;pmeo:129583193;pmeo:129598387,False,KEGG_pmeo,pmeo00062,Fatty acid elongation,552.0,768.0
+R10826,reaction,pmeo:129580644;pmeo:129582229;pmeo:129584034;pmeo:129590883;pmeo:129590938;pmeo:129591026;pmeo:129591998;pmeo:129594109,False,KEGG_pmeo,pmeo00062,Fatty acid elongation,551.0,843.0
+R10827,reaction,pmeo:129589097;pmeo:129589197,False,KEGG_pmeo,pmeo00062,Fatty acid elongation,551.0,923.0
+R10830,reaction,pmeo:129584523,False,KEGG_pmeo,pmeo00531,Glycosaminoglycan degradation,74.0,291.0
+R10866,reaction,pmeo:129591190;pmeo:129595578;pmeo:129599498;pmeo:129601677;pmeo:129601868,False,KEGG_pmeo,pmeo01210,2-Oxocarboxylic acid metabolism,,
+R10907,reaction,pmeo:129591376,False,KEGG_pmeo,pmeo00030;pmeo01200,Carbon metabolism;Pentose phosphate pathway,261.0,340.0
+R10928,reaction,pmeo:129581446;pmeo:129584971;pmeo:129585085,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,675.0,73.0
+R10991,reaction,pmeo:129581659;pmeo:129583828,True,KEGG_pmeo,pmeo00270;pmeo01210,2-Oxocarboxylic acid metabolism;Cysteine and methionine metabolism,863.0,521.0
+R10992,reaction,pmeo:129581659;pmeo:129583828,True,KEGG_pmeo,pmeo00270;pmeo01210,2-Oxocarboxylic acid metabolism;Cysteine and methionine metabolism,863.0,542.0
+R10993,reaction,pmeo:129581922;pmeo:129593422;pmeo:129598461,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,965.0,532.0
+R10994,reaction,pmeo:129592347,False,KEGG_pmeo,pmeo00270,Cysteine and methionine metabolism,1068.0,532.0
+R10996,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00640,Propanoate metabolism,806.0,138.0
+R10997,reaction,pmeo:129583873;pmeo:129585147,False,KEGG_pmeo,pmeo00640,Propanoate metabolism,806.0,209.0
+R10998,reaction,pmeo:129583648,False,KEGG_pmeo,pmeo00640,Propanoate metabolism,806.0,275.0
+R11096,reaction,pmeo:129580622,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,748.0,1075.0
+R11262,reaction,pmeo:129583990;pmeo:129583999,False,KEGG_pmeo,pmeo00500,Starch and sucrose metabolism,1038.0,357.0
+R11318,reaction,pmeo:129586113;pmeo:129601335;pmeo:129602741,False,KEGG_pmeo,pmeo00513,Various types of N-glycan biosynthesis,603.0,1280.0
+R11319,reaction,pmeo:129580645;pmeo:129580778;pmeo:129584133;pmeo:129586827;pmeo:129587296;pmeo:129590288;pmeo:129590564;pmeo:129595981;pmeo:129602719;pmeo:129602721,False,KEGG_pmeo,pmeo00730,Thiamine metabolism,835.0,612.0
+R11323,reaction,pmeo:129581857;pmeo:129590462;pmeo:129591858;pmeo:129600184,False,KEGG_pmeo,pmeo00240;pmeo01232,Nucleotide metabolism;Pyrimidine metabolism,453.0,952.0
+R11329,reaction,pmeo:129591706,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,745.0,278.0
+R11372,reaction,pmeo:129584575,False,KEGG_pmeo,pmeo00790;pmeo01240,Biosynthesis of cofactors;Folate biosynthesis,188.0,379.0
+R11407,reaction,pmeo:129602612,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,274.0,187.0
+R11583,reaction,pmeo:129590176,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,232.0,622.0
+R11680,reaction,pmeo:129581560;pmeo:129583592,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,716.0,304.0
+R11763,reaction,pmeo:129593135,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1197.0,242.0
+R11764,reaction,pmeo:129585318;pmeo:129589061;pmeo:129598525,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1197.0,315.0
+R11765,reaction,pmeo:129594394;pmeo:129597036,False,KEGG_pmeo,pmeo00790,Folate biosynthesis,1022.0,348.0
+R11891,reaction,pmeo:129581987;pmeo:129583332;pmeo:129584522;pmeo:129593740,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,270.0,773.0
+R11892,reaction,pmeo:129581987;pmeo:129583332;pmeo:129584522;pmeo:129593740,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,392.0,773.0
+R11893,reaction,pmeo:129583700;pmeo:129584229;pmeo:129584502;pmeo:129599778,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,331.0,813.0
+R11894,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,270.0,851.0
+R11895,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,392.0,851.0
+R11905,reaction,pmeo:129581112;pmeo:129581199;pmeo:129581592;pmeo:129582309;pmeo:129584847;pmeo:129585152;pmeo:129585304;pmeo:129585647;pmeo:129586293;pmeo:129586526;pmeo:129586527;pmeo:129586540;pmeo:129586557;pmeo:129588256;pmeo:129588380;pmeo:129590285;pmeo:129593626;pmeo:129593629;pmeo:129593631;pmeo:129594120;pmeo:129595217;pmeo:129597984;pmeo:129599784;pmeo:129599785;pmeo:129599817;pmeo:129601368;pmeo:129601635;pmeo:129601636,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,1080.0,927.0
+R11906,reaction,pmeo:129584437,False,KEGG_pmeo,pmeo00983,Drug metabolism - other enzymes,860.0,633.0
+R12124,reaction,pmeo:129602564,False,KEGG_pmeo,pmeo00562,Inositol phosphate metabolism,889.0,128.0
+R12184,reaction,pmeo:129581093,False,KEGG_pmeo,pmeo00860;pmeo01240,Biosynthesis of cofactors;Porphyrin metabolism,351.0,1107.0
+R12244,reaction,pmeo:129586870,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,632.0,342.0
+R12294,reaction,pmeo:129587609,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,577.0,222.0
+R12295,reaction,pmeo:129594191,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,577.0,300.0
+R12296,reaction,pmeo:129582246,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,752.0,341.0
+R12297,reaction,pmeo:129591956,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,875.0,341.0
+R12298,reaction,pmeo:129591956,False,KEGG_pmeo,pmeo00515,Mannose type O-glycan biosynthesis,995.0,341.0
+R12300,reaction,pmeo:129580697,False,KEGG_pmeo,pmeo00061;pmeo01212,Fatty acid biosynthesis;Fatty acid metabolism,342.0,147.0
+R12323,reaction,pmeo:129587499,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,397.0,375.0
+R12350,reaction,pmeo:129596575,True,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,226.0,260.0
+R12351,reaction,pmeo:129587058,True,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,169.0,313.0
+R12356,reaction,pmeo:129593245,False,KEGG_pmeo,pmeo01200,Carbon metabolism,,
+R12403,reaction,pmeo:129580993,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,625.0
+R12404,reaction,pmeo:129591898,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,675.0
+R12405,reaction,pmeo:129586192,False,KEGG_pmeo,pmeo00100,Steroid biosynthesis,373.0,745.0
+R12423,reaction,pmeo:129585205,False,KEGG_pmeo,pmeo00785;pmeo01240,Biosynthesis of cofactors;Lipoic acid metabolism,276.0,321.0
+R12424,reaction,pmeo:129585205,False,KEGG_pmeo,pmeo00785;pmeo01240,Biosynthesis of cofactors;Lipoic acid metabolism,373.0,321.0
+R12427,reaction,pmeo:129581168,False,KEGG_pmeo,pmeo00785;pmeo01240,Biosynthesis of cofactors;Lipoic acid metabolism,300.0,226.0
+R12428,reaction,pmeo:129587994,False,KEGG_pmeo,pmeo00785;pmeo01240,Biosynthesis of cofactors;Lipoic acid metabolism,423.0,226.0
+R12432,reaction,pmeo:129581168,False,KEGG_pmeo,pmeo00785;pmeo01240,Biosynthesis of cofactors;Lipoic acid metabolism,339.0,380.0
+R12450,reaction,pmeo:129581168,False,KEGG_pmeo,pmeo00785,Lipoic acid metabolism,646.0,321.0
+R12479,reaction,pmeo:129585890;pmeo:129591344,False,KEGG_pmeo,pmeo00510;pmeo00513,N-Glycan biosynthesis;Various types of N-glycan biosynthesis,672.0,572.0
+R12578,reaction,pmeo:129590349,False,KEGG_pmeo,pmeo00480,Glutathione metabolism,242.0,567.0
+R12605,reaction,pmeo:129598231,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R12658,reaction,pmeo:129587403,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R12702,reaction,pmeo:129595380;pmeo:129598018,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,146.0,577.0
+R12851,reaction,pmeo:129586525;pmeo:129595436;pmeo:129595494,False,KEGG_pmeo,pmeo00230,Purine metabolism,422.0,744.0
+R12852,reaction,pmeo:129600681;pmeo:129602864,False,KEGG_pmeo,pmeo00230,Purine metabolism,328.0,744.0
+R12853,reaction,pmeo:129581291;pmeo:129587523;pmeo:129590333,False,KEGG_pmeo,pmeo00230,Purine metabolism,232.0,744.0
+R12958,reaction,pmeo:129590213;pmeo:129599688,False,KEGG_pmeo,pmeo01232,Nucleotide metabolism,,
+R12960,reaction,pmeo:129592802;pmeo:129593790,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,385.0,550.0
+R12963,reaction,pmeo:129584579,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,341.0,620.0
+R12987,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,1230.0,712.0
+R12988,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,1343.0,712.0
+R12989,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,1230.0,733.0
+R12990,reaction,pmeo:129582465;pmeo:129585226;pmeo:129585412;pmeo:129595643;pmeo:129595644;pmeo:129595645;pmeo:129595649;pmeo:129595650;pmeo:129598648;pmeo:129598650,False,KEGG_pmeo,pmeo00230,Purine metabolism,1343.0,733.0
+R13043,reaction,pmeo:129588880,False,KEGG_pmeo,pmeo00590,Arachidonic acid metabolism,1234.0,254.0
+R13148,reaction,pmeo:129598336,False,KEGG_pmeo,pmeo00330,Arginine and proline metabolism,824.0,204.0
+R13166,reaction,pmeo:129597133,False,KEGG_pmeo,pmeo00310;pmeo00785,Lipoic acid metabolism;Lysine degradation,895.0,200.0
+R13167,reaction,pmeo:129597133,False,KEGG_pmeo,pmeo00310;pmeo00785,Lipoic acid metabolism;Lysine degradation,895.0,264.0
+R13178,reaction,pmeo:129593788,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,966.0,169.0
+R13199,reaction,pmeo:129591461,True,KEGG_pmeo,pmeo00010;pmeo00030;pmeo00520;pmeo01200;pmeo01250,Amino sugar and nucleotide sugar metabolism;Biosynthesis of nucleotide sugars;Carbon metabolism;Glycolysis / Gluconeogenesis;Pentose phosphate pathway,483.0,268.0
+R13394,reaction,pmeo:129599867,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,169.0,869.0
+R13395,reaction,pmeo:129599867,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,325.0,869.0
+R13396,reaction,pmeo:129585121;pmeo:129602622,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,169.0,933.0
+R13399,reaction,pmeo:129584707,False,KEGG_pmeo,pmeo00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,170.0,797.0
+R13408,reaction,pmeo:129580970,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,366.0,1186.0
+R13420,reaction,pmeo:129585795,False,KEGG_pmeo,pmeo00220;pmeo00230,Arginine biosynthesis;Purine metabolism,990.0,383.0
+R13426,reaction,pmeo:129587403,False,KEGG_pmeo,pmeo00130;pmeo01240,Biosynthesis of cofactors;Ubiquinone and other terpenoid-quinone biosynthesis,432.0,1001.0
+R13440,reaction,pmeo:129587403,False,KEGG_pmeo,pmeo01240,Biosynthesis of cofactors,,
+R13541,reaction,pmeo:129585639;pmeo:129586958;pmeo:129589141;pmeo:129591694,False,KEGG_pmeo,pmeo00600,Sphingolipid metabolism,756.0,266.0
