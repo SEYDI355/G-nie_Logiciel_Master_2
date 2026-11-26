@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'notre_application/style.css' %}">
+  {% block extra_head %}{% endblock %}
 </head>
 <body>
   <canvas id="fond-3d" aria-hidden="true"></canvas>
@@ -25,5 +26,6 @@
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="{% static 'notre_application/tardigrade.js' %}"></script>
+  {% block extra_scripts %}{% endblock %}
 </body>
 </html>

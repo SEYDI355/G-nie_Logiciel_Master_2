@@ -76,9 +76,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "projet_tardigrade.wsgi.application"
 
-STATICFILES_DIRS = (
-  os.path.join(BASE_DIR,"static"),
-)
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 
