@@ -1,0 +1,36 @@
+{% extends "notre_application/base.html" %}
+{% block title %}Jeux de données{% endblock %}
+{% block content %}
+<div class="deux">
+  <section class="panel">
+    <h1>Importer un jeu de données</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.non_field_errors }}
+      {% for field in form %}
+        <div class="champ">
+          <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+          {{ field }}
+          {{ field.errors }}
+        </div>
+      {% endfor %}
+      <p class="aide">Matrice : une ligne par métabolite, une colonne par échantillon, colonne facultative « pathway ». Métadonnées : colonnes « sample » et « condition ».</p>
+      <button type="submit" class="btn">Importer</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Mes jeux de données</h2>
+    {% if datasets %}
+      <ul class="liste-jeux">
+        {% for d in datasets %}
+          <li><a href="{% url 'notre_application:detail' d.pk %}">{{ d.name }}</a>
+            <p class="muted">Créé le {{ d.created_at|date:"d/m/Y" }}</p></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="muted">Aucun jeu de données pour le moment.</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

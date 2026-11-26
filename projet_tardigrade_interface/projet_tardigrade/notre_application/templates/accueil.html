@@ -1,0 +1,37 @@
+{% extends "notre_application/base.html" %}
+{% block title %}Accueil : Métabolome du tardigrade{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <h1>La métabolomique du tardigrade</h1>
+    <p class="intro">Importez vos mesures de métabolomique, comparez deux conditions et explorez les voies métaboliques en 3D.</p>
+    <div class="actions">
+      <a class="btn" href="{% url 'notre_application:home' %}">Importer un jeu de données</a>
+      <a class="btn btn-secondaire" href="#fonctions">Voir les fonctionnalités</a>
+    </div>
+  </div>
+
+  <div class="apercu">
+    <div class="apercu-tete">
+      <strong>Hydraté contre desséché</strong>
+      <span class="legende">
+        <span><i class="pastille hydrate"></i>Hydraté</span>
+        <span><i class="pastille desseche"></i>Desséché</span>
+      </span>
+    </div>
+    <div class="barres">
+      <div class="groupe"><div class="paire"><div class="barre hydrate" style="height:20px"></div><div class="barre desseche" style="height:200px"></div></div><span>Tréhalose</span></div>
+      <div class="groupe"><div class="paire"><div class="barre hydrate" style="height:40px"></div><div class="barre desseche" style="height:160px"></div></div><span>UDP-glucose</span></div>
+      <div class="groupe"><div class="paire"><div class="barre hydrate" style="height:110px"></div><div class="barre desseche" style="height:45px"></div></div><span>Glutathion</span></div>
+    </div>
+    <p class="note">Valeurs simulées pour la démonstration.</p>
+  </div>
+</section>
+
+<section class="fonctions" id="fonctions">
+  <div><h2>PCA en 2D et en 3D</h2><p>Voyez d’un coup d’œil si les échantillons hydratés et desséchés se séparent.</p></div>
+  <div><h2>Volcano et heatmap</h2><p>Repérez les métabolites qui changent le plus, avec correction du FDR.</p></div>
+  <div><h2>Réseau en 2D et 3D</h2><p>Explorez les corrélations entre métabolites, colorées par voie métabolique.</p></div>
+  <div><h2>Les voie métaboliques</h2><p>Explorez les différentes voies métaboliques</p></div>
+</section>
+{% endblock %}

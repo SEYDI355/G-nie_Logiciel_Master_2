@@ -1,0 +1,54 @@
+{% extends "notre_application/base.html" %}
+{% block title %}{{ dataset.name }}{% endblock %}
+{% block content %}
+<h1>{{ dataset.name }}</h1>
+{% if dataset.description %}<p class="muted">{{ dataset.description }}</p>{% endif %}
+
+<div class="panel" id="app">
+  <div class="tabs" role="tablist">
+    <button role="tab" data-tab="pca" aria-selected="true">PCA</button>
+    <button role="tab" data-tab="volcano" aria-selected="false">Volcano</button>
+    <button role="tab" data-tab="heatmap" aria-selected="false">Heatmap</button>
+    <button role="tab" data-tab="network" aria-selected="false">Réseau 3D</button>
+  </div>
+
+  {# Chaque zone ci-dessous est un emplacement vide : l'id indique où brancher le graphe. #}
+  <section class="tab" id="tab-pca">
+    <div id="pca-plot" class="zone-graphique">PCA : graphique à intégrer ici</div>
+  </section>
+
+  <section class="tab" id="tab-volcano" hidden>
+    <div class="volcano-grid">
+      <div id="volcano-plot" class="zone-graphique">Volcano plot : graphique à intégrer ici</div>
+      <aside>
+        <h2>Métabolites les plus différentiels</h2>
+        <p class="muted">log2 fold change</p>
+        <ol id="top-list" class="top-list"></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section class="tab" id="tab-heatmap" hidden>
+    <div id="heatmap-plot" class="zone-graphique">Heatmap : graphique à intégrer ici</div>
+  </section>
+
+  <section class="tab" id="tab-network" hidden>
+    <div id="network-3d">Réseau 3D : à intégrer ici</div>
+    <div id="net-legend" class="legend"></div>
+  </section>
+</div>
+
+<script>
+/* Seule la navigation entre onglets est codée ici. */
+document.querySelectorAll('.tabs button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('.tabs button').forEach(function (x) {
+      x.setAttribute('aria-selected', x === b ? 'true' : 'false');
+    });
+    document.querySelectorAll('.tab').forEach(function (s) {
+      s.hidden = s.id !== 'tab-' + b.dataset.tab;
+    });
+  });
+});
+</script>
+{% endblock %}

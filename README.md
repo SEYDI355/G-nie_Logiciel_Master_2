@@ -5,3 +5,11 @@ exécuter :
 kegg_pmeo_data/pipeline_nx_to_cytoscape.py
 cd cytoscape_app
 python -m http.server 8000
+
+
+
+_________
+
+TODO
+
+- nom des 

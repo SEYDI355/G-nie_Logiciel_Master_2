@@ -1,0 +1,29 @@
+{% load static %}<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Métabolome du tardigrade{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'notre_application/style.css' %}">
+</head>
+<body>
+  <canvas id="fond-3d" aria-hidden="true"></canvas>
+  <header class="entete">
+    <a class="logo" href="{% url 'notre_application:accueil' %}">Métabolome du tardigrade</a>
+    <nav class="menu">
+      <a href="{% url 'notre_application:accueil' %}"{% if request.resolver_match.url_name == 'accueil' or request.resolver_match.url_name == 'accueil_html' %} aria-current="page"{% endif %}>Accueil</a>
+      <a href="{% url 'notre_application:home' %}"{% if request.resolver_match.url_name == 'home' or request.resolver_match.url_name == 'detail' %} aria-current="page"{% endif %}>Jeux de données</a>
+    </nav>
+    <a class="btn" href="{% url 'notre_application:home' %}">Importer des données</a>
+  </header>
+  <main class="contenu">
+    {% for message in messages %}<p class="msg {{ message.tags }}">{{ message }}</p>{% endfor %}
+    {% block content %}{% endblock %}
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="{% static 'notre_application/tardigrade.js' %}"></script>
+</body>
+</html>

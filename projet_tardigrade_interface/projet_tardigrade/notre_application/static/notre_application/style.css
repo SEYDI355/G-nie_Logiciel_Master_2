@@ -1,0 +1,100 @@
+:root {
+  --bg: #edf1ee; --panel: #fafbfa; --ink: #15231f; --muted: #3b4d48; --line: #cbd5d0;
+  --moss: #3e7b45; --moss-dark: #2f5e33; --amber: #c98b1d; --danger: #a33b3b; --radius: 6px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.5;
+       font-family: "Atkinson Hyperlegible", system-ui, sans-serif; }
+a { color: var(--moss-dark); }
+h1 { font-size: 28px; margin: 0 0 6px; }
+h2 { font-size: 21px; margin: 0 0 8px; }
+.muted { color: var(--muted); margin: 0; }
+
+/* En-tête */
+.entete { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+          padding: 20px 56px; border-bottom: 1px solid var(--line); }
+.logo { font-size: 20px; font-weight: 700; color: var(--ink); text-decoration: none; }
+.menu { display: flex; gap: 28px; }
+.menu a { padding: 8px 4px; color: var(--ink); text-decoration: none; border-bottom: 3px solid transparent; }
+.menu a[aria-current=page] { font-weight: 700; border-bottom-color: var(--moss); }
+.contenu { padding: 40px 56px 64px; }
+
+/* Boutons */
+.btn { display: inline-block; font: inherit; font-weight: 700; padding: 10px 18px; min-height: 44px;
+       border-radius: var(--radius); border: 2px solid var(--moss); background: var(--moss);
+       color: #fff; text-decoration: none; cursor: pointer; }
+.btn-secondaire { background: transparent; color: var(--moss-dark); }
+.btn:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+
+/* Accueil */
+.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; padding: 24px 0 40px; }
+.hero h1 { font-size: 52px; line-height: 1.08; margin: 0 0 20px; max-width: 560px; }
+.intro { font-size: 19px; line-height: 1.55; max-width: 500px; color: var(--muted); margin: 0 0 32px; }
+.actions { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.apercu { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 28px; }
+.apercu-tete { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
+.legende { display: flex; gap: 16px; }
+.pastille { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; }
+.hydrate { background: var(--moss); } .desseche { background: var(--amber); }
+.barres { display: flex; gap: 12px; border-bottom: 2px solid var(--ink); }
+.groupe { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.paire { display: flex; align-items: flex-end; gap: 8px; height: 210px; }
+.barre { width: 34px; }
+.note { margin: 14px 0 0; font-size: 14px; color: var(--muted); }
+.fonctions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; padding-top: 24px; }
+.fonctions > div { border-top: 3px solid var(--ink); padding-top: 14px; }
+.fonctions p { margin: 0; color: var(--muted); }
+
+/* Jeux de données */
+.deux { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 24px; }
+.champ { margin-top: 16px; }
+.champ label { display: block; font-weight: 700; margin-bottom: 6px; }
+input[type=text], textarea, select, input[type=number] { width: 100%; padding: 10px; font: inherit; background: #fff;
+       border: 1px solid #7a8c85; border-radius: var(--radius); }
+.aide { margin: 16px 0 20px; color: var(--muted); }
+.liste-jeux { list-style: none; margin: 0 0 24px; padding: 0; border-top: 3px solid var(--ink); }
+.liste-jeux li { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.liste-jeux a { font-weight: 700; font-size: 19px; }
+.errorlist, .error { color: var(--danger); list-style: none; padding: 0; margin: 6px 0; }
+.msg { padding: 10px 14px; border-radius: var(--radius); background: #e1ecd9; margin: 0 0 20px; }
+.msg.error { background: #f1dcdc; color: var(--danger); }
+
+/* Page d'analyse */
+.toolbar { display: flex; gap: 16px; align-items: end; flex-wrap: wrap; }
+.toolbar > div { min-width: 180px; }
+.toolbar label { display: block; font-weight: 700; margin-bottom: 6px; }
+.tabs { display: flex; gap: 4px; margin-top: 24px; border-bottom: 2px solid var(--line); }
+.tabs button { font: inherit; background: transparent; color: var(--ink); border: none; padding: 10px 16px; cursor: pointer;
+               border-bottom: 3px solid transparent; margin-bottom: -2px; }
+.tabs button[aria-selected=true] { border-bottom-color: var(--moss); font-weight: 700; }
+.tab[hidden] { display: none; }
+.opts { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+.opts label { display: inline-flex; gap: 6px; align-items: center; font-weight: 400; }
+.opts input[type=number] { width: 90px; }
+.volcano-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 28px; }
+.top-list { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--ink); }
+.top-list li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.top-list .row { display: flex; justify-content: space-between; }
+.top-list .bar { margin-top: 6px; height: 6px; background: #dde5e1; }
+.top-list .bar div { height: 6px; }
+#network-3d { height: 600px; border-radius: var(--radius); overflow: hidden; background: var(--ink); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; font-size: .9rem; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+
+@media (max-width: 820px) {
+  .entete, .contenu { padding-left: 20px; padding-right: 20px; }
+  .hero, .fonctions, .deux, .volcano-grid { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 36px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* Emplacements des graphes (à remplacer par les vrais graphiques) */
+.tab { margin-top: 16px; }
+.zone-graphique { min-height: 380px; display: flex; align-items: center; justify-content: center; text-align: center;
+                  border: 2px dashed var(--line); border-radius: var(--radius); color: var(--muted); padding: 20px; }
+#network-3d { display: flex; align-items: center; justify-content: center; color: #cbd5d0; }
+
+/* Fond 3D : le tardigrade passe derrière le contenu */
+#fond-3d { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; opacity: .4; }
+.entete, .contenu { position: relative; z-index: 1; }
